@@ -1,4 +1,4 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
@@ -2926,6 +2926,152 @@ function ouvrirConvAdmin(email) {
   document.getElementById('adm-conv-detail').style.display='block';
   const row=document.getElementById('adm-msg-input-row');
   row.style.display='flex';
+  renderAdmConvMsgs();
+}
+function renderAdmConvMsgs() {
+  const d=document.getElementById('adm-conv-msgs');
+  const conv=conversations[currentAdminConvId];
+  if(!d||!conv) return;
+  d.innerHTML=conv.msgs.map(m=>`<div class="dm-msg ${m.from==='admin'?'client':'admin'}">
+    ${m.text}
+    <div class="${m.from==='admin'?'dm-time':'dm-admin-time'}">${new Date(m.ts).toLocaleTimeString('fr-FR',{hour:'2-digit',minute:'2-digit'})}</div>
+  </div>`).join('');
+  d.scrollTop=d.scrollHeight;
+}
+function envoyerMsgAdmin() {
+  const inp=document.getElementById('adm-msg-input');
+  const txt=inp.value.trim();
+  if(!txt||!currentAdminConvId||!conversations[currentAdminConvId]) return;
+  conversations[currentAdminConvId].msgs.push({from:'admin',text:txt,ts:new Date().toISOString()});
+  saveAll(); renderAdmConvMsgs(); renderAdmConvList(); inp.value='';
+}
+
+/* â•â•â• PARAMÃˆTRES â•â•â• */
+function initAdmInputs() {
+  const d=document.getElementById('adm-acompte-pct');
+  if(d) d.value=acompteSettings.pct;
+  const m=document.getElementById('adm-acompte-msg');
+  if(m) m.value=acompteSettings.msg;
+  const sp=document.getElementById('adm-pts-seance');
+  if(sp) sp.value=loyaltySettings.ptsParSeance;
+  const ss=document.getElementById('adm-seuil-silver');
+  if(ss) ss.value=loyaltySettings.seuilSilver;
+  const sg=document.getElementById('adm-seuil-gold');
+  if(sg) sg.value=loyaltySettings.seuilGold;
+  const wa=document.getElementById('p-wa');
+  if(wa) wa.value=config.wa||'';
+  const ea=document.getElementById('p-email');
+  if(ea) ea.value=config.email||'';
+  const ad=document.getElementById('p-adresse');
+  if(ad) ad.value=config.adresse||'';
+  const ig=document.getElementById('p-instagram');
+  if(ig) ig.value=config.instagram||'';
+  const fb=document.getElementById('p-facebook');
+  if(fb) fb.value=config.facebook||'';
+  const tt=document.getElementById('p-tiktok');
+  if(tt) tt.value=config.tiktok||'';
+  const db=document.getElementById('p-dark-btn');
+  if(db) db.checked=config.showDarkBtn||false;
+  updateAcomptePreview();
+}
+function sauvegarderPerso() {
+  const oldCode=document.getElementById('p-old-code').value;
+  const newCode=document.getElementById('p-new-code').value;
+  if(oldCode||newCode) {
+    if(oldCode!==config.adminCode){showToast('âŒ Mot de passe actuel incorrect.');return;}
+    if(!newCode||newCode.length<4){showToast('âš ï¸ Nouveau mot de passe trop court.');return;}
+    config.adminCode=newCode;
+    document.getElementById('p-old-code').value='';
+    document.getElementById('p-new-code').value='';
+  }
+  config.wa=document.getElementById('p-wa')?.value||'';
+  config.email=document.getElementById('p-email')?.value||'';
+  config.adresse=document.getElementById('p-adresse')?.value||'Guadeloupe, France';
+  config.instagram=document.getElementById('p-instagram')?.value||'';
+  config.facebook=document.getElementById('p-facebook')?.value||'';
+  config.tiktok=document.getElementById('p-tiktok')?.value||'';
+  config.showDarkBtn=document.getElementById('p-dark-btn')?.checked||false;
+  saveAll(); appliquerPerso(); showToast('âœ… ParamÃ¨tres sauvegardÃ©s !');
+}
+function appliquerPerso() {
+  if(config.adresse){
+    document.getElementById('footer-adresse-text').textContent=config.adresse;
+    document.getElementById('footer-adresse').textContent='ðŸ“ '+config.adresse;
+  }
+  if(config.email) document.getElementById('footer-email-display').textContent='âœ‰ï¸ '+config.email;
+  const waNum = config.wa || '+590 690 07 28 71';
+  document.getElementById('footer-wa-display').textContent='ðŸ“² '+waNum;
+  if(config.instagram){const l=document.getElementById('footer-insta-link');if(l)l.href=config.instagram;}
+  if(config.facebook){const l=document.getElementById('footer-fb-link');if(l)l.href=config.facebook;}
+  if(config.tiktok){const l=document.getElementById('footer-tiktok-link');if(l)l.href=config.tiktok;}
+  const db=document.getElementById('dark-mode-toggle-btn');
+  if(db) db.style.display=config.showDarkBtn?'flex':'none';
+}
+function toggleDarkModeBtn(show) {
+  const btn=document.getElementById('dark-mode-toggle-btn');
+  if(btn) btn.style.display=show?'flex':'none';
+}
+
+/* â•â•â• DARK MODE â•â•â• */
+function toggleDarkMode() {
+  document.body.classList.toggle('dark');
+  const btn=document.getElementById('dark-mode-toggle-btn');
+  if(btn) btn.textContent=document.body.classList.contains('dark')?'â˜€ï¸':'ðŸŒ™';
+}
+
+/* â•â•â• SCROLL REVEAL â•â•â• */
+function initReveal() {
+  const obs=new IntersectionObserver(entries=>{
+    entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target);}});
+  },{threshold:0.08});
+  document.querySelectorAll('.reveal,.reveal-left,.reveal-right').forEach(el=>obs.observe(el));
+}
+
+/* â•â•â• PROMO BANNER â•â•â• */
+function initPromoBanner() {
+  if(isPromoActive) {
+    const b=document.getElementById('promo-banner');
+    b.style.display='block';
+    b.textContent=promoText;
+  }
+}
+
+/* â•â•â• INIT DATE â•â•â• */
+const dI=document.getElementById('c_date');
+if(dI){const n=new Date();n.setMinutes(n.getMinutes()-n.getTimezoneOffset());dI.min=n.toISOString().slice(0,16);}
+
+/* â•â•â• LIVE REFRESH â•â•â• */
+setInterval(()=>{
+  if(dmClientUser&&currentClientConvId&&document.getElementById('direct-msg-panel').classList.contains('open')) renderMsgsClient();
+  if(currentAdminConvId&&document.getElementById('adm-conv-detail').style.display!=='none') renderAdmConvMsgs();
+  if(document.getElementById('admin-panel').style.display==='block') majBadgeOnglets();
+}, 2000);
+
+setInterval(autoCleanRdv, 60*60*1000);
+
+/* â•â•â• BOOT â•â•â• */
+async function boot() {
+  // 1. Charger depuis Supabase (si configurÃ©), sinon utiliser le cache local
+  const fromCloud = await loadFromSupabase();
+  if(fromCloud) console.log('âœ… DonnÃ©es chargÃ©es depuis Supabase');
+  else console.log('ðŸ“¦ Mode local (cache navigateur)');
+
+  // 2. DÃ©marrer l'application
+  autoCleanRdv();
+  renderAvis();
+  renderGalerie();
+  render();
+  buildDispoGrid();
+  appliquerPerso();
+  initPromoBanner();
+  setTimeout(initReveal, 120);
+  renderQRHistory();
+}
+boot();
+</script>
+</body>
+</html>
+
   renderAdmConvMsgs();
 }
 function renderAdmConvMsgs() {
