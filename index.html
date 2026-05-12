@@ -3,13 +3,13 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DjSs Beauty House | Institut de Beauté · Guadeloupe</title>
+<title>DjSs Beauty House | Institut de BeautÃ© Â· Guadeloupe</title>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=DM+Sans:wght@200;300;400;500;600&family=Pinyon+Script&display=swap" rel="stylesheet">
 <script src="https://cdn.jsdelivr.net/npm/jsqr@1.4.0/dist/jsQR.min.js"></script>
 <style>
-/* ══════════════════════════════════
-   DESIGN TOKENS — Nouveau Système
-══════════════════════════════════ */
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   DESIGN TOKENS â€” Nouveau SystÃ¨me
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 :root {
   --ink:#0d0908;
   --ink2:#1e100a;
@@ -38,14 +38,14 @@
 html{font-size:16px;scroll-behavior:smooth}
 body{font-family:var(--ff-sans);background:var(--parchment);color:var(--ink);overflow-x:hidden;line-height:1.65}
 
-/* ══ TOAST ══ */
+/* â•â• TOAST â•â• */
 #toast{position:fixed;bottom:90px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--ink);color:#fff;padding:13px 30px;border-radius:40px;font-size:0.78rem;font-weight:500;z-index:99999;opacity:0;pointer-events:none;transition:all 0.35s;white-space:nowrap;letter-spacing:0.8px;border:1px solid rgba(201,169,110,0.3)}
 #toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
 
-/* ══ PROMO BANNER ══ */
+/* â•â• PROMO BANNER â•â• */
 #promo-banner{background:linear-gradient(90deg,var(--ink2),#150c08,var(--ink2));color:var(--gold);text-align:center;padding:11px 16px;font-size:0.72rem;font-weight:500;letter-spacing:3px;text-transform:uppercase;display:none;position:sticky;top:0;z-index:200;border-bottom:1px solid rgba(201,169,110,0.15)}
 
-/* ══ HEADER ══ */
+/* â•â• HEADER â•â• */
 header{background:rgba(250,245,238,0.97);backdrop-filter:blur(20px);border-bottom:1px solid var(--border);position:sticky;top:0;z-index:100;padding:0 40px}
 .header-inner{max-width:1200px;margin:0 auto;display:flex;justify-content:space-between;align-items:center;height:76px}
 .logo-wrap{display:flex;flex-direction:column;gap:1px;text-decoration:none;cursor:pointer}
@@ -67,7 +67,7 @@ nav{display:flex;align-items:center;gap:36px}
   .nav-cta{padding:14px 30px;font-size:0.85rem}
 }
 
-/* ══ HERO ══ */
+/* â•â• HERO â•â• */
 .hero{position:relative;min-height:96vh;display:flex;align-items:center;overflow:hidden}
 .hero-bg{position:absolute;inset:0;background:url('https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=1800&q=90') center/cover no-repeat;animation:heroZoom 16s ease-out forwards}
 @keyframes heroZoom{from{transform:scale(1.06)}to{transform:scale(1)}}
@@ -89,7 +89,7 @@ nav{display:flex;align-items:center;gap:36px}
 @keyframes float{0%,100%{transform:translateX(-50%) translateY(0)}50%{transform:translateX(-50%) translateY(-7px)}}
 .hero-scroll-line{width:1px;height:44px;background:linear-gradient(to bottom,rgba(201,169,110,0.6),transparent)}
 
-/* ══ QR CODE BANNER (espace client) ══ */
+/* â•â• QR CODE BANNER (espace client) â•â• */
 .qr-banner{background:linear-gradient(135deg,var(--ink2),#2a1408);padding:28px 36px;position:relative;overflow:hidden;cursor:pointer;transition:0.3s;border-bottom:2px solid var(--terracotta)}
 .qr-banner:hover{background:linear-gradient(135deg,#2e1a0e,#3a1c0c)}
 .qr-banner-inner{max-width:1200px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:20px;flex-wrap:wrap}
@@ -102,7 +102,7 @@ nav{display:flex;align-items:center;gap:36px}
 .qr-banner-cta{background:var(--terracotta);color:#fff;border:none;padding:13px 28px;border-radius:40px;font-size:0.72rem;font-weight:600;letter-spacing:2px;text-transform:uppercase;cursor:pointer;font-family:var(--ff-sans);white-space:nowrap;flex-shrink:0;transition:0.25s}
 .qr-banner-cta:hover{background:#d4916e}
 
-/* ══ VALUES STRIP ══ */
+/* â•â• VALUES STRIP â•â• */
 .values-strip{background:var(--ink2);padding:22px 40px;overflow-x:auto;scrollbar-width:none;border-bottom:1px solid rgba(255,255,255,0.04)}
 .values-strip::-webkit-scrollbar{display:none}
 .values-inner{max-width:1200px;margin:0 auto;display:flex;gap:0;justify-content:space-between;min-width:600px}
@@ -110,7 +110,7 @@ nav{display:flex;align-items:center;gap:36px}
 .value-item:last-child{border-right:none}
 .value-item .vi{color:var(--gold);font-size:1rem;flex-shrink:0}
 
-/* ══ SECTIONS ══ */
+/* â•â• SECTIONS â•â• */
 .section{padding:110px 40px;max-width:1200px;margin:0 auto}
 .section-sm{padding:80px 40px;max-width:1200px;margin:0 auto}
 .section-header{text-align:center;margin-bottom:70px}
@@ -122,7 +122,7 @@ nav{display:flex;align-items:center;gap:36px}
 .divider-line{flex:1;height:1px;background:var(--border)}
 .divider-gem{color:var(--gold);font-size:0.7rem;letter-spacing:4px}
 
-/* ══ ABOUT ══ */
+/* â•â• ABOUT â•â• */
 .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:90px;align-items:center}
 .about-img-wrap{position:relative}
 .about-img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:var(--radius);display:block}
@@ -136,7 +136,7 @@ nav{display:flex;align-items:center;gap:36px}
 .about-sig{font-family:var(--ff-script);font-size:2.2rem;color:var(--terracotta);margin-top:30px}
 @media(max-width:800px){.about-grid{grid-template-columns:1fr;gap:44px}.about-badge{right:12px}.about-img-frame{display:none}}
 
-/* ══ SERVICES ══ */
+/* â•â• SERVICES â•â• */
 .services-bg{background:var(--sand2)}
 .services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px}
 @media(max-width:960px){.services-grid{grid-template-columns:repeat(2,1fr)}}
@@ -160,7 +160,7 @@ nav{display:flex;align-items:center;gap:36px}
 .service-promo{position:absolute;top:14px;right:14px;background:var(--promo);color:#fff;font-size:0.6rem;font-weight:600;letter-spacing:1px;padding:4px 10px;border-radius:20px;text-transform:uppercase}
 .service-old-price{font-size:0.75rem;color:var(--muted);text-decoration:line-through;margin-top:-10px;margin-bottom:14px;display:block}
 
-/* ══ TARIFS ══ */
+/* â•â• TARIFS â•â• */
 .tarif-table{width:100%;border-collapse:collapse;margin-bottom:10px}
 .tarif-table thead tr th{font-size:0.64rem;letter-spacing:3px;text-transform:uppercase;color:var(--muted);font-weight:400;padding:14px 22px;text-align:left;border-bottom:1px solid var(--border)}
 .tarif-table tbody tr{border-bottom:1px solid var(--border);transition:background 0.2s;cursor:pointer}
@@ -172,7 +172,7 @@ nav{display:flex;align-items:center;gap:36px}
 .tarif-category{font-size:0.62rem;letter-spacing:5px;text-transform:uppercase;color:var(--terracotta);font-weight:400;padding:30px 22px 10px;display:block}
 @media(max-width:600px){.tarif-table td:nth-child(2){display:none}.tarif-table td{padding:14px 14px}}
 
-/* ══ DISPO ══ */
+/* â•â• DISPO â•â• */
 .dispo-bg{background:var(--ink)}
 .dispo-grid{display:grid;grid-template-columns:repeat(7,1fr);gap:10px}
 @media(max-width:960px){.dispo-grid{grid-template-columns:repeat(4,1fr)}}
@@ -202,7 +202,7 @@ nav{display:flex;align-items:center;gap:36px}
 .slot-btn:hover{background:var(--terracotta);color:#fff}
 .slot-btn.taken{background:rgba(255,255,255,0.02);border-color:rgba(255,255,255,0.05);color:rgba(255,255,255,0.16);cursor:not-allowed}
 
-/* ══ AVIS ══ */
+/* â•â• AVIS â•â• */
 .avis-bg{background:var(--sand)}
 .avis-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
 @media(max-width:960px){.avis-grid{grid-template-columns:1fr 1fr}}
@@ -217,7 +217,7 @@ nav{display:flex;align-items:center;gap:36px}
 .avis-name{font-size:0.82rem;font-weight:500;color:var(--ink)}
 .avis-date{font-size:0.67rem;color:var(--muted);margin-top:2px}
 
-/* ══ GALERIE ══ */
+/* â•â• GALERIE â•â• */
 .galerie-bg{background:var(--ink)}
 .galerie-grid{display:grid;grid-template-columns:repeat(4,1fr);grid-template-rows:auto auto;gap:6px}
 @media(max-width:800px){.galerie-grid{grid-template-columns:repeat(2,1fr)}}
@@ -231,7 +231,7 @@ nav{display:flex;align-items:center;gap:36px}
 .galerie-item:hover .galerie-zoom{opacity:1;transform:scale(1)}
 @media(max-width:800px){.galerie-item:first-child{grid-row:auto;aspect-ratio:3/4}}
 
-/* ══ LOYALTY ══ */
+/* â•â• LOYALTY â•â• */
 .loyalty-section{background:linear-gradient(170deg,#140a06,#0d0908,var(--ink2))}
 .loyalty-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-bottom:44px}
 @media(max-width:800px){.loyalty-cards{grid-template-columns:1fr}}
@@ -244,12 +244,12 @@ nav{display:flex;align-items:center;gap:36px}
 .loyalty-tier-req{font-size:0.7rem;color:var(--gold);letter-spacing:2px;text-transform:uppercase;margin-bottom:22px;font-weight:300}
 .loyalty-tier-perks{list-style:none;text-align:left}
 .loyalty-tier-perks li{font-size:0.82rem;color:rgba(255,255,255,0.5);padding:7px 0;border-bottom:1px solid rgba(255,255,255,0.05);font-weight:300;display:flex;align-items:center;gap:8px}
-.loyalty-tier-perks li::before{content:'✦';color:var(--gold);font-size:0.58rem;flex-shrink:0}
+.loyalty-tier-perks li::before{content:'âœ¦';color:var(--gold);font-size:0.58rem;flex-shrink:0}
 .loyalty-cta{text-align:center;margin-top:10px}
 .loyalty-check-btn{background:linear-gradient(135deg,var(--terracotta),var(--terracotta2));color:#fff;border:none;padding:18px 44px;border-radius:50px;font-size:0.73rem;font-weight:600;letter-spacing:2.5px;text-transform:uppercase;cursor:pointer;font-family:var(--ff-sans);transition:0.3s;box-shadow:0 10px 40px rgba(193,123,92,0.28)}
 .loyalty-check-btn:hover{transform:translateY(-2px);box-shadow:0 16px 50px rgba(193,123,92,0.38)}
 
-/* ══ LOYALTY MODAL ══ */
+/* â•â• LOYALTY MODAL â•â• */
 #loyalty-modal,#loyalty-register-modal{position:fixed;inset:0;background:rgba(13,9,8,0.78);backdrop-filter:blur(8px);z-index:3000;display:none;align-items:center;justify-content:center;padding:20px}
 #loyalty-modal.show,#loyalty-register-modal.show{display:flex}
 .loyalty-modal-box{background:var(--parchment);padding:42px;border-radius:16px;width:100%;max-width:440px;position:relative;max-height:90vh;overflow-y:auto}
@@ -278,7 +278,7 @@ nav{display:flex;align-items:center;gap:36px}
 .reward-btn:hover{background:var(--terracotta)}
 .reward-btn:disabled{background:var(--sand2);color:var(--muted);cursor:not-allowed}
 
-/* ══ BOOKING ══ */
+/* â•â• BOOKING â•â• */
 .booking-bg{background:var(--parchment)}
 .booking-grid{display:grid;grid-template-columns:1fr 1.2fr;gap:80px;align-items:start}
 @media(max-width:900px){.booking-grid{grid-template-columns:1fr;gap:50px}}
@@ -323,12 +323,12 @@ textarea.form-input{resize:vertical;min-height:80px}
 .pay-place{background:var(--ink);color:#fff}
 .pay-wa{background:#25d366;color:#fff}
 
-/* ══ WHATSAPP FLOAT ══ */
+/* â•â• WHATSAPP FLOAT â•â• */
 .wa-btn{position:fixed;bottom:28px;right:28px;width:58px;height:58px;background:linear-gradient(135deg,#25d366,#128c7e);color:#fff;border:none;border-radius:50%;font-size:1.5rem;cursor:pointer;z-index:500;box-shadow:0 6px 24px rgba(37,211,102,0.45);transition:0.3s;display:flex;align-items:center;justify-content:center;animation:waPulse 3s ease-in-out infinite}
 .wa-btn:hover{transform:scale(1.1);box-shadow:0 10px 36px rgba(37,211,102,0.55)}
 @keyframes waPulse{0%,100%{box-shadow:0 6px 24px rgba(37,211,102,0.45)}50%{box-shadow:0 6px 34px rgba(37,211,102,0.7),0 0 0 8px rgba(37,211,102,0.08)}}
 
-/* ══ FOOTER ══ */
+/* â•â• FOOTER â•â• */
 footer{background:var(--ink2);color:rgba(255,255,255,0.45);padding:72px 40px 40px}
 .footer-inner{max-width:1200px;margin:0 auto}
 .footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:60px;margin-bottom:56px}
@@ -354,16 +354,16 @@ footer{background:var(--ink2);color:rgba(255,255,255,0.45);padding:72px 40px 40p
 .footer-legal a{font-size:0.7rem;color:rgba(255,255,255,0.28);cursor:pointer;text-decoration:none;transition:color 0.2s}
 .footer-legal a:hover{color:rgba(255,255,255,0.6)}
 
-/* ══ WHATSAPP BTN ══ */
+/* â•â• WHATSAPP BTN â•â• */
 .wa-btn{position:fixed;bottom:28px;right:28px;width:60px;height:60px;background:#25d366;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.5rem;cursor:pointer;z-index:500;border:none;box-shadow:0 8px 30px rgba(37,211,102,0.35);animation:waPulse 2.5s ease-in-out infinite}
 @keyframes waPulse{0%,100%{box-shadow:0 8px 30px rgba(37,211,102,0.35)}50%{box-shadow:0 8px 30px rgba(37,211,102,0.6),0 0 0 14px rgba(37,211,102,0.08)}}
 
-/* ══ REVEAL ANIMATIONS ══ */
+/* â•â• REVEAL ANIMATIONS â•â• */
 .reveal,.reveal-left,.reveal-right{opacity:0;transition:opacity 0.8s ease,transform 0.8s ease}
 .reveal{transform:translateY(30px)}.reveal-left{transform:translateX(-30px)}.reveal-right{transform:translateX(30px)}
 .reveal.visible,.reveal-left.visible,.reveal-right.visible{opacity:1;transform:none}
 
-/* ══ ADMIN ══ */
+/* â•â• ADMIN â•â• */
 #admin-panel{display:none;position:fixed;inset:0;background:var(--parchment);z-index:4000;overflow-y:auto}
 .admin-header{background:#fff;border-bottom:1px solid var(--border);padding:18px 32px;display:flex;justify-content:space-between;align-items:center;position:sticky;top:0;z-index:10}
 .admin-header h2{font-family:var(--ff-serif);font-size:1.4rem;font-weight:500;color:var(--ink)}
@@ -411,7 +411,7 @@ footer{background:var(--ink2);color:rgba(255,255,255,0.45);padding:72px 40px 40p
 .dispo-slot-btn{padding:7px 12px;border:1.5px solid var(--border);border-radius:6px;font-size:0.76rem;font-weight:400;cursor:pointer;font-family:var(--ff-sans);transition:0.2s;background:#fff;color:var(--ink)}
 .dispo-slot-btn.taken{background:rgba(220,53,69,0.1);border-color:rgba(220,53,69,0.3);color:#842029;text-decoration:line-through}
 
-/* ══ QR SCANNER (ADMIN) ══ */
+/* â•â• QR SCANNER (ADMIN) â•â• */
 .qr-scanner-wrap{background:linear-gradient(135deg,var(--ink),var(--ink2));border-radius:16px;padding:36px;text-align:center;position:relative;overflow:hidden}
 .qr-scanner-wrap::before{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23c9a96e' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")}
 .qr-scanner-title{font-family:var(--ff-serif);font-size:1.5rem;color:#fff;margin-bottom:8px;position:relative;z-index:1}
@@ -447,7 +447,7 @@ footer{background:var(--ink2);color:rgba(255,255,255,0.45);padding:72px 40px 40p
 .scan-manual-wrap input::placeholder{color:rgba(255,255,255,0.28)}
 .scan-manual-wrap button{background:var(--terracotta);color:#fff;border:none;padding:13px;border-radius:8px;font-family:var(--ff-sans);font-size:0.76rem;font-weight:600;cursor:pointer;width:100%;letter-spacing:2px;text-transform:uppercase;transition:0.25s}
 
-/* ══ LOYALTY ADMIN ══ */
+/* â•â• LOYALTY ADMIN â•â• */
 .loyalty-member-row{display:flex;justify-content:space-between;align-items:center;padding:16px 20px;background:var(--sand);border-radius:10px;margin-bottom:10px;flex-wrap:wrap;gap:12px}
 .member-name{font-weight:600;font-size:0.88rem;color:var(--ink)}
 .member-pts{font-family:var(--ff-serif);font-size:1.2rem;color:var(--terracotta)}
@@ -457,7 +457,7 @@ footer{background:var(--ink2);color:rgba(255,255,255,0.45);padding:72px 40px 40p
 .rdv-btn.qr-scan-btn{background:linear-gradient(135deg,#1a0e08,#2e1a0c)!important;color:var(--gold)!important;border:1px solid rgba(201,169,110,0.3)!important;transition:0.2s}
 .rdv-btn.qr-scan-btn:hover{background:var(--terracotta)!important;color:#fff!important;border-color:transparent!important}
 
-/* ══ MSG DIRECT ══ */
+/* â•â• MSG DIRECT â•â• */
 #direct-msg-panel{position:fixed;bottom:0;right:100px;width:350px;background:#fff;border-radius:16px 16px 0 0;box-shadow:0 -8px 40px rgba(13,9,8,0.12);z-index:600;display:none;flex-direction:column;border:1px solid var(--border);border-bottom:none;max-height:520px}
 #direct-msg-panel.open{display:flex}
 .dm-header{background:var(--ink);color:#fff;padding:16px 20px;border-radius:16px 16px 0 0;display:flex;justify-content:space-between;align-items:center;cursor:pointer}
@@ -475,11 +475,11 @@ footer{background:var(--ink2);color:rgba(255,255,255,0.45);padding:72px 40px 40p
 .dm-login-wrap{padding:20px;text-align:center}
 .dm-login-wrap input{width:100%;margin-bottom:10px}
 
-/* ══ PERSO PANEL (paramètres) ══ */
+/* â•â• PERSO PANEL (paramÃ¨tres) â•â• */
 .perso-section{margin-bottom:28px}
 .perso-section h5{font-size:0.66rem;letter-spacing:4px;text-transform:uppercase;color:var(--terracotta);margin-bottom:18px;font-weight:500}
 
-/* ══ DARK MODE ══ */
+/* â•â• DARK MODE â•â• */
 body.dark{--parchment:#0e0b09;--sand:#181210;--sand2:#211810;--ink:#f0e8e0;--ink2:#f7f2ec;--muted:#8a7a6a;--border:rgba(201,169,110,0.15);--shadow:rgba(0,0,0,0.35)}
 body.dark header{background:rgba(14,11,9,0.97)}
 body.dark .booking-form-wrap{background:#181210}
@@ -489,9 +489,9 @@ body.dark .service-card{background:#181210}
 body.dark .service-card:hover{background:#211810}
 #dark-mode-toggle-btn{position:fixed;bottom:28px;left:28px;width:44px;height:44px;background:var(--ink);color:var(--parchment);border:none;border-radius:50%;display:none;align-items:center;justify-content:center;cursor:pointer;z-index:500;font-size:1rem;box-shadow:0 4px 16px var(--shadow);transition:0.25s}
 
-/* ══════════════════════════════════════
-   📱 RESPONSIVE MOBILE — GLOBAL
-══════════════════════════════════════ */
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   ðŸ“± RESPONSIVE MOBILE â€” GLOBAL
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 
 /* Admin panel mobile */
 @media(max-width:700px){
@@ -535,7 +535,7 @@ body.dark .service-card:hover{background:#211810}
   #tab-loyalty .admin-card > div[style*="grid-template-columns"]{display:flex!important;flex-direction:column!important}
 }
 
-/* Modal retard — toujours scrollable sur mobile */
+/* Modal retard â€” toujours scrollable sur mobile */
 #retard-modal{align-items:flex-end!important;padding:0!important}
 #retard-modal > div{border-radius:20px 20px 0 0!important;max-height:92vh;overflow-y:auto;-webkit-overflow-scrolling:touch;width:100%!important;max-width:100%!important}
 @media(min-width:600px){
@@ -597,20 +597,20 @@ body.dark .service-card:hover{background:#211810}
 <div id="toast"></div>
 <div id="promo-banner" id="promo-banner"></div>
 
-<!-- ══ HEADER ══ -->
+<!-- â•â• HEADER â•â• -->
 <header>
   <div class="header-inner">
     <div class="logo-wrap" onclick="scrollToTop()">
       <div class="logo">DjSs <span>Beauty</span> House</div>
-      <div class="logo-sub">Institut de Beauté & Soins · Guadeloupe</div>
+      <div class="logo-sub">Institut de BeautÃ© & Soins Â· Guadeloupe</div>
     </div>
     <nav id="main-nav">
-      <button class="nav-link" onclick="allerA('#sec-about')">À propos</button>
+      <button class="nav-link" onclick="allerA('#sec-about')">Ã€ propos</button>
       <button class="nav-link" onclick="allerA('#sec-prestations')">Prestations</button>
       <button class="nav-link" onclick="allerA('#sec-tarifs')">Tarifs</button>
-      <button class="nav-link" onclick="allerA('#sec-loyalty')">Fidélité</button>
+      <button class="nav-link" onclick="allerA('#sec-loyalty')">FidÃ©litÃ©</button>
       <button class="nav-link" onclick="allerA('#sec-reservation')">Contact</button>
-      <button class="nav-cta" onclick="allerA('#sec-reservation')">Réserver</button>
+      <button class="nav-cta" onclick="allerA('#sec-reservation')">RÃ©server</button>
     </nav>
     <button class="nav-mobile-btn" id="mobile-toggle" onclick="toggleMobileNav()" aria-label="Menu">
       <span></span><span></span><span></span>
@@ -618,52 +618,52 @@ body.dark .service-card:hover{background:#211810}
   </div>
 </header>
 
-<!-- ══ HERO ══ -->
+<!-- â•â• HERO â•â• -->
 <section class="hero" id="sec-hero">
   <div class="hero-bg" id="hero-bg"></div>
   <div class="hero-overlay"></div>
   <div class="hero-grain"></div>
   <div class="hero-content">
-    <div class="hero-eyebrow">Institut de Beauté · Guadeloupe</div>
-    <h1>L'art de<br><em>sublimer</em><br>votre beauté</h1>
-    <p class="hero-sub">Des soins premium pensés pour chaque femme. Un espace de bien-être exclusif au cœur des Antilles.</p>
+    <div class="hero-eyebrow">Institut de BeautÃ© Â· Guadeloupe</div>
+    <h1>L'art de<br><em>sublimer</em><br>votre beautÃ©</h1>
+    <p class="hero-sub">Des soins premium pensÃ©s pour chaque femme. Un espace de bien-Ãªtre exclusif au cÅ“ur des Antilles.</p>
     <div class="hero-actions">
-      <button class="btn-primary" onclick="allerA('#sec-reservation')">✨ Prendre rendez-vous</button>
-      <button class="btn-outline" onclick="allerA('#sec-prestations')">Découvrir nos soins</button>
+      <button class="btn-primary" onclick="allerA('#sec-reservation')">âœ¨ Prendre rendez-vous</button>
+      <button class="btn-outline" onclick="allerA('#sec-prestations')">DÃ©couvrir nos soins</button>
     </div>
   </div>
   <div class="hero-scroll">
     <div class="hero-scroll-line"></div>
-    Défiler
+    DÃ©filer
   </div>
 </section>
 
-<!-- ══ QR CODE BANNER (Espace Client) ══ -->
+<!-- â•â• QR CODE BANNER (Espace Client) â•â• -->
 <div class="qr-banner" id="qr-client-banner" onclick="afficherInfoQR()">
   <div class="qr-banner-inner">
     <div class="qr-banner-left">
-      <div class="qr-icon-wrap">🎁</div>
+      <div class="qr-icon-wrap">ðŸŽ</div>
       <div class="qr-banner-text">
-        <h3>Votre poster QR = des réductions exclusives</h3>
-        <p>Gardez précieusement votre poster DjSs Beauty House. Lors de votre prochain rendez-vous, notre gérant scannera votre QR code pour vous offrir une <strong>réduction personnalisée</strong> sur votre soin !</p>
+        <h3>Votre poster QR = des rÃ©ductions exclusives</h3>
+        <p>Gardez prÃ©cieusement votre poster DjSs Beauty House. Lors de votre prochain rendez-vous, notre gÃ©rant scannera votre QR code pour vous offrir une <strong>rÃ©duction personnalisÃ©e</strong> sur votre soin !</p>
       </div>
     </div>
-    <button class="qr-banner-cta">En savoir plus →</button>
+    <button class="qr-banner-cta">En savoir plus â†’</button>
   </div>
 </div>
 
-<!-- ══ VALUES STRIP ══ -->
+<!-- â•â• VALUES STRIP â•â• -->
 <div class="values-strip">
   <div class="values-inner">
-    <div class="value-item"><span class="vi">✦</span> Produits Premium</div>
-    <div class="value-item"><span class="vi">✦</span> Expertise Certifiée</div>
-    <div class="value-item"><span class="vi">✦</span> Cadre Luxueux</div>
-    <div class="value-item"><span class="vi">✦</span> Soins Personnalisés</div>
-    <div class="value-item"><span class="vi">✦</span> Réservation en ligne</div>
+    <div class="value-item"><span class="vi">âœ¦</span> Produits Premium</div>
+    <div class="value-item"><span class="vi">âœ¦</span> Expertise CertifiÃ©e</div>
+    <div class="value-item"><span class="vi">âœ¦</span> Cadre Luxueux</div>
+    <div class="value-item"><span class="vi">âœ¦</span> Soins PersonnalisÃ©s</div>
+    <div class="value-item"><span class="vi">âœ¦</span> RÃ©servation en ligne</div>
   </div>
 </div>
 
-<!-- ══ ABOUT ══ -->
+<!-- â•â• ABOUT â•â• -->
 <div id="sec-about">
   <div class="section">
     <div class="about-grid">
@@ -677,190 +677,190 @@ body.dark .service-card:hover{background:#211810}
       </div>
       <div class="about-text reveal-right">
         <span class="section-eyebrow">Notre histoire</span>
-        <h2>Une passion pour<br><em>la beauté authentique</em></h2>
-        <p>DjSs Beauty House est né d'une vision simple : offrir à chaque femme de Guadeloupe une expérience beauté d'exception, dans un cadre raffiné et chaleureux. Chaque soin est une promesse de bien-être.</p>
-        <p>Nos thérapeutes certifiées utilisent les meilleures formules cosmétiques pour révéler l'éclat naturel de votre peau et sublimer votre féminité.</p>
+        <h2>Une passion pour<br><em>la beautÃ© authentique</em></h2>
+        <p>DjSs Beauty House est nÃ© d'une vision simple : offrir Ã  chaque femme de Guadeloupe une expÃ©rience beautÃ© d'exception, dans un cadre raffinÃ© et chaleureux. Chaque soin est une promesse de bien-Ãªtre.</p>
+        <p>Nos thÃ©rapeutes certifiÃ©es utilisent les meilleures formules cosmÃ©tiques pour rÃ©vÃ©ler l'Ã©clat naturel de votre peau et sublimer votre fÃ©minitÃ©.</p>
         <div class="about-sig">Djamila</div>
       </div>
     </div>
   </div>
 </div>
 
-<div class="divider"><div class="divider-line"></div><div class="divider-gem">✦ ✦ ✦</div><div class="divider-line"></div></div>
+<div class="divider"><div class="divider-line"></div><div class="divider-gem">âœ¦ âœ¦ âœ¦</div><div class="divider-line"></div></div>
 
-<!-- ══ PRESTATIONS ══ -->
+<!-- â•â• PRESTATIONS â•â• -->
 <div class="services-bg" id="sec-prestations">
   <div class="section">
     <div class="section-header reveal">
       <span class="section-eyebrow">Nos Soins</span>
       <h2 class="section-title">Nos <em>Prestations</em></h2>
-      <p class="section-sub">Des soins d'exception pensés pour révéler votre beauté naturelle</p>
+      <p class="section-sub">Des soins d'exception pensÃ©s pour rÃ©vÃ©ler votre beautÃ© naturelle</p>
     </div>
     <div class="services-grid reveal" id="services-grid"></div>
   </div>
 </div>
 
-<!-- ══ TARIFS ══ -->
+<!-- â•â• TARIFS â•â• -->
 <div id="sec-tarifs" style="background:var(--parchment)">
   <div class="section">
     <div class="section-header reveal">
       <span class="section-eyebrow">Tarification</span>
       <h2 class="section-title">Nos <em>Tarifs</em></h2>
-      <p class="section-sub">Des prix clairs, à la hauteur de notre excellence</p>
+      <p class="section-sub">Des prix clairs, Ã  la hauteur de notre excellence</p>
     </div>
     <div id="tarifs-container" class="reveal"></div>
   </div>
 </div>
 
-<!-- ══ DISPONIBILITÉS ══ -->
+<!-- â•â• DISPONIBILITÃ‰S â•â• -->
 <div class="dispo-bg" id="sec-dispo">
   <div class="section">
     <div class="section-header reveal">
       <span class="section-eyebrow" style="color:var(--gold)">Planning</span>
-      <h2 class="section-title" style="color:#fff">Nos <em style="color:var(--blush)">Disponibilités</em></h2>
-      <p class="section-sub" style="color:rgba(255,255,255,0.4)">Consultez les créneaux libres et réservez directement en ligne</p>
+      <h2 class="section-title" style="color:#fff">Nos <em style="color:var(--blush)">DisponibilitÃ©s</em></h2>
+      <p class="section-sub" style="color:rgba(255,255,255,0.4)">Consultez les crÃ©neaux libres et rÃ©servez directement en ligne</p>
     </div>
     <div class="dispo-grid reveal" id="dispo-grid"></div>
     <div class="dispo-legend">
       <div class="legend-item"><div class="legend-dot avail"></div>Disponible</div>
       <div class="legend-item"><div class="legend-dot full"></div>Complet</div>
-      <div class="legend-item"><div class="legend-dot closed"></div>Fermé</div>
+      <div class="legend-item"><div class="legend-dot closed"></div>FermÃ©</div>
     </div>
     <div class="dispo-slots-detail" id="dispo-slots-detail">
-      <h4 id="dispo-selected-day-title">Créneaux disponibles</h4>
+      <h4 id="dispo-selected-day-title">CrÃ©neaux disponibles</h4>
       <div class="slots-grid" id="slots-grid"></div>
     </div>
   </div>
 </div>
 
-<!-- ══ AVIS ══ -->
+<!-- â•â• AVIS â•â• -->
 <div class="avis-bg" id="sec-avis">
   <div class="section">
     <div class="section-header reveal">
-      <span class="section-eyebrow">Témoignages</span>
+      <span class="section-eyebrow">TÃ©moignages</span>
       <h2 class="section-title">Ce que disent<br><em>nos clientes</em></h2>
     </div>
     <div class="avis-grid" id="avis-grid-container"></div>
   </div>
 </div>
 
-<!-- ══ GALERIE ══ -->
+<!-- â•â• GALERIE â•â• -->
 <div class="galerie-bg" id="sec-galerie">
   <div class="section">
     <div class="section-header reveal">
       <span class="section-eyebrow" style="color:var(--gold)">Portfolio</span>
       <h2 class="section-title" style="color:#fff">Notre <em style="color:var(--blush)">Galerie</em></h2>
-      <p class="section-sub" style="color:rgba(255,255,255,0.38)">Des réalisations soignées, pensées pour sublimer chaque cliente</p>
+      <p class="section-sub" style="color:rgba(255,255,255,0.38)">Des rÃ©alisations soignÃ©es, pensÃ©es pour sublimer chaque cliente</p>
     </div>
     <div class="galerie-grid reveal" id="galerie-grid"></div>
   </div>
 </div>
 
-<!-- ══ FIDÉLITÉ ══ -->
+<!-- â•â• FIDÃ‰LITÃ‰ â•â• -->
 <div class="loyalty-section" id="sec-loyalty">
   <div class="section">
     <div class="section-header reveal">
-      <span class="section-eyebrow" style="color:var(--gold)">Récompenses</span>
-      <h2 class="section-title" style="color:#fff">Programme <em style="color:var(--blush)">Fidélité</em></h2>
-      <p class="section-sub" style="color:rgba(255,255,255,0.38)">Chaque séance vous rapproche de récompenses exclusives. Votre fidélité mérite d'être célébrée.</p>
+      <span class="section-eyebrow" style="color:var(--gold)">RÃ©compenses</span>
+      <h2 class="section-title" style="color:#fff">Programme <em style="color:var(--blush)">FidÃ©litÃ©</em></h2>
+      <p class="section-sub" style="color:rgba(255,255,255,0.38)">Chaque sÃ©ance vous rapproche de rÃ©compenses exclusives. Votre fidÃ©litÃ© mÃ©rite d'Ãªtre cÃ©lÃ©brÃ©e.</p>
     </div>
     <div class="loyalty-cards reveal">
       <div class="loyalty-tier-card bronze">
-        <span class="loyalty-tier-icon">🥉</span>
+        <span class="loyalty-tier-icon">ðŸ¥‰</span>
         <div class="loyalty-tier-name">Bronze</div>
-        <div class="loyalty-tier-req">Dès 1 séance validée</div>
+        <div class="loyalty-tier-req">DÃ¨s 1 sÃ©ance validÃ©e</div>
         <ul class="loyalty-tier-perks">
-          <li>Accès au programme de points</li>
+          <li>AccÃ¨s au programme de points</li>
           <li>Offre anniversaire exclusive</li>
-          <li>Réductions via QR Code poster</li>
+          <li>RÃ©ductions via QR Code poster</li>
         </ul>
       </div>
       <div class="loyalty-tier-card silver">
-        <span class="loyalty-tier-icon">🥈</span>
+        <span class="loyalty-tier-icon">ðŸ¥ˆ</span>
         <div class="loyalty-tier-name">Silver</div>
-        <div class="loyalty-tier-req">À partir de 200 points</div>
+        <div class="loyalty-tier-req">Ã€ partir de 200 points</div>
         <ul class="loyalty-tier-perks">
           <li>Tous les avantages Bronze</li>
-          <li>Priorité de réservation</li>
+          <li>PrioritÃ© de rÃ©servation</li>
           <li>Points bonus sur certains soins</li>
-          <li>QR Code réduction augmentée</li>
+          <li>QR Code rÃ©duction augmentÃ©e</li>
         </ul>
       </div>
       <div class="loyalty-tier-card gold-tier">
-        <span class="loyalty-tier-icon">👑</span>
+        <span class="loyalty-tier-icon">ðŸ‘‘</span>
         <div class="loyalty-tier-name">Gold</div>
-        <div class="loyalty-tier-req">À partir de 500 points</div>
+        <div class="loyalty-tier-req">Ã€ partir de 500 points</div>
         <ul class="loyalty-tier-perks">
           <li>Tous les avantages Silver</li>
           <li>Soin offert chaque trimestre</li>
-          <li>Consultation beauté personnalisée</li>
-          <li>Invitation événements VIP</li>
-          <li>QR Code réduction Gold exclusive</li>
+          <li>Consultation beautÃ© personnalisÃ©e</li>
+          <li>Invitation Ã©vÃ©nements VIP</li>
+          <li>QR Code rÃ©duction Gold exclusive</li>
         </ul>
       </div>
     </div>
     <div class="loyalty-cta reveal">
-      <button class="loyalty-check-btn" onclick="ouvrirLoyaltyModal()">💎 Consulter mon solde de points</button>
-      <div style="margin-top:16px;font-size:0.76rem;color:rgba(255,255,255,0.28)">Pas encore inscrite ? <span style="color:var(--gold);cursor:pointer;text-decoration:underline" onclick="ouvrirInscriptionFidelite()">Rejoindre le programme →</span></div>
+      <button class="loyalty-check-btn" onclick="ouvrirLoyaltyModal()">ðŸ’Ž Consulter mon solde de points</button>
+      <div style="margin-top:16px;font-size:0.76rem;color:rgba(255,255,255,0.28)">Pas encore inscrite ? <span style="color:var(--gold);cursor:pointer;text-decoration:underline" onclick="ouvrirInscriptionFidelite()">Rejoindre le programme â†’</span></div>
     </div>
   </div>
 </div>
 
-<!-- ══ RÉSERVATION ══ -->
+<!-- â•â• RÃ‰SERVATION â•â• -->
 <div class="booking-bg" id="sec-reservation">
   <div class="section" id="sec-contact">
     <div class="booking-grid">
       <div class="booking-info reveal-left">
-        <span class="section-eyebrow">Réservation</span>
+        <span class="section-eyebrow">RÃ©servation</span>
         <h2>Prenez soin<br><em>de vous</em></h2>
-        <p>Réservez votre séance en ligne en quelques clics. Nous vous contacterons sous 24h pour confirmer votre créneau.</p>
+        <p>RÃ©servez votre sÃ©ance en ligne en quelques clics. Nous vous contacterons sous 24h pour confirmer votre crÃ©neau.</p>
         <div class="booking-contact-list">
           <div class="booking-contact-item">
-            <div class="booking-contact-icon">📍</div>
+            <div class="booking-contact-icon">ðŸ“</div>
             <div><div style="font-weight:500;font-size:0.85rem;margin-bottom:2px">Adresse</div><div style="font-size:0.82rem;color:var(--muted)" id="footer-adresse-text">Guadeloupe, France</div></div>
           </div>
           <div class="booking-contact-item">
-            <div class="booking-contact-icon">📲</div>
-            <div><div style="font-weight:500;font-size:0.85rem;margin-bottom:2px">WhatsApp</div><div style="font-size:0.82rem;color:var(--muted)">Réponse sous 30 min</div></div>
+            <div class="booking-contact-icon">ðŸ“²</div>
+            <div><div style="font-weight:500;font-size:0.85rem;margin-bottom:2px">WhatsApp</div><div style="font-size:0.82rem;color:var(--muted)">RÃ©ponse sous 30 min</div></div>
           </div>
           <div class="booking-contact-item">
-            <div class="booking-contact-icon">🕐</div>
-            <div><div style="font-weight:500;font-size:0.85rem;margin-bottom:2px">Horaires</div><div style="font-size:0.82rem;color:var(--muted)">Lun–Sam : 9h00 – 19h00</div></div>
+            <div class="booking-contact-icon">ðŸ•</div>
+            <div><div style="font-weight:500;font-size:0.85rem;margin-bottom:2px">Horaires</div><div style="font-size:0.82rem;color:var(--muted)">Lunâ€“Sam : 9h00 â€“ 19h00</div></div>
           </div>
         </div>
         <!-- QR Reminder in booking section -->
         <div style="background:linear-gradient(135deg,var(--ink),var(--ink2));border-radius:14px;padding:22px 24px;margin-bottom:18px;border:1px solid rgba(193,123,92,0.2)">
           <div style="display:flex;align-items:center;gap:14px;margin-bottom:12px">
-            <div style="font-size:1.6rem">🎁</div>
+            <div style="font-size:1.6rem">ðŸŽ</div>
             <div>
-              <div style="font-family:var(--ff-serif);font-size:1rem;color:#fff;margin-bottom:3px">Réduction QR Code</div>
+              <div style="font-family:var(--ff-serif);font-size:1rem;color:#fff;margin-bottom:3px">RÃ©duction QR Code</div>
               <div style="font-size:0.74rem;color:rgba(255,255,255,0.45);font-weight:300">Gardez votre poster DjSs</div>
             </div>
           </div>
-          <p style="font-size:0.8rem;color:rgba(255,255,255,0.5);line-height:1.8;font-weight:300">Vous possédez un poster <strong style="color:var(--gold)">DjSs Beauty House</strong> avec QR code ? Présentez-le lors de votre rendez-vous. Notre gérant le scannera pour vous offrir une <strong style="color:var(--terracotta)">réduction personnalisée</strong> directement sur votre soin !</p>
+          <p style="font-size:0.8rem;color:rgba(255,255,255,0.5);line-height:1.8;font-weight:300">Vous possÃ©dez un poster <strong style="color:var(--gold)">DjSs Beauty House</strong> avec QR code ? PrÃ©sentez-le lors de votre rendez-vous. Notre gÃ©rant le scannera pour vous offrir une <strong style="color:var(--terracotta)">rÃ©duction personnalisÃ©e</strong> directement sur votre soin !</p>
         </div>
-        <button onclick="ouvrirWhatsApp('Bonjour DjSs Beauty House, je souhaite réserver un soin.')" style="background:var(--ink);color:#fff;border:none;padding:15px 30px;border-radius:40px;font-size:0.73rem;font-weight:500;letter-spacing:2px;text-transform:uppercase;cursor:pointer;font-family:var(--ff-sans);display:inline-flex;align-items:center;gap:10px;margin-bottom:12px;transition:0.25s" onmouseover="this.style.background='#25d366'" onmouseout="this.style.background='var(--ink)'">
-          <span style="background:#25d366;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:0.75rem">💬</span>
-          Nous écrire sur WhatsApp
+        <button onclick="ouvrirWhatsApp('Bonjour DjSs Beauty House, je souhaite rÃ©server un soin.')" style="background:var(--ink);color:#fff;border:none;padding:15px 30px;border-radius:40px;font-size:0.73rem;font-weight:500;letter-spacing:2px;text-transform:uppercase;cursor:pointer;font-family:var(--ff-sans);display:inline-flex;align-items:center;gap:10px;margin-bottom:12px;transition:0.25s" onmouseover="this.style.background='#25d366'" onmouseout="this.style.background='var(--ink)'">
+          <span style="background:#25d366;width:22px;height:22px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:0.75rem">ðŸ’¬</span>
+          Nous Ã©crire sur WhatsApp
         </button><br>
         <button onclick="ouvrirMessageDirectClient()" style="background:var(--terracotta);color:#fff;border:none;padding:13px 26px;border-radius:40px;font-size:0.72rem;font-weight:500;letter-spacing:1.5px;text-transform:uppercase;cursor:pointer;font-family:var(--ff-sans);display:inline-flex;align-items:center;gap:8px;transition:0.25s" onmouseover="this.style.background='var(--terracotta2)'" onmouseout="this.style.background='var(--terracotta)'">
-          💬 Message direct à Djamila
+          ðŸ’¬ Message direct Ã  Djamila
         </button>
       </div>
       <div class="booking-form-wrap reveal-right">
         <div id="booking-form-wrap">
           <div style="margin-bottom:32px">
-            <div style="font-family:var(--ff-serif);font-size:1.45rem;font-weight:400;color:var(--ink);margin-bottom:7px">Demande de réservation</div>
+            <div style="font-family:var(--ff-serif);font-size:1.45rem;font-weight:400;color:var(--ink);margin-bottom:7px">Demande de rÃ©servation</div>
             <div style="font-size:0.76rem;color:var(--muted);font-weight:300;letter-spacing:0.5px">Tous les champs sont obligatoires</div>
           </div>
           <div class="form-row">
-            <div class="form-group"><label class="form-label">Nom & Prénom</label><input type="text" id="c_nom" class="form-input" placeholder="Sophie Martin" required></div>
-            <div class="form-group"><label class="form-label">Téléphone / WhatsApp</label><input type="tel" id="c_tel" class="form-input" placeholder="+590 6 90 00 00 00" required></div>
+            <div class="form-group"><label class="form-label">Nom & PrÃ©nom</label><input type="text" id="c_nom" class="form-input" placeholder="Sophie Martin" required></div>
+            <div class="form-group"><label class="form-label">TÃ©lÃ©phone / WhatsApp</label><input type="tel" id="c_tel" class="form-input" placeholder="+590 6 90 00 00 00" required></div>
           </div>
           <div class="form-group"><label class="form-label">Adresse e-mail</label><input type="email" id="c_email" class="form-input" placeholder="votre@email.com" required></div>
-          <div class="form-group"><label class="form-label">Soin souhaité</label><select id="s_service" class="form-input" onchange="calculer()" required></select></div>
-          <div class="form-group"><label class="form-label">Date & Heure souhaitées</label><input type="datetime-local" id="c_date" class="form-input" required></div>
-          <div class="form-group"><label class="form-label">Vos besoins ou remarques</label><textarea id="c_prob" class="form-input" rows="3" placeholder="Peau sèche, occasion spéciale..."></textarea></div>
+          <div class="form-group"><label class="form-label">Soin souhaitÃ©</label><select id="s_service" class="form-input" onchange="calculer()" required></select></div>
+          <div class="form-group"><label class="form-label">Date & Heure souhaitÃ©es</label><input type="datetime-local" id="c_date" class="form-input" required></div>
+          <div class="form-group"><label class="form-label">Vos besoins ou remarques</label><textarea id="c_prob" class="form-input" rows="3" placeholder="Peau sÃ¨che, occasion spÃ©ciale..."></textarea></div>
           <div class="form-group">
             <label class="form-label">Code promo (optionnel)</label>
             <div class="promo-code-wrap">
@@ -870,42 +870,42 @@ body.dark .service-card:hover{background:#211810}
             <div class="code-feedback" id="code-feedback"></div>
           </div>
           <div class="acompte-block" id="acompte-block" style="display:none">
-            <div class="acompte-title">💳 Acompte de réservation</div>
-            <div style="font-size:0.76rem;color:var(--muted);margin-bottom:14px;font-weight:300" id="acompte-desc-text">Un acompte est demandé pour confirmer votre rendez-vous.</div>
+            <div class="acompte-title">ðŸ’³ Acompte de rÃ©servation</div>
+            <div style="font-size:0.76rem;color:var(--muted);margin-bottom:14px;font-weight:300" id="acompte-desc-text">Un acompte est demandÃ© pour confirmer votre rendez-vous.</div>
             <div class="acompte-total-row">
               <div>
-                <div class="acompte-total-label">Acompte demandé</div>
-                <div style="font-size:0.66rem;color:var(--muted);margin-top:2px">Le reste sera réglé sur place</div>
+                <div class="acompte-total-label">Acompte demandÃ©</div>
+                <div style="font-size:0.66rem;color:var(--muted);margin-top:2px">Le reste sera rÃ©glÃ© sur place</div>
               </div>
-              <div class="acompte-total-amount" id="acompte-amount-display">0 €</div>
+              <div class="acompte-total-amount" id="acompte-amount-display">0 â‚¬</div>
             </div>
           </div>
           <div class="price-summary">
-            <div><div class="lbl">Soin sélectionné</div><div class="name" id="selected-soin-name">—</div></div>
-            <div style="text-align:right"><div class="lbl">Total</div><div class="amount" id="final-price">0 €</div><small id="promo-mention" style="display:none;color:var(--promo);font-weight:600;font-size:0.7rem"></small></div>
+            <div><div class="lbl">Soin sÃ©lectionnÃ©</div><div class="name" id="selected-soin-name">â€”</div></div>
+            <div style="text-align:right"><div class="lbl">Total</div><div class="amount" id="final-price">0 â‚¬</div><small id="promo-mention" style="display:none;color:var(--promo);font-weight:600;font-size:0.7rem"></small></div>
           </div>
-          <button type="submit" class="btn-final" onclick="soumettreReservation()">Confirmer ma réservation →</button>
+          <button type="submit" class="btn-final" onclick="soumettreReservation()">Confirmer ma rÃ©servation â†’</button>
         </div>
         <div id="booking-success" style="text-align:center;padding:32px 0;display:none">
-          <span class="success-icon">🌸</span>
-          <div style="font-family:var(--ff-serif);font-size:1.7rem;margin-bottom:12px;color:var(--ink);font-weight:400">Demande envoyée !</div>
-          <p style="color:var(--muted);max-width:320px;margin:0 auto;line-height:1.8;font-size:0.9rem;font-weight:300">Merci <strong id="success-name"></strong> ! Votre réservation est bien enregistrée.</p>
+          <span class="success-icon">ðŸŒ¸</span>
+          <div style="font-family:var(--ff-serif);font-size:1.7rem;margin-bottom:12px;color:var(--ink);font-weight:400">Demande envoyÃ©e !</div>
+          <p style="color:var(--muted);max-width:320px;margin:0 auto;line-height:1.8;font-size:0.9rem;font-weight:300">Merci <strong id="success-name"></strong> ! Votre rÃ©servation est bien enregistrÃ©e.</p>
           <!-- Cas avec acompte -->
           <div id="booking-pay-options" style="display:none" class="success-pay-opts">
             <div style="background:var(--sand);border-radius:10px;padding:14px 20px;margin-bottom:6px;font-size:0.85rem;color:var(--ink)">
-              Acompte à régler : <strong id="booking-acompte-info" style="color:var(--terracotta);font-family:var(--ff-serif);font-size:1.1rem">0 €</strong>
+              Acompte Ã  rÃ©gler : <strong id="booking-acompte-info" style="color:var(--terracotta);font-family:var(--ff-serif);font-size:1.1rem">0 â‚¬</strong>
             </div>
-            <button onclick="choisirPaiementEnLigne()" class="pay-btn pay-paypal">💳 Payer maintenant en ligne</button>
-            <button onclick="choisirPaiementSurPlace()" class="pay-btn pay-place">🏠 Je paie sur place</button>
+            <button onclick="choisirPaiementEnLigne()" class="pay-btn pay-paypal">ðŸ’³ Payer maintenant en ligne</button>
+            <button onclick="choisirPaiementSurPlace()" class="pay-btn pay-place">ðŸ  Je paie sur place</button>
           </div>
           <!-- Cas sans acompte -->
           <div id="booking-pay-no-acompte" style="display:none;margin-top:18px;background:#e8f8ef;border:1px solid #a9dfbf;border-radius:8px;padding:18px;max-width:320px;margin-left:auto;margin-right:auto">
-            <p style="color:#1e8449;font-size:0.85rem;line-height:1.7">✅ Aucun acompte requis. Nous vous contacterons sur WhatsApp pour confirmer votre créneau. À très bientôt ! 🌸</p>
-            <button onclick="ouvrirWhatsApp('Bonjour DjSs Beauty House, je viens de faire une réservation sur votre site.')" class="pay-btn pay-wa" style="margin-top:12px;width:100%">📲 Confirmer sur WhatsApp</button>
+            <p style="color:#1e8449;font-size:0.85rem;line-height:1.7">âœ… Aucun acompte requis. Nous vous contacterons sur WhatsApp pour confirmer votre crÃ©neau. Ã€ trÃ¨s bientÃ´t ! ðŸŒ¸</p>
+            <button onclick="ouvrirWhatsApp('Bonjour DjSs Beauty House, je viens de faire une rÃ©servation sur votre site.')" class="pay-btn pay-wa" style="margin-top:12px;width:100%">ðŸ“² Confirmer sur WhatsApp</button>
           </div>
           <div id="booking-pay-place-msg" style="display:none;margin-top:18px;background:#e8f8ef;border:1px solid #a9dfbf;border-radius:8px;padding:18px;max-width:320px;margin-left:auto;margin-right:auto">
-            <p style="color:#1e8449;font-size:0.85rem;line-height:1.7">✅ Parfait ! Nous vous contacterons sur WhatsApp pour confirmer votre créneau. À très bientôt ! 🌸</p>
-            <button onclick="ouvrirWhatsApp('Bonjour DjSs Beauty House, je viens de faire une réservation sur votre site.')" class="pay-btn pay-wa" style="margin-top:12px;width:100%">📲 Confirmer sur WhatsApp</button>
+            <p style="color:#1e8449;font-size:0.85rem;line-height:1.7">âœ… Parfait ! Nous vous contacterons sur WhatsApp pour confirmer votre crÃ©neau. Ã€ trÃ¨s bientÃ´t ! ðŸŒ¸</p>
+            <button onclick="ouvrirWhatsApp('Bonjour DjSs Beauty House, je viens de faire une rÃ©servation sur votre site.')" class="pay-btn pay-wa" style="margin-top:12px;width:100%">ðŸ“² Confirmer sur WhatsApp</button>
           </div>
         </div>
       </div>
@@ -913,13 +913,13 @@ body.dark .service-card:hover{background:#211810}
   </div>
 </div>
 
-<!-- ══ FOOTER ══ -->
+<!-- â•â• FOOTER â•â• -->
 <footer>
   <div class="footer-inner">
     <div class="footer-grid">
       <div class="footer-brand">
         <div class="logo">DjSs <span>Beauty</span> House</div>
-        <p>Institut de beauté haut de gamme en Guadeloupe. Des soins pensés pour sublimer chaque femme avec élégance et expertise.</p>
+        <p>Institut de beautÃ© haut de gamme en Guadeloupe. Des soins pensÃ©s pour sublimer chaque femme avec Ã©lÃ©gance et expertise.</p>
         <div class="footer-socials">
           <!-- WhatsApp -->
           <a class="footer-social footer-social-wa" onclick="ouvrirWhatsApp('Bonjour DjSs Beauty House !')" style="cursor:pointer" title="WhatsApp">
@@ -941,63 +941,63 @@ body.dark .service-card:hover{background:#211810}
       </div>
       <div class="footer-col">
         <h5>Navigation</h5>
-        <button class="footer-link" onclick="allerA('#sec-about')">À propos</button>
+        <button class="footer-link" onclick="allerA('#sec-about')">Ã€ propos</button>
         <button class="footer-link" onclick="allerA('#sec-prestations')">Prestations</button>
         <button class="footer-link" onclick="allerA('#sec-tarifs')">Tarifs</button>
         <button class="footer-link" onclick="allerA('#sec-avis')">Avis clientes</button>
         <button class="footer-link" onclick="allerA('#sec-galerie')">Galerie</button>
-        <button class="footer-link" onclick="allerA('#sec-reservation')">Réservation</button>
-        <button class="footer-link" onclick="allerA('#sec-loyalty')">💎 Programme Fidélité</button>
+        <button class="footer-link" onclick="allerA('#sec-reservation')">RÃ©servation</button>
+        <button class="footer-link" onclick="allerA('#sec-loyalty')">ðŸ’Ž Programme FidÃ©litÃ©</button>
       </div>
       <div class="footer-col">
         <h5>Horaires</h5>
         <div class="footer-hours-list" style="color:rgba(255,255,255,0.35)">
-          <strong style="color:rgba(255,255,255,0.6)">Lun – Ven</strong> : 9h00 – 19h00<br><br>
-          <strong style="color:rgba(255,255,255,0.6)">Samedi</strong> : 9h00 – 18h00<br><br>
-          <em style="color:rgba(255,255,255,0.2)">Dimanche : Fermé</em>
+          <strong style="color:rgba(255,255,255,0.6)">Lun â€“ Ven</strong> : 9h00 â€“ 19h00<br><br>
+          <strong style="color:rgba(255,255,255,0.6)">Samedi</strong> : 9h00 â€“ 18h00<br><br>
+          <em style="color:rgba(255,255,255,0.2)">Dimanche : FermÃ©</em>
         </div>
       </div>
       <div class="footer-col">
         <h5>Contact</h5>
-        <div class="footer-link" id="footer-adresse">📍 Guadeloupe, France</div>
-        <div class="footer-link" id="footer-wa-display">📲 +590 690 07 28 71</div>
-        <div class="footer-link" id="footer-email-display">✉️ Email</div>
+        <div class="footer-link" id="footer-adresse">ðŸ“ Guadeloupe, France</div>
+        <div class="footer-link" id="footer-wa-display">ðŸ“² +590 690 07 28 71</div>
+        <div class="footer-link" id="footer-email-display">âœ‰ï¸ Email</div>
         <div style="margin-top:16px;padding:14px;background:rgba(193,123,92,0.1);border:1px solid rgba(193,123,92,0.2);border-radius:10px">
-          <div style="font-size:0.7rem;color:var(--gold);letter-spacing:2px;margin-bottom:6px;font-weight:500">🎁 QR CODE POSTER</div>
-          <div style="font-size:0.76rem;color:rgba(255,255,255,0.4);line-height:1.7;font-weight:300">Gardez votre poster pour obtenir des réductions lors de vos prochains soins</div>
+          <div style="font-size:0.7rem;color:var(--gold);letter-spacing:2px;margin-bottom:6px;font-weight:500">ðŸŽ QR CODE POSTER</div>
+          <div style="font-size:0.76rem;color:rgba(255,255,255,0.4);line-height:1.7;font-weight:300">Gardez votre poster pour obtenir des rÃ©ductions lors de vos prochains soins</div>
         </div>
       </div>
     </div>
     <div class="footer-bottom">
-      <div class="footer-copy">© 2025 DjSs Beauty House · Tous droits réservés</div>
+      <div class="footer-copy">Â© 2025 DjSs Beauty House Â· Tous droits rÃ©servÃ©s</div>
       <div class="footer-legal">
-        <a onclick="ouvrirAdmin()" style="cursor:pointer">⚙️ Espace Gérant</a>
-        <a href="#">Mentions légales</a>
+        <a onclick="ouvrirAdmin()" style="cursor:pointer">âš™ï¸ Espace GÃ©rant</a>
+        <a href="#">Mentions lÃ©gales</a>
         <a href="#">CGV</a>
       </div>
     </div>
   </div>
 </footer>
 
-<!-- ══ FLOATING BUTTONS ══ -->
+<!-- â•â• FLOATING BUTTONS â•â• -->
 <button class="wa-btn" id="wa-float-btn" onclick="ouvrirWhatsApp('Bonjour DjSs Beauty House, je souhaite avoir des informations sur vos soins.')" title="Nous contacter sur WhatsApp">
   <svg width="26" height="26" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
 </button>
-<button id="dark-mode-toggle-btn" onclick="toggleDarkMode()" title="Mode sombre">🌙</button>
+<button id="dark-mode-toggle-btn" onclick="toggleDarkMode()" title="Mode sombre">ðŸŒ™</button>
 
-<!-- Bouton Espace Gérant fixe -->
-<button onclick="ouvrirAdmin()" title="Espace Gérant" style="position:fixed;bottom:100px;right:28px;background:var(--ink);color:var(--gold);border:1px solid rgba(201,169,110,0.3);border-radius:50%;width:48px;height:48px;font-size:1.1rem;cursor:pointer;z-index:500;box-shadow:0 4px 16px var(--shadow);transition:0.25s;display:flex;align-items:center;justify-content:center" onmouseover="this.style.background='var(--terracotta)'" onmouseout="this.style.background='var(--ink)'">⚙️</button>
+<!-- Bouton Espace GÃ©rant fixe -->
+<button onclick="ouvrirAdmin()" title="Espace GÃ©rant" style="position:fixed;bottom:100px;right:28px;background:var(--ink);color:var(--gold);border:1px solid rgba(201,169,110,0.3);border-radius:50%;width:48px;height:48px;font-size:1.1rem;cursor:pointer;z-index:500;box-shadow:0 4px 16px var(--shadow);transition:0.25s;display:flex;align-items:center;justify-content:center" onmouseover="this.style.background='var(--terracotta)'" onmouseout="this.style.background='var(--ink)'">âš™ï¸</button>
 
-<!-- ══ MODAL POLITIQUE DE RETARD ══ -->
+<!-- â•â• MODAL POLITIQUE DE RETARD â•â• -->
 <div id="retard-modal" style="position:fixed;inset:0;background:rgba(13,9,8,0.82);backdrop-filter:blur(10px);z-index:4000;display:none;align-items:center;justify-content:center;padding:16px">
   <div style="background:var(--parchment);border-radius:20px;max-width:500px;width:100%;position:relative;overflow:hidden;box-shadow:0 40px 100px rgba(13,9,8,0.3)">
     <!-- Bande rouge en haut -->
     <div style="background:linear-gradient(90deg,#9b2335,#c0392b);padding:22px 28px 18px;position:relative">
       <div style="display:flex;align-items:center;gap:14px">
-        <div style="font-size:2rem">⏰</div>
+        <div style="font-size:2rem">â°</div>
         <div>
-          <div style="font-family:var(--ff-serif);font-size:1.3rem;color:#fff;font-weight:400">Politique de ponctualité</div>
-          <div style="font-size:0.72rem;color:rgba(255,255,255,0.65);letter-spacing:1px;margin-top:2px">DjSs Beauty House · Important</div>
+          <div style="font-family:var(--ff-serif);font-size:1.3rem;color:#fff;font-weight:400">Politique de ponctualitÃ©</div>
+          <div style="font-size:0.72rem;color:rgba(255,255,255,0.65);letter-spacing:1px;margin-top:2px">DjSs Beauty House Â· Important</div>
         </div>
       </div>
     </div>
@@ -1005,36 +1005,36 @@ body.dark .service-card:hover{background:#211810}
     <!-- Contenu -->
     <div style="padding:clamp(16px,4vw,26px) clamp(16px,4vw,28px)">
       <p style="font-size:0.87rem;color:var(--muted);line-height:1.85;margin-bottom:20px;font-weight:300">
-        Afin de respecter les créneaux de toutes nos clientes, nous appliquons une politique de retard stricte :
+        Afin de respecter les crÃ©neaux de toutes nos clientes, nous appliquons une politique de retard stricte :
       </p>
 
-      <!-- Règles de retard -->
+      <!-- RÃ¨gles de retard -->
       <div style="display:flex;flex-direction:column;gap:10px;margin-bottom:22px">
 
-        <!-- Règle 1 : 5 min -->
+        <!-- RÃ¨gle 1 : 5 min -->
         <div style="display:flex;align-items:flex-start;gap:14px;background:rgba(255,193,7,0.08);border:1px solid rgba(255,193,7,0.22);border-radius:10px;padding:14px 16px">
-          <div style="min-width:38px;height:38px;background:rgba(255,193,7,0.15);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1.1rem;flex-shrink:0">🕐</div>
+          <div style="min-width:38px;height:38px;background:rgba(255,193,7,0.15);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1.1rem;flex-shrink:0">ðŸ•</div>
           <div>
             <div style="font-weight:600;font-size:0.85rem;color:var(--ink);margin-bottom:3px">Retard de 5 minutes</div>
-            <div style="font-size:0.79rem;color:var(--muted);line-height:1.65">Des frais de retard de <strong style="color:#c0392b">7 €</strong> seront appliqués sur le soin du jour.</div>
+            <div style="font-size:0.79rem;color:var(--muted);line-height:1.65">Des frais de retard de <strong style="color:#c0392b">7 â‚¬</strong> seront appliquÃ©s sur le soin du jour.</div>
           </div>
         </div>
 
-        <!-- Règle 2 : 6–30 min proportionnel -->
+        <!-- RÃ¨gle 2 : 6â€“30 min proportionnel -->
         <div style="display:flex;align-items:flex-start;gap:14px;background:rgba(230,126,34,0.07);border:1px solid rgba(230,126,34,0.2);border-radius:10px;padding:14px 16px">
-          <div style="min-width:38px;height:38px;background:rgba(230,126,34,0.12);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1.1rem;flex-shrink:0">⏱️</div>
+          <div style="min-width:38px;height:38px;background:rgba(230,126,34,0.12);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1.1rem;flex-shrink:0">â±ï¸</div>
           <div>
-            <div style="font-weight:600;font-size:0.85rem;color:var(--ink);margin-bottom:3px">Retard de 11 à 30 minutes</div>
-            <div style="font-size:0.79rem;color:var(--muted);line-height:1.65">Les frais de retard sont calculés <strong style="color:#c0392b">proportionnellement</strong> au temps de retard (base 7 € pour 5 min).</div>
+            <div style="font-weight:600;font-size:0.85rem;color:var(--ink);margin-bottom:3px">Retard de 11 Ã  30 minutes</div>
+            <div style="font-size:0.79rem;color:var(--muted);line-height:1.65">Les frais de retard sont calculÃ©s <strong style="color:#c0392b">proportionnellement</strong> au temps de retard (base 7 â‚¬ pour 5 min).</div>
           </div>
         </div>
 
-        <!-- Règle 3 : +30 min annulation -->
+        <!-- RÃ¨gle 3 : +30 min annulation -->
         <div style="display:flex;align-items:flex-start;gap:14px;background:rgba(155,35,53,0.07);border:1px solid rgba(155,35,53,0.2);border-radius:10px;padding:14px 16px">
-          <div style="min-width:38px;height:38px;background:rgba(155,35,53,0.12);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1.1rem;flex-shrink:0">🚫</div>
+          <div style="min-width:38px;height:38px;background:rgba(155,35,53,0.12);border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1.1rem;flex-shrink:0">ðŸš«</div>
           <div>
             <div style="font-weight:600;font-size:0.85rem;color:var(--ink);margin-bottom:3px">Retard de plus de 30 minutes</div>
-            <div style="font-size:0.79rem;color:var(--muted);line-height:1.65">Le rendez-vous est <strong style="color:#c0392b">automatiquement annulé</strong>. L'acompte versé ne sera pas restitué. Si vous souhaitez quand même être reçue, des <strong style="color:#c0392b">frais de retard de 45 €</strong> seront exigés.</div>
+            <div style="font-size:0.79rem;color:var(--muted);line-height:1.65">Le rendez-vous est <strong style="color:#c0392b">automatiquement annulÃ©</strong>. L'acompte versÃ© ne sera pas restituÃ©. Si vous souhaitez quand mÃªme Ãªtre reÃ§ue, des <strong style="color:#c0392b">frais de retard de 45 â‚¬</strong> seront exigÃ©s.</div>
           </div>
         </div>
 
@@ -1042,21 +1042,21 @@ body.dark .service-card:hover{background:#211810}
 
       <!-- Annulation -->
       <div style="background:linear-gradient(135deg,var(--ink),var(--ink2));border-radius:12px;padding:18px 20px;margin-bottom:22px">
-        <div style="font-size:0.65rem;color:var(--gold);letter-spacing:3px;text-transform:uppercase;margin-bottom:10px;font-weight:500">📋 Besoin d'annuler votre RDV ?</div>
+        <div style="font-size:0.65rem;color:var(--gold);letter-spacing:3px;text-transform:uppercase;margin-bottom:10px;font-weight:500">ðŸ“‹ Besoin d'annuler votre RDV ?</div>
         <p style="font-size:0.82rem;color:rgba(255,255,255,0.55);line-height:1.75;margin-bottom:14px;font-weight:300">
           Pour toute annulation ou demande de renseignements, contactez-nous directement sur WhatsApp.
         </p>
         <button id="retard-wa-btn" onclick="retardContactWhatsApp()" style="background:#25d366;color:#fff;border:none;padding:12px 22px;border-radius:30px;font-size:0.73rem;font-weight:600;letter-spacing:1.5px;text-transform:uppercase;cursor:pointer;font-family:var(--ff-sans);width:100%;display:flex;align-items:center;justify-content:center;gap:10px;transition:0.25s">
-          <span style="background:rgba(0,0,0,0.15);width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:0.85rem">💬</span>
+          <span style="background:rgba(0,0,0,0.15);width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:0.85rem">ðŸ’¬</span>
           Nous contacter sur WhatsApp
         </button>
       </div>
 
       <!-- Bouton fermer -->
       <button onclick="fermerRetardModal()" style="width:100%;background:var(--ink);color:#fff;border:none;padding:16px;border-radius:10px;font-size:0.76rem;font-weight:600;letter-spacing:2px;text-transform:uppercase;cursor:pointer;font-family:var(--ff-sans);transition:0.25s" onmouseover="this.style.background='var(--terracotta)'" onmouseout="this.style.background='var(--ink)'">
-        J'ai compris — Fermer ✓
+        J'ai compris â€” Fermer âœ“
       </button>
-      <p style="text-align:center;font-size:0.68rem;color:var(--muted);margin-top:12px;font-weight:300;line-height:1.6">En confirmant votre réservation, vous acceptez cette politique de ponctualité.</p>
+      <p style="text-align:center;font-size:0.68rem;color:var(--muted);margin-top:12px;font-weight:300;line-height:1.6">En confirmant votre rÃ©servation, vous acceptez cette politique de ponctualitÃ©.</p>
     </div>
   </div>
 </div>
@@ -1075,98 +1075,98 @@ function retardContactWhatsApp() {
 </script>
 <div id="qr-info-modal" style="position:fixed;inset:0;background:rgba(13,9,8,0.78);backdrop-filter:blur(8px);z-index:3000;display:none;align-items:center;justify-content:center;padding:20px">
   <div style="background:var(--parchment);border-radius:20px;padding:44px;max-width:480px;width:100%;position:relative;text-align:center">
-    <button onclick="fermerModal('qr-info-modal')" style="position:absolute;top:16px;right:18px;background:none;border:none;font-size:1.2rem;cursor:pointer;color:var(--muted)">✕</button>
-    <div style="font-size:3.5rem;margin-bottom:20px">🎁</div>
-    <h2 style="font-family:var(--ff-serif);font-size:1.8rem;font-weight:400;color:var(--ink);margin-bottom:12px">Votre QR Code = Réductions</h2>
-    <p style="font-size:0.9rem;color:var(--muted);line-height:1.9;margin-bottom:28px;font-weight:300">Si vous possédez un <strong style="color:var(--ink)">poster DjSs Beauty House</strong> avec un QR code, vous avez droit à des réductions personnalisées sur vos soins !</p>
+    <button onclick="fermerModal('qr-info-modal')" style="position:absolute;top:16px;right:18px;background:none;border:none;font-size:1.2rem;cursor:pointer;color:var(--muted)">âœ•</button>
+    <div style="font-size:3.5rem;margin-bottom:20px">ðŸŽ</div>
+    <h2 style="font-family:var(--ff-serif);font-size:1.8rem;font-weight:400;color:var(--ink);margin-bottom:12px">Votre QR Code = RÃ©ductions</h2>
+    <p style="font-size:0.9rem;color:var(--muted);line-height:1.9;margin-bottom:28px;font-weight:300">Si vous possÃ©dez un <strong style="color:var(--ink)">poster DjSs Beauty House</strong> avec un QR code, vous avez droit Ã  des rÃ©ductions personnalisÃ©es sur vos soins !</p>
     <div style="background:linear-gradient(135deg,var(--ink),var(--ink2));border-radius:14px;padding:24px;margin-bottom:24px">
       <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px">
         <div style="text-align:center">
-          <div style="font-size:1.8rem;margin-bottom:8px">📋</div>
+          <div style="font-size:1.8rem;margin-bottom:8px">ðŸ“‹</div>
           <div style="font-size:0.72rem;color:rgba(255,255,255,0.5);letter-spacing:1px;font-weight:300">1. Gardez le poster</div>
         </div>
         <div style="text-align:center">
-          <div style="font-size:1.8rem;margin-bottom:8px">📲</div>
-          <div style="font-size:0.72rem;color:rgba(255,255,255,0.5);letter-spacing:1px;font-weight:300">2. Présentez-le au RDV</div>
+          <div style="font-size:1.8rem;margin-bottom:8px">ðŸ“²</div>
+          <div style="font-size:0.72rem;color:rgba(255,255,255,0.5);letter-spacing:1px;font-weight:300">2. PrÃ©sentez-le au RDV</div>
         </div>
         <div style="text-align:center">
-          <div style="font-size:1.8rem;margin-bottom:8px">💸</div>
-          <div style="font-size:0.72rem;color:rgba(255,255,255,0.5);letter-spacing:1px;font-weight:300">3. Profitez de la réduction</div>
+          <div style="font-size:1.8rem;margin-bottom:8px">ðŸ’¸</div>
+          <div style="font-size:0.72rem;color:rgba(255,255,255,0.5);letter-spacing:1px;font-weight:300">3. Profitez de la rÃ©duction</div>
         </div>
       </div>
     </div>
     <div style="background:rgba(193,123,92,0.08);border:1px solid rgba(193,123,92,0.2);border-radius:10px;padding:16px;margin-bottom:24px;text-align:left">
-      <div style="font-size:0.72rem;color:var(--terracotta);letter-spacing:2px;text-transform:uppercase;font-weight:600;margin-bottom:8px">ℹ️ Comment ça fonctionne</div>
-      <p style="font-size:0.82rem;color:var(--muted);line-height:1.8;font-weight:300">Notre gérant scannera votre QR code lors de votre rendez-vous. La réduction est définie par DjSs Beauty House et s'applique directement sur le prix de votre soin du jour.</p>
+      <div style="font-size:0.72rem;color:var(--terracotta);letter-spacing:2px;text-transform:uppercase;font-weight:600;margin-bottom:8px">â„¹ï¸ Comment Ã§a fonctionne</div>
+      <p style="font-size:0.82rem;color:var(--muted);line-height:1.8;font-weight:300">Notre gÃ©rant scannera votre QR code lors de votre rendez-vous. La rÃ©duction est dÃ©finie par DjSs Beauty House et s'applique directement sur le prix de votre soin du jour.</p>
     </div>
-    <button onclick="allerA('#sec-reservation');fermerModal('qr-info-modal')" style="background:var(--terracotta);color:#fff;border:none;padding:16px 40px;border-radius:40px;font-size:0.76rem;font-weight:600;letter-spacing:2px;text-transform:uppercase;cursor:pointer;font-family:var(--ff-sans);width:100%;transition:0.25s">Prendre rendez-vous →</button>
+    <button onclick="allerA('#sec-reservation');fermerModal('qr-info-modal')" style="background:var(--terracotta);color:#fff;border:none;padding:16px 40px;border-radius:40px;font-size:0.76rem;font-weight:600;letter-spacing:2px;text-transform:uppercase;cursor:pointer;font-family:var(--ff-sans);width:100%;transition:0.25s">Prendre rendez-vous â†’</button>
   </div>
 </div>
 
-<!-- ══ LOYALTY MODAL ══ -->
+<!-- â•â• LOYALTY MODAL â•â• -->
 <div id="loyalty-modal">
   <div class="loyalty-modal-box">
-    <button class="loyalty-modal-close" onclick="fermerModal('loyalty-modal')">✕</button>
-    <div class="loyalty-modal-title">Mon espace fidélité</div>
-    <div class="loyalty-modal-sub">Retrouvez vos points et récompenses</div>
+    <button class="loyalty-modal-close" onclick="fermerModal('loyalty-modal')">âœ•</button>
+    <div class="loyalty-modal-title">Mon espace fidÃ©litÃ©</div>
+    <div class="loyalty-modal-sub">Retrouvez vos points et rÃ©compenses</div>
     <div id="loyalty-modal-content">
       <div class="form-group">
-        <label class="form-label">Votre numéro de membre ou e-mail</label>
+        <label class="form-label">Votre numÃ©ro de membre ou e-mail</label>
         <input type="text" id="loyalty-search-input" class="form-input" placeholder="DJL-XXXXXXXX ou email@exemple.com">
       </div>
-      <button onclick="rechercherMembre()" class="btn-final" style="margin-top:8px">Accéder à mon espace →</button>
+      <button onclick="rechercherMembre()" class="btn-final" style="margin-top:8px">AccÃ©der Ã  mon espace â†’</button>
     </div>
     <div id="loyalty-member-view" style="display:none"></div>
   </div>
 </div>
 
-<!-- ══ LOYALTY REGISTER MODAL ══ -->
+<!-- â•â• LOYALTY REGISTER MODAL â•â• -->
 <div id="loyalty-register-modal">
   <div class="loyalty-modal-box">
-    <button class="loyalty-modal-close" onclick="fermerModal('loyalty-register-modal')">✕</button>
+    <button class="loyalty-modal-close" onclick="fermerModal('loyalty-register-modal')">âœ•</button>
     <div class="loyalty-modal-title">Rejoindre le programme</div>
-    <div class="loyalty-modal-sub">Créez votre carte fidélité DjSs</div>
-    <div class="form-group"><label class="form-label">Nom & Prénom</label><input type="text" id="reg-nom" class="form-input" placeholder="Sophie Martin"></div>
+    <div class="loyalty-modal-sub">CrÃ©ez votre carte fidÃ©litÃ© DjSs</div>
+    <div class="form-group"><label class="form-label">Nom & PrÃ©nom</label><input type="text" id="reg-nom" class="form-input" placeholder="Sophie Martin"></div>
     <div class="form-group"><label class="form-label">E-mail</label><input type="email" id="reg-email" class="form-input" placeholder="votre@email.com"></div>
-    <div class="form-group"><label class="form-label">Téléphone</label><input type="tel" id="reg-tel" class="form-input" placeholder="+590 6 90 00 00 00"></div>
-    <button onclick="inscrireFidelite()" class="btn-final" style="margin-top:8px">Créer ma carte fidélité →</button>
+    <div class="form-group"><label class="form-label">TÃ©lÃ©phone</label><input type="tel" id="reg-tel" class="form-input" placeholder="+590 6 90 00 00 00"></div>
+    <button onclick="inscrireFidelite()" class="btn-final" style="margin-top:8px">CrÃ©er ma carte fidÃ©litÃ© â†’</button>
   </div>
 </div>
 
-<!-- ══ ADMIN PANEL ══ -->
+<!-- â•â• ADMIN PANEL â•â• -->
 <div id="admin-panel">
   <div class="admin-header">
     <div>
       <h2 style="font-family:var(--ff-serif)">Tableau de Bord</h2>
-      <small style="color:var(--muted);font-size:0.7rem;letter-spacing:1px">ESPACE GÉRANT — DjSs Beauty House</small>
+      <small style="color:var(--muted);font-size:0.7rem;letter-spacing:1px">ESPACE GÃ‰RANT â€” DjSs Beauty House</small>
     </div>
-    <button onclick="fermerAdmin()" style="padding:10px 22px;background:var(--ink);color:white;border:none;border-radius:14px;cursor:pointer;font-weight:500;font-family:var(--ff-sans);font-size:0.82rem">← Retour</button>
+    <button onclick="fermerAdmin()" style="padding:10px 22px;background:var(--ink);color:white;border:none;border-radius:14px;cursor:pointer;font-weight:500;font-family:var(--ff-sans);font-size:0.82rem">â† Retour</button>
   </div>
   <div class="admin-tabs">
-    <button class="tab-btn active" onclick="switchTab('tab-rdv',this)">📋 RDV</button>
-    <button class="tab-btn" onclick="switchTab('tab-soins',this)">✨ Soins</button>
-    <button class="tab-btn" onclick="switchTab('tab-promo',this)">🏷️ Promos</button>
-    <button class="tab-btn" onclick="switchTab('tab-dispo',this)">📅 Dispo</button>
-    <button class="tab-btn" onclick="switchTab('tab-acompte',this)">💳 Acompte</button>
-    <button class="tab-btn" onclick="switchTab('tab-loyalty',this)">💎 Fidélité</button>
-    <button class="tab-btn" onclick="switchTab('tab-qr',this)" style="background:linear-gradient(135deg,#1a0e08,#2e1a0c);color:var(--gold);border-color:rgba(193,123,92,0.3)">📷 Scanner QR</button>
-    <button class="tab-btn" onclick="switchTab('tab-messages',this)">💬 Messages</button>
-    <button class="tab-btn" onclick="switchTab('tab-perso',this)">⚙️ Paramètres</button>
+    <button class="tab-btn active" onclick="switchTab('tab-rdv',this)">ðŸ“‹ RDV</button>
+    <button class="tab-btn" onclick="switchTab('tab-soins',this)">âœ¨ Soins</button>
+    <button class="tab-btn" onclick="switchTab('tab-promo',this)">ðŸ·ï¸ Promos</button>
+    <button class="tab-btn" onclick="switchTab('tab-dispo',this)">ðŸ“… Dispo</button>
+    <button class="tab-btn" onclick="switchTab('tab-acompte',this)">ðŸ’³ Acompte</button>
+    <button class="tab-btn" onclick="switchTab('tab-loyalty',this)">ðŸ’Ž FidÃ©litÃ©</button>
+    <button class="tab-btn" onclick="switchTab('tab-qr',this)" style="background:linear-gradient(135deg,#1a0e08,#2e1a0c);color:var(--gold);border-color:rgba(193,123,92,0.3)">ðŸ“· Scanner QR</button>
+    <button class="tab-btn" onclick="switchTab('tab-messages',this)">ðŸ’¬ Messages</button>
+    <button class="tab-btn" onclick="switchTab('tab-perso',this)">âš™ï¸ ParamÃ¨tres</button>
   </div>
 
   <!-- TAB RDV -->
   <div class="tab-panel active" id="tab-rdv">
     <div class="admin-card">
-      <h4>📊 Statistiques</h4>
+      <h4>ðŸ“Š Statistiques</h4>
       <div class="stats-row" id="stats-row"></div>
     </div>
     <div class="admin-card">
-      <h4>📋 Rendez-vous</h4>
+      <h4>ðŸ“‹ Rendez-vous</h4>
       <div style="display:flex;gap:8px;margin-bottom:16px;flex-wrap:wrap">
         <button onclick="filterRdv('tous',this)" style="padding:7px 16px;border-radius:20px;border:1.5px solid var(--border);background:var(--ink);color:white;font-family:var(--ff-sans);font-size:0.74rem;font-weight:500;cursor:pointer">Tous</button>
         <button onclick="filterRdv('en-attente',this)" style="padding:7px 16px;border-radius:20px;border:1.5px solid var(--border);background:white;font-family:var(--ff-sans);font-size:0.74rem;font-weight:500;cursor:pointer;color:var(--muted)">En attente</button>
-        <button onclick="filterRdv('accepte',this)" style="padding:7px 16px;border-radius:20px;border:1.5px solid var(--border);background:white;font-family:var(--ff-sans);font-size:0.74rem;font-weight:500;cursor:pointer;color:var(--muted)">Acceptés</button>
-        <button onclick="filterRdv('refuse',this)" style="padding:7px 16px;border-radius:20px;border:1.5px solid var(--border);background:white;font-family:var(--ff-sans);font-size:0.74rem;font-weight:500;cursor:pointer;color:var(--muted)">Refusés</button>
+        <button onclick="filterRdv('accepte',this)" style="padding:7px 16px;border-radius:20px;border:1.5px solid var(--border);background:white;font-family:var(--ff-sans);font-size:0.74rem;font-weight:500;cursor:pointer;color:var(--muted)">AcceptÃ©s</button>
+        <button onclick="filterRdv('refuse',this)" style="padding:7px 16px;border-radius:20px;border:1.5px solid var(--border);background:white;font-family:var(--ff-sans);font-size:0.74rem;font-weight:500;cursor:pointer;color:var(--muted)">RefusÃ©s</button>
       </div>
       <div id="rdv-list"></div>
     </div>
@@ -1174,14 +1174,14 @@ function retardContactWhatsApp() {
     <!-- HISTORIQUE QR dans le tab RDV -->
     <div class="admin-card" style="margin-top:4px">
       <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:16px;flex-wrap:wrap;gap:10px">
-        <h4 style="margin:0">🔥 Historique des réductions QR accordées</h4>
+        <h4 style="margin:0">ðŸ”¥ Historique des rÃ©ductions QR accordÃ©es</h4>
         <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
           <input id="rdv-qr-search" placeholder="Rechercher un nom..." style="padding:8px 12px;border:1px solid var(--border);border-radius:8px;font-family:var(--ff-sans);font-size:0.8rem;outline:none;background:var(--sand)" oninput="renderRdvQRHistory()">
-          <button onclick="exportQRHistorique()" style="background:var(--ink);color:var(--gold);border:1px solid rgba(201,169,110,0.3);padding:8px 16px;border-radius:8px;font-family:var(--ff-sans);font-size:0.75rem;cursor:pointer;font-weight:500">📥 Exporter</button>
+          <button onclick="exportQRHistorique()" style="background:var(--ink);color:var(--gold);border:1px solid rgba(201,169,110,0.3);padding:8px 16px;border-radius:8px;font-family:var(--ff-sans);font-size:0.75rem;cursor:pointer;font-weight:500">ðŸ“¥ Exporter</button>
         </div>
       </div>
       <p style="font-size:0.8rem;color:var(--muted);margin-bottom:16px;font-weight:300;background:rgba(193,123,92,0.07);padding:12px 16px;border-radius:8px;border-left:3px solid var(--terracotta)">
-        📌 Ce registre constitue la <strong>preuve officielle</strong> que chaque client a déjà bénéficié de sa réduction QR code. Le QR code est à usage unique.
+        ðŸ“Œ Ce registre constitue la <strong>preuve officielle</strong> que chaque client a dÃ©jÃ  bÃ©nÃ©ficiÃ© de sa rÃ©duction QR code. Le QR code est Ã  usage unique.
       </p>
       <div id="rdv-qr-history-list"></div>
     </div>
@@ -1190,17 +1190,17 @@ function retardContactWhatsApp() {
   <!-- TAB SOINS -->
   <div class="tab-panel" id="tab-soins">
     <div class="admin-card">
-      <h4>✨ Ajouter une prestation</h4>
+      <h4>âœ¨ Ajouter une prestation</h4>
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
-        <div><label class="form-label-adm">Nom du soin</label><input id="new-soin-name" class="adm-input" placeholder="Ex : Soin Éclat Doré"></div>
-        <div><label class="form-label-adm">Prix (€)</label><input type="number" id="new-soin-price" class="adm-input" placeholder="60" min="0"></div>
+        <div><label class="form-label-adm">Nom du soin</label><input id="new-soin-name" class="adm-input" placeholder="Ex : Soin Ã‰clat DorÃ©"></div>
+        <div><label class="form-label-adm">Prix (â‚¬)</label><input type="number" id="new-soin-price" class="adm-input" placeholder="60" min="0"></div>
       </div>
       <div><label class="form-label-adm">Description</label><textarea id="new-soin-desc" class="adm-input" rows="2"></textarea></div>
-      <div><label class="form-label-adm">Type</label><select id="new-soin-type" class="adm-input"><option value="std">Standard</option><option value="gold">Gold ⭐</option></select></div>
+      <div><label class="form-label-adm">Type</label><select id="new-soin-type" class="adm-input"><option value="std">Standard</option><option value="gold">Gold â­</option></select></div>
       <button onclick="ajouterSoin()" class="adm-btn">+ Ajouter le soin</button>
     </div>
     <div class="admin-card">
-      <h4>📋 Liste des prestations</h4>
+      <h4>ðŸ“‹ Liste des prestations</h4>
       <div id="adm-soins-list"></div>
     </div>
   </div>
@@ -1208,23 +1208,23 @@ function retardContactWhatsApp() {
   <!-- TAB PROMO -->
   <div class="tab-panel" id="tab-promo">
     <div class="admin-card">
-      <h4>🏷️ Bannière promotionnelle</h4>
+      <h4>ðŸ·ï¸ BanniÃ¨re promotionnelle</h4>
       <label class="form-label-adm">Texte</label>
-      <input id="adm-promo-text" class="adm-input" placeholder="✨ OFFRE FLASH — -20% AUJOURD'HUI !">
-      <label class="form-label-adm">Réduction (%)</label>
+      <input id="adm-promo-text" class="adm-input" placeholder="âœ¨ OFFRE FLASH â€” -20% AUJOURD'HUI !">
+      <label class="form-label-adm">RÃ©duction (%)</label>
       <input type="number" id="adm-promo-pct" class="adm-input" placeholder="20" min="0" max="100">
       <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:4px">
-        <button onclick="activerPromo()" class="adm-btn">✅ Activer</button>
-        <button onclick="desactiverPromo()" style="background:#c0392b;color:white;border:none;padding:13px 22px;border-radius:10px;font-family:var(--ff-sans);font-weight:600;font-size:0.8rem;cursor:pointer">❌ Désactiver</button>
+        <button onclick="activerPromo()" class="adm-btn">âœ… Activer</button>
+        <button onclick="desactiverPromo()" style="background:#c0392b;color:white;border:none;padding:13px 22px;border-radius:10px;font-family:var(--ff-sans);font-weight:600;font-size:0.8rem;cursor:pointer">âŒ DÃ©sactiver</button>
       </div>
       <div id="adm-promo-status" style="margin-top:14px;font-size:0.82rem;font-weight:500"></div>
     </div>
     <div class="admin-card">
-      <h4>🎟️ Codes promo personnalisés</h4>
+      <h4>ðŸŽŸï¸ Codes promo personnalisÃ©s</h4>
       <div style="display:grid;grid-template-columns:1fr 1fr 1fr auto;gap:8px;align-items:end;margin-bottom:14px">
         <div><label class="form-label-adm">Code</label><input id="new-code" class="adm-input" placeholder="BEAUTY20" style="text-transform:uppercase;margin-bottom:0"></div>
-        <div><label class="form-label-adm">Réduction (%)</label><input type="number" id="new-code-pct" class="adm-input" placeholder="20" min="1" max="100" style="margin-bottom:0"></div>
-        <div><label class="form-label-adm">Usages max</label><input type="number" id="new-code-max" class="adm-input" placeholder="∞" min="1" style="margin-bottom:0"></div>
+        <div><label class="form-label-adm">RÃ©duction (%)</label><input type="number" id="new-code-pct" class="adm-input" placeholder="20" min="1" max="100" style="margin-bottom:0"></div>
+        <div><label class="form-label-adm">Usages max</label><input type="number" id="new-code-max" class="adm-input" placeholder="âˆž" min="1" style="margin-bottom:0"></div>
         <button onclick="ajouterCode()" class="adm-btn" style="white-space:nowrap;margin-bottom:0">+ Ajouter</button>
       </div>
       <div id="adm-codes-list"></div>
@@ -1234,8 +1234,8 @@ function retardContactWhatsApp() {
   <!-- TAB DISPO -->
   <div class="tab-panel" id="tab-dispo">
     <div class="admin-card">
-      <h4>📅 Gestion des disponibilités — 14 jours</h4>
-      <p style="font-size:0.82rem;color:var(--muted);margin-bottom:16px;font-weight:300">Cliquez sur un créneau pour le marquer comme pris/libre.</p>
+      <h4>ðŸ“… Gestion des disponibilitÃ©s â€” 14 jours</h4>
+      <p style="font-size:0.82rem;color:var(--muted);margin-bottom:16px;font-weight:300">Cliquez sur un crÃ©neau pour le marquer comme pris/libre.</p>
       <div id="adm-dispo-list" style="display:flex;flex-direction:column;gap:12px"></div>
     </div>
   </div>
@@ -1243,8 +1243,8 @@ function retardContactWhatsApp() {
   <!-- TAB ACOMPTE -->
   <div class="tab-panel" id="tab-acompte">
     <div class="admin-card">
-      <h4>💳 Paramètres d'acompte</h4>
-      <p style="font-size:0.82rem;color:var(--muted);margin-bottom:18px;font-weight:300;line-height:1.7">C'est vous qui décidez du montant d'acompte. Il sera calculé automatiquement selon le prix du soin et affiché directement à la cliente — elle n'a pas le choix du montant. Mettez <strong>0%</strong> pour ne demander aucun acompte.</p>
+      <h4>ðŸ’³ ParamÃ¨tres d'acompte</h4>
+      <p style="font-size:0.82rem;color:var(--muted);margin-bottom:18px;font-weight:300;line-height:1.7">C'est vous qui dÃ©cidez du montant d'acompte. Il sera calculÃ© automatiquement selon le prix du soin et affichÃ© directement Ã  la cliente â€” elle n'a pas le choix du montant. Mettez <strong>0%</strong> pour ne demander aucun acompte.</p>
       <label class="form-label-adm">Pourcentage d'acompte (%)</label>
       <div style="display:flex;gap:10px;align-items:center;margin-bottom:4px;flex-wrap:wrap">
         <input type="number" id="adm-acompte-pct" class="adm-input" min="0" max="100" placeholder="30" style="max-width:120px;margin-bottom:0" oninput="updateAcomptePreview()">
@@ -1255,21 +1255,21 @@ function retardContactWhatsApp() {
           <button onclick="document.getElementById('adm-acompte-pct').value=100" style="background:var(--sand2);border:1px solid var(--border);border-radius:8px;padding:8px 14px;font-size:0.75rem;cursor:pointer;font-family:var(--ff-sans)">100%</button>
         </div>
       </div>
-      <div style="background:var(--sand);border-radius:8px;padding:12px 16px;margin-bottom:16px;font-size:0.82rem;color:var(--muted)" id="acompte-preview-line">Soin à 75 € → acompte de <strong id="acompte-preview-val" style="color:var(--terracotta)">22 €</strong> (30%)</div>
-      <label class="form-label-adm" style="margin-top:8px">Message affiché à la cliente</label>
-      <textarea id="adm-acompte-msg" class="adm-input" rows="2" placeholder="Un acompte est demandé pour confirmer votre rendez-vous."></textarea>
-      <button onclick="sauvegarderAcompte()" class="adm-btn">💾 Enregistrer</button>
+      <div style="background:var(--sand);border-radius:8px;padding:12px 16px;margin-bottom:16px;font-size:0.82rem;color:var(--muted)" id="acompte-preview-line">Soin Ã  75 â‚¬ â†’ acompte de <strong id="acompte-preview-val" style="color:var(--terracotta)">22 â‚¬</strong> (30%)</div>
+      <label class="form-label-adm" style="margin-top:8px">Message affichÃ© Ã  la cliente</label>
+      <textarea id="adm-acompte-msg" class="adm-input" rows="2" placeholder="Un acompte est demandÃ© pour confirmer votre rendez-vous."></textarea>
+      <button onclick="sauvegarderAcompte()" class="adm-btn">ðŸ’¾ Enregistrer</button>
     </div>
   </div>
 
-  <!-- TAB FIDÉLITÉ -->
+  <!-- TAB FIDÃ‰LITÃ‰ -->
   <div class="tab-panel" id="tab-loyalty">
     <div class="admin-card">
-      <h4>✅ Demandes de récompenses en attente</h4>
+      <h4>âœ… Demandes de rÃ©compenses en attente</h4>
       <div id="adm-reward-claims"></div>
     </div>
     <div class="admin-card">
-      <h4>👥 Membres du programme</h4>
+      <h4>ðŸ‘¥ Membres du programme</h4>
       <div style="display:flex;gap:8px;margin-bottom:14px">
         <input id="adm-loyalty-search" class="adm-input" placeholder="Rechercher un membre..." style="margin-bottom:0;flex:1" oninput="renderAdmMembers()">
         <button onclick="ajouterPoints()" class="adm-btn" style="white-space:nowrap">+ Points</button>
@@ -1277,7 +1277,7 @@ function retardContactWhatsApp() {
       <div id="adm-loyalty-members"></div>
     </div>
     <div class="admin-card">
-      <h4>🎁 Récompenses disponibles</h4>
+      <h4>ðŸŽ RÃ©compenses disponibles</h4>
       <div id="adm-loyalty-rewards"></div>
       <div style="display:grid;grid-template-columns:1fr 1fr 1fr auto;gap:8px;align-items:end;margin-top:16px">
         <div><label class="form-label-adm">Nom</label><input id="new-reward-name" class="adm-input" placeholder="Soin offert" style="margin-bottom:0"></div>
@@ -1287,152 +1287,152 @@ function retardContactWhatsApp() {
       </div>
     </div>
     <div class="admin-card">
-      <h4>⚙️ Paramètres fidélité</h4>
-      <label class="form-label-adm">Points par séance</label>
+      <h4>âš™ï¸ ParamÃ¨tres fidÃ©litÃ©</h4>
+      <label class="form-label-adm">Points par sÃ©ance</label>
       <input type="number" id="adm-pts-seance" class="adm-input" placeholder="50">
       <label class="form-label-adm">Seuil Silver (points)</label>
       <input type="number" id="adm-seuil-silver" class="adm-input" placeholder="200">
       <label class="form-label-adm">Seuil Gold (points)</label>
       <input type="number" id="adm-seuil-gold" class="adm-input" placeholder="500">
-      <button onclick="sauvegarderLoyaltySettings()" class="adm-btn">💾 Enregistrer</button>
+      <button onclick="sauvegarderLoyaltySettings()" class="adm-btn">ðŸ’¾ Enregistrer</button>
     </div>
   </div>
 
   <!-- TAB QR SCANNER -->
   <div class="tab-panel" id="tab-qr">
     <div class="qr-scanner-wrap">
-      <div class="qr-scanner-title" style="position:relative;z-index:1">📷 Scanner QR Code Client</div>
-      <div class="qr-scanner-sub">Scannez ou saisissez l'ID — la réduction s'applique automatiquement selon le niveau fidélité. Usage unique par client.</div>
+      <div class="qr-scanner-title" style="position:relative;z-index:1">ðŸ“· Scanner QR Code Client</div>
+      <div class="qr-scanner-sub">Scannez ou saisissez l'ID â€” la rÃ©duction s'applique automatiquement selon le niveau fidÃ©litÃ©. Usage unique par client.</div>
 
       <!-- SAISIE MANUELLE -->
       <div style="position:relative;z-index:1;margin-bottom:20px">
         <div style="background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.15);border-radius:14px;padding:22px">
-          <div style="font-size:0.65rem;color:var(--gold);letter-spacing:3px;text-transform:uppercase;margin-bottom:14px;font-weight:500">👤 Identifier par prénom & nom</div>
+          <div style="font-size:0.65rem;color:var(--gold);letter-spacing:3px;text-transform:uppercase;margin-bottom:14px;font-weight:500">ðŸ‘¤ Identifier par prÃ©nom & nom</div>
           <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px">
-            <input type="text" id="manual-qr-prenom" placeholder="Prénom" style="background:rgba(255,255,255,0.08);border:1.5px solid rgba(255,255,255,0.2);color:#fff;padding:14px 18px;border-radius:10px;font-family:var(--ff-sans);font-size:0.95rem;width:100%;outline:none" onkeydown="if(event.key==='Enter')traiterQRManuel()">
+            <input type="text" id="manual-qr-prenom" placeholder="PrÃ©nom" style="background:rgba(255,255,255,0.08);border:1.5px solid rgba(255,255,255,0.2);color:#fff;padding:14px 18px;border-radius:10px;font-family:var(--ff-sans);font-size:0.95rem;width:100%;outline:none" onkeydown="if(event.key==='Enter')traiterQRManuel()">
             <input type="text" id="manual-qr-nom" placeholder="Nom" style="background:rgba(255,255,255,0.08);border:1.5px solid rgba(255,255,255,0.2);color:#fff;padding:14px 18px;border-radius:10px;font-family:var(--ff-sans);font-size:0.95rem;width:100%;outline:none" onkeydown="if(event.key==='Enter')traiterQRManuel()">
           </div>
-          <button onclick="traiterQRManuel()" style="background:var(--terracotta);color:#fff;border:none;padding:14px;border-radius:10px;font-family:var(--ff-sans);font-size:0.78rem;font-weight:600;cursor:pointer;width:100%;letter-spacing:2px;text-transform:uppercase;transition:0.25s">🔍 Identifier le client</button>
+          <button onclick="traiterQRManuel()" style="background:var(--terracotta);color:#fff;border:none;padding:14px;border-radius:10px;font-family:var(--ff-sans);font-size:0.78rem;font-weight:600;cursor:pointer;width:100%;letter-spacing:2px;text-transform:uppercase;transition:0.25s">ðŸ” Identifier le client</button>
         </div>
       </div>
 
-      <!-- CAMÉRA -->
+      <!-- CAMÃ‰RA -->
       <div id="qr-video-wrap">
         <video id="qr-video" playsinline autoplay muted></video>
         <div id="qr-scan-line"></div>
         <canvas id="qr-canvas"></canvas>
       </div>
       <div class="scan-btn-group" style="margin-bottom:20px" id="camera-btn-group">
-        <button class="scan-start-btn" id="scan-start-btn" onclick="demarrerScanner()">📷 Utiliser la caméra</button>
-        <button class="scan-start-btn" id="scan-stop-btn" onclick="arreterScanner()" style="display:none;background:rgba(220,53,69,0.8)">⏹ Arrêter</button>
+        <button class="scan-start-btn" id="scan-start-btn" onclick="demarrerScanner()">ðŸ“· Utiliser la camÃ©ra</button>
+        <button class="scan-start-btn" id="scan-stop-btn" onclick="arreterScanner()" style="display:none;background:rgba(220,53,69,0.8)">â¹ ArrÃªter</button>
       </div>
       <div id="camera-unavailable-msg" style="display:none;position:relative;z-index:1;margin-bottom:16px">
         <div style="background:rgba(255,165,0,0.1);border:1px solid rgba(255,165,0,0.25);border-radius:10px;padding:14px 18px;font-size:0.8rem;color:rgba(255,255,255,0.5);text-align:center">
-          ⚠️ Caméra non disponible. Utilisez la saisie manuelle ou hébergez le site en HTTPS.
+          âš ï¸ CamÃ©ra non disponible. Utilisez la saisie manuelle ou hÃ©bergez le site en HTTPS.
         </div>
       </div>
 
-      <!-- RÉSULTAT DU SCAN -->
+      <!-- RÃ‰SULTAT DU SCAN -->
       <div class="qr-result-box" id="qr-result-box" style="display:none">
-        <!-- Client bloqué (QR déjà utilisé) -->
+        <!-- Client bloquÃ© (QR dÃ©jÃ  utilisÃ©) -->
         <div id="qr-blocked-msg" style="display:none;text-align:center;padding:10px 0">
-          <div style="font-size:2.5rem;margin-bottom:10px">🚫</div>
-          <div style="font-family:var(--ff-serif);font-size:1.2rem;color:#fff;margin-bottom:8px" id="qr-blocked-name">—</div>
+          <div style="font-size:2.5rem;margin-bottom:10px">ðŸš«</div>
+          <div style="font-family:var(--ff-serif);font-size:1.2rem;color:#fff;margin-bottom:8px" id="qr-blocked-name">â€”</div>
           <div style="background:rgba(220,53,69,0.15);border:1px solid rgba(220,53,69,0.3);border-radius:10px;padding:14px;margin-bottom:14px">
-            <div style="color:#ff6b6b;font-weight:600;font-size:0.85rem;margin-bottom:4px">❌ QR Code déjà utilisé</div>
-            <div style="font-size:0.78rem;color:rgba(255,255,255,0.45)" id="qr-blocked-date">—</div>
+            <div style="color:#ff6b6b;font-weight:600;font-size:0.85rem;margin-bottom:4px">âŒ QR Code dÃ©jÃ  utilisÃ©</div>
+            <div style="font-size:0.78rem;color:rgba(255,255,255,0.45)" id="qr-blocked-date">â€”</div>
           </div>
-          <button onclick="resetQRClient()" style="background:rgba(255,255,255,0.08);color:rgba(255,255,255,0.6);border:1px solid rgba(255,255,255,0.15);padding:10px 24px;border-radius:20px;font-family:var(--ff-sans);font-size:0.75rem;cursor:pointer">← Scanner un autre client</button>
+          <button onclick="resetQRClient()" style="background:rgba(255,255,255,0.08);color:rgba(255,255,255,0.6);border:1px solid rgba(255,255,255,0.15);padding:10px 24px;border-radius:20px;font-family:var(--ff-sans);font-size:0.75rem;cursor:pointer">â† Scanner un autre client</button>
         </div>
 
         <!-- Client valide -->
         <div id="qr-valid-content" style="display:none">
-          <span class="qr-result-label">Client identifié ✅</span>
-          <div class="qr-result-value" id="qr-result-value">—</div>
+          <span class="qr-result-label">Client identifiÃ© âœ…</span>
+          <div class="qr-result-value" id="qr-result-value">â€”</div>
 
           <!-- Infos client -->
           <div id="qr-client-info" style="display:none;margin-bottom:18px">
             <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-bottom:14px">
               <div style="background:rgba(255,255,255,0.06);padding:12px;border-radius:8px;text-align:center">
                 <div style="font-size:0.6rem;color:rgba(255,255,255,0.4);letter-spacing:2px;margin-bottom:5px;text-transform:uppercase">Points</div>
-                <div id="qr-client-pts" style="font-family:var(--ff-serif);font-size:1.4rem;color:var(--gold)">—</div>
+                <div id="qr-client-pts" style="font-family:var(--ff-serif);font-size:1.4rem;color:var(--gold)">â€”</div>
               </div>
               <div style="background:rgba(255,255,255,0.06);padding:12px;border-radius:8px;text-align:center">
                 <div style="font-size:0.6rem;color:rgba(255,255,255,0.4);letter-spacing:2px;margin-bottom:5px;text-transform:uppercase">Niveau</div>
-                <div id="qr-client-tier" style="font-size:0.95rem;font-weight:600;color:var(--champagne)">—</div>
+                <div id="qr-client-tier" style="font-size:0.95rem;font-weight:600;color:var(--champagne)">â€”</div>
               </div>
               <div style="background:rgba(255,255,255,0.06);padding:12px;border-radius:8px;text-align:center">
-                <div style="font-size:0.6rem;color:rgba(255,255,255,0.4);letter-spacing:2px;margin-bottom:5px;text-transform:uppercase">Séances</div>
-                <div id="qr-client-sessions" style="font-family:var(--ff-serif);font-size:1.4rem;color:#fff">—</div>
+                <div style="font-size:0.6rem;color:rgba(255,255,255,0.4);letter-spacing:2px;margin-bottom:5px;text-transform:uppercase">SÃ©ances</div>
+                <div id="qr-client-sessions" style="font-family:var(--ff-serif);font-size:1.4rem;color:#fff">â€”</div>
               </div>
             </div>
           </div>
 
-          <!-- Saisie prix du soin + calcul réduction -->
+          <!-- Saisie prix du soin + calcul rÃ©duction -->
           <div style="background:rgba(255,255,255,0.05);border:1px solid rgba(255,255,255,0.1);border-radius:12px;padding:18px;margin-bottom:16px">
-            <div style="font-size:0.65rem;color:var(--gold);letter-spacing:3px;text-transform:uppercase;margin-bottom:14px;font-weight:500">💰 Prix du soin aujourd'hui</div>
+            <div style="font-size:0.65rem;color:var(--gold);letter-spacing:3px;text-transform:uppercase;margin-bottom:14px;font-weight:500">ðŸ’° Prix du soin aujourd'hui</div>
             <div style="display:flex;gap:10px;align-items:center;margin-bottom:14px">
               <input type="number" id="qr-soin-price" placeholder="Ex: 75" min="0" style="background:rgba(255,255,255,0.08);border:1.5px solid rgba(255,255,255,0.2);color:#fff;padding:12px 16px;border-radius:8px;font-family:var(--ff-sans);font-size:1.1rem;width:130px;outline:none;font-weight:600" oninput="recalcQR()">
-              <span style="color:rgba(255,255,255,0.5);font-size:0.85rem">€</span>
+              <span style="color:rgba(255,255,255,0.5);font-size:0.85rem">â‚¬</span>
               <span style="color:rgba(255,255,255,0.3);font-size:0.78rem">ou choisir :</span>
               <select id="qr-soin-select" style="background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.15);color:#fff;padding:10px 12px;border-radius:8px;font-family:var(--ff-sans);font-size:0.85rem;flex:1;outline:none" onchange="qrSoinSelectChange()">
-                <option value="">— Soin du site —</option>
+                <option value="">â€” Soin du site â€”</option>
               </select>
             </div>
 
-            <!-- Réduction -->
-            <div style="font-size:0.65rem;color:var(--gold);letter-spacing:3px;text-transform:uppercase;margin-bottom:10px;font-weight:500">🎁 Réduction QR code</div>
+            <!-- RÃ©duction -->
+            <div style="font-size:0.65rem;color:var(--gold);letter-spacing:3px;text-transform:uppercase;margin-bottom:10px;font-weight:500">ðŸŽ RÃ©duction QR code</div>
             <div style="display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px" id="qr-pct-btns">
               <!-- rempli par JS selon le tier -->
             </div>
             <div style="display:flex;gap:10px;align-items:center">
-              <span style="font-size:0.78rem;color:rgba(255,255,255,0.4)">Ou personnalisé :</span>
+              <span style="font-size:0.78rem;color:rgba(255,255,255,0.4)">Ou personnalisÃ© :</span>
               <input type="number" id="qr-custom-pct" placeholder="%" min="1" max="100" style="background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.12);color:#fff;padding:9px 12px;border-radius:8px;font-family:var(--ff-sans);font-size:0.9rem;width:80px;outline:none" oninput="recalcQR()">
               <span style="font-size:0.78rem;color:rgba(255,255,255,0.4)">%</span>
             </div>
           </div>
 
-          <!-- Récap prix final -->
+          <!-- RÃ©cap prix final -->
           <div id="qr-price-recap" style="display:none;background:linear-gradient(135deg,rgba(193,123,92,0.15),rgba(201,169,110,0.08));border:1px solid rgba(193,123,92,0.3);border-radius:12px;padding:18px;margin-bottom:16px;text-align:center">
-            <div style="font-size:0.65rem;color:rgba(255,255,255,0.4);letter-spacing:2px;text-transform:uppercase;margin-bottom:8px">Récapitulatif</div>
+            <div style="font-size:0.65rem;color:rgba(255,255,255,0.4);letter-spacing:2px;text-transform:uppercase;margin-bottom:8px">RÃ©capitulatif</div>
             <div style="display:flex;justify-content:space-around;align-items:center">
               <div>
                 <div style="font-size:0.7rem;color:rgba(255,255,255,0.35);margin-bottom:4px">Prix normal</div>
-                <div id="qr-price-original" style="font-family:var(--ff-serif);font-size:1.3rem;color:rgba(255,255,255,0.4);text-decoration:line-through">—</div>
+                <div id="qr-price-original" style="font-family:var(--ff-serif);font-size:1.3rem;color:rgba(255,255,255,0.4);text-decoration:line-through">â€”</div>
               </div>
-              <div style="font-size:1.8rem;color:var(--gold)">→</div>
+              <div style="font-size:1.8rem;color:var(--gold)">â†’</div>
               <div>
                 <div style="font-size:0.7rem;color:rgba(255,255,255,0.35);margin-bottom:4px">Prix client</div>
-                <div id="qr-price-final" style="font-family:var(--ff-serif);font-size:2rem;color:var(--gold);font-weight:400">—</div>
+                <div id="qr-price-final" style="font-family:var(--ff-serif);font-size:2rem;color:var(--gold);font-weight:400">â€”</div>
               </div>
               <div>
-                <div style="font-size:0.7rem;color:rgba(255,255,255,0.35);margin-bottom:4px">Économie</div>
-                <div id="qr-price-saving" style="font-family:var(--ff-serif);font-size:1.3rem;color:#4caf50">—</div>
+                <div style="font-size:0.7rem;color:rgba(255,255,255,0.35);margin-bottom:4px">Ã‰conomie</div>
+                <div id="qr-price-saving" style="font-family:var(--ff-serif);font-size:1.3rem;color:#4caf50">â€”</div>
               </div>
             </div>
           </div>
 
           <!-- Note optionnelle -->
           <div style="margin-bottom:14px">
-            <input type="text" id="qr-discount-note" placeholder="Note (optionnel) — ex: Fidèle cliente..." style="background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.12);color:#fff;padding:10px 14px;border-radius:8px;font-family:var(--ff-sans);font-size:0.87rem;width:100%;outline:none">
+            <input type="text" id="qr-discount-note" placeholder="Note (optionnel) â€” ex: FidÃ¨le cliente..." style="background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.12);color:#fff;padding:10px 14px;border-radius:8px;font-family:var(--ff-sans);font-size:0.87rem;width:100%;outline:none">
           </div>
-          <button class="qr-apply-btn" id="qr-apply-btn" onclick="appliquerReductionQR()">✅ Valider la réduction — QR brûlé</button>
-          <button onclick="resetQRClient()" style="margin-top:10px;background:transparent;color:rgba(255,255,255,0.35);border:none;font-family:var(--ff-sans);font-size:0.75rem;cursor:pointer;width:100%;text-decoration:underline">← Annuler / Scanner autre client</button>
+          <button class="qr-apply-btn" id="qr-apply-btn" onclick="appliquerReductionQR()">âœ… Valider la rÃ©duction â€” QR brÃ»lÃ©</button>
+          <button onclick="resetQRClient()" style="margin-top:10px;background:transparent;color:rgba(255,255,255,0.35);border:none;font-family:var(--ff-sans);font-size:0.75rem;cursor:pointer;width:100%;text-decoration:underline">â† Annuler / Scanner autre client</button>
         </div>
       </div>
 
-      <!-- HISTORIQUE SCANS RÉCENTS -->
+      <!-- HISTORIQUE SCANS RÃ‰CENTS -->
       <div class="qr-history" id="qr-history">
-        <h5>Historique des scans récents</h5>
+        <h5>Historique des scans rÃ©cents</h5>
         <div id="qr-history-list">
-          <div style="font-size:0.78rem;color:rgba(255,255,255,0.25);text-align:center;padding:12px">Aucun scan récent</div>
+          <div style="font-size:0.78rem;color:rgba(255,255,255,0.25);text-align:center;padding:12px">Aucun scan rÃ©cent</div>
         </div>
       </div>
     </div>
 
-    <!-- LISTE COMPLÈTE DES RÉDUCTIONS APPLIQUÉES -->
+    <!-- LISTE COMPLÃˆTE DES RÃ‰DUCTIONS APPLIQUÃ‰ES -->
     <div class="admin-card" style="margin-top:18px">
-      <h4>📋 Réductions QR appliquées</h4>
+      <h4>ðŸ“‹ RÃ©ductions QR appliquÃ©es</h4>
       <p style="font-size:0.82rem;color:var(--muted);margin-bottom:16px;font-weight:300">Chaque client ne peut utiliser son QR code qu'une seule fois.</p>
       <div id="qr-applied-list"></div>
     </div>
@@ -1442,30 +1442,30 @@ function retardContactWhatsApp() {
   <div class="tab-panel" id="tab-messages">
     <div style="display:grid;grid-template-columns:260px 1fr;gap:18px;height:500px">
       <div class="admin-card" style="overflow-y:auto;margin-bottom:0">
-        <h4>💬 Conversations</h4>
+        <h4>ðŸ’¬ Conversations</h4>
         <div id="adm-conv-list"></div>
       </div>
       <div class="admin-card" style="display:flex;flex-direction:column;margin-bottom:0">
         <div id="adm-conv-detail" style="display:none;flex:1;overflow-y:auto">
           <div id="adm-conv-msgs" style="display:flex;flex-direction:column;gap:10px;padding-bottom:16px"></div>
         </div>
-        <div id="adm-no-conv" style="display:flex;align-items:center;justify-content:center;flex:1;color:var(--muted);font-size:0.87rem">Sélectionnez une conversation</div>
+        <div id="adm-no-conv" style="display:flex;align-items:center;justify-content:center;flex:1;color:var(--muted);font-size:0.87rem">SÃ©lectionnez une conversation</div>
         <div id="adm-msg-input-row" style="display:none;gap:8px;padding-top:12px;border-top:1px solid var(--border);display:none">
-          <input type="text" id="adm-msg-input" class="adm-input" placeholder="Votre réponse..." style="flex:1;margin-bottom:0">
+          <input type="text" id="adm-msg-input" class="adm-input" placeholder="Votre rÃ©ponse..." style="flex:1;margin-bottom:0">
           <button onclick="envoyerMsgAdmin()" class="adm-btn" style="margin-top:0">Envoyer</button>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- TAB PARAMÈTRES -->
+  <!-- TAB PARAMÃˆTRES -->
   <div class="tab-panel" id="tab-perso">
     <div class="admin-card">
-      <h4>⚙️ Informations du salon</h4>
+      <h4>âš™ï¸ Informations du salon</h4>
       <div class="perso-section">
-        <h5>Contact & Réseaux</h5>
+        <h5>Contact & RÃ©seaux</h5>
         <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
-          <div><label class="form-label-adm">Numéro WhatsApp</label><input id="p-wa" class="adm-input" placeholder="+590 6 90 00 00 00"></div>
+          <div><label class="form-label-adm">NumÃ©ro WhatsApp</label><input id="p-wa" class="adm-input" placeholder="+590 6 90 00 00 00"></div>
           <div><label class="form-label-adm">E-mail</label><input id="p-email" class="adm-input" placeholder="contact@djss.fr"></div>
         </div>
         <div><label class="form-label-adm">Adresse</label><input id="p-adresse" class="adm-input" placeholder="Guadeloupe, France"></div>
@@ -1476,8 +1476,8 @@ function retardContactWhatsApp() {
         </div>
       </div>
       <div class="perso-section">
-        <h5>Sécurité</h5>
-        <div><label class="form-label-adm">Mot de passe admin actuel</label><input type="password" id="p-old-code" class="adm-input" placeholder="••••••••"></div>
+        <h5>SÃ©curitÃ©</h5>
+        <div><label class="form-label-adm">Mot de passe admin actuel</label><input type="password" id="p-old-code" class="adm-input" placeholder="â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢"></div>
         <div><label class="form-label-adm">Nouveau mot de passe</label><input type="password" id="p-new-code" class="adm-input" placeholder="Nouveau mot de passe"></div>
       </div>
       <div class="perso-section">
@@ -1487,62 +1487,62 @@ function retardContactWhatsApp() {
           <input type="checkbox" id="p-dark-btn" onchange="toggleDarkModeBtn(this.checked)">
         </div>
       </div>
-      <button onclick="sauvegarderPerso()" class="adm-btn">💾 Sauvegarder</button>
+      <button onclick="sauvegarderPerso()" class="adm-btn">ðŸ’¾ Sauvegarder</button>
     </div>
   </div>
 </div>
 
-<!-- ══ DIRECT MSG PANEL ══ -->
+<!-- â•â• DIRECT MSG PANEL â•â• -->
 <div id="direct-msg-panel">
   <div class="dm-header" onclick="toggleDMPanel()">
-    <h5>💬 Message à Djamila</h5>
-    <span style="font-size:0.8rem;opacity:0.5" id="dm-toggle-icon">▼</span>
+    <h5>ðŸ’¬ Message Ã  Djamila</h5>
+    <span style="font-size:0.8rem;opacity:0.5" id="dm-toggle-icon">â–¼</span>
   </div>
   <div id="dm-body" style="display:flex;flex-direction:column;flex:1;overflow:hidden">
     <div id="dm-login" class="dm-login-wrap">
       <p style="font-size:0.82rem;color:var(--muted);margin-bottom:14px;font-weight:300">Identifiez-vous pour envoyer un message</p>
-      <input type="text" id="dm-client-name" class="form-input" placeholder="Votre prénom" style="margin-bottom:10px">
+      <input type="text" id="dm-client-name" class="form-input" placeholder="Votre prÃ©nom" style="margin-bottom:10px">
       <input type="email" id="dm-client-email" class="form-input" placeholder="Votre e-mail" style="margin-bottom:10px">
-      <button onclick="connecterClientDM()" class="btn-final" style="padding:12px">Démarrer la conversation</button>
+      <button onclick="connecterClientDM()" class="btn-final" style="padding:12px">DÃ©marrer la conversation</button>
     </div>
     <div class="dm-msgs" id="dm-msgs" style="display:none"></div>
     <div class="dm-input-row" id="dm-input-row" style="display:none">
       <input type="text" id="dm-msg-text" class="dm-input" placeholder="Votre message..." onkeydown="if(event.key==='Enter')envoyerMsgClient()">
-      <button class="dm-send" onclick="envoyerMsgClient()">➤</button>
+      <button class="dm-send" onclick="envoyerMsgClient()">âž¤</button>
     </div>
   </div>
 </div>
 
-<!-- ══ ADMIN LOGIN MODAL ══ -->
+<!-- â•â• ADMIN LOGIN MODAL â•â• -->
 <div id="admin-login-modal" style="position:fixed;inset:0;background:rgba(13,9,8,0.85);backdrop-filter:blur(8px);z-index:5000;display:none;align-items:center;justify-content:center;padding:20px" onclick="if(event.target===this)fermerModal('admin-login-modal')">
   <div style="background:var(--parchment);border-radius:20px;padding:44px 32px;max-width:400px;width:100%;text-align:center;position:relative" onclick="event.stopPropagation()">
-    <div style="font-size:2.5rem;margin-bottom:16px">🔐</div>
-    <h2 style="font-family:var(--ff-serif);font-size:1.6rem;font-weight:400;color:var(--ink);margin-bottom:8px">Espace Gérant</h2>
-    <p style="font-size:0.82rem;color:var(--muted);margin-bottom:28px;font-weight:300">Entrez votre mot de passe pour accéder au tableau de bord</p>
+    <div style="font-size:2.5rem;margin-bottom:16px">ðŸ”</div>
+    <h2 style="font-family:var(--ff-serif);font-size:1.6rem;font-weight:400;color:var(--ink);margin-bottom:8px">Espace GÃ©rant</h2>
+    <p style="font-size:0.82rem;color:var(--muted);margin-bottom:28px;font-weight:300">Entrez votre mot de passe pour accÃ©der au tableau de bord</p>
     <input type="password" id="admin-password-input" class="form-input" placeholder="Mot de passe..." style="margin-bottom:14px;font-size:1rem" onkeydown="if(event.key==='Enter')validerAdmin()">
-    <button onclick="validerAdmin()" class="btn-final" style="font-size:0.85rem;padding:16px">Accéder →</button>
-    <div id="admin-login-error" style="color:#c0392b;font-size:0.82rem;margin-top:12px;display:none">❌ Mot de passe incorrect</div>
+    <button onclick="validerAdmin()" class="btn-final" style="font-size:0.85rem;padding:16px">AccÃ©der â†’</button>
+    <div id="admin-login-error" style="color:#c0392b;font-size:0.82rem;margin-top:12px;display:none">âŒ Mot de passe incorrect</div>
     <button onclick="fermerModal('admin-login-modal')" style="margin-top:16px;background:none;border:none;color:var(--muted);cursor:pointer;font-size:0.82rem;display:block;width:100%">Annuler</button>
   </div>
 </div>
 
 <script>
-/* ═══════════════════════════════════════════════
-   🔧 CONFIGURATION SUPABASE
-   ➜ Remplacez les 3 valeurs ci-dessous par vos vraies clés
-═══════════════════════════════════════════════ */
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   ðŸ”§ CONFIGURATION SUPABASE
+   âžœ Remplacez les 3 valeurs ci-dessous par vos vraies clÃ©s
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 const SUPABASE_URL  = "COLLEZ-VOTRE-URL-SUPABASE-ICI";        // ex: https://xyzxyz.supabase.co
 const SUPABASE_KEY  = "sb_publishable_beW7KtXNlDHqPRP_Q0xECg_RqPBbl6u
 ";       // commence par sb_publishable_...
 const RESEND_KEY    = "reCbL32iBi_9ajbJTKN3e6dtt9T322hURZg
 ";          // commence par re_...
-const EMAIL_ADMIN   = "VOTRE-EMAIL-ADMIN@exemple.com";         // email où vous recevez les alertes
+const EMAIL_ADMIN   = "VOTRE-EMAIL-ADMIN@exemple.com";         // email oÃ¹ vous recevez les alertes
 
-/* ═══════════════════════════════════════════════
-   BASE DE DONNÉES (Supabase — remplace localStorage)
-═══════════════════════════════════════════════ */
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   BASE DE DONNÃ‰ES (Supabase â€” remplace localStorage)
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 
-// Client Supabase léger (sans librairie externe)
+// Client Supabase lÃ©ger (sans librairie externe)
 const SB = {
   async req(method, table, body=null, query='') {
     const url = `${SUPABASE_URL}/rest/v1/${table}${query}`;
@@ -1578,7 +1578,7 @@ const SB = {
   }
 };
 
-// localStorage comme cache rapide (les données restent disponibles hors-ligne)
+// localStorage comme cache rapide (les donnÃ©es restent disponibles hors-ligne)
 const CACHE = {
   get(k, def) { try { return JSON.parse(localStorage.getItem(k)) ?? def; } catch { return def; } },
   set(k, v)   { try { localStorage.setItem(k, JSON.stringify(v)); } catch(e) {} }
@@ -1592,28 +1592,28 @@ const KEYS = {
   qrApplied:'djss_qr_applied_v4'
 };
 
-// Compatibilité : DB.get/set utilisent le cache local comme avant
+// CompatibilitÃ© : DB.get/set utilisent le cache local comme avant
 const DB = {
   get(k, def) { return CACHE.get(k, def); },
   set(k, v)   { CACHE.set(k, v); }
 };
 
 const DEFAULT_SOINS = [
-  {id:1, icon:'💆', name:'Soin Éclat Doré', desc:'Nettoyage en profondeur, peeling enzymatique et masque hydratant', price:75, type:'gold'},
-  {id:2, icon:'✨', name:'Peeling Douceur', desc:'Exfoliation douce révélatrice d\'éclat', price:55, type:'std'},
-  {id:3, icon:'💅', name:'Pose Gel / Semi-permanent', desc:'Manucure complète avec pose gel longue durée', price:45, type:'std'},
-  {id:4, icon:'🌸', name:'Soin Hydratant Intense', desc:'Réhydratation profonde pour peaux sèches', price:60, type:'std'},
-  {id:5, icon:'💫', name:'Pack Gold Royal', desc:'Soin signature complet : visage + corps + manucure', price:130, type:'gold'},
-  {id:6, icon:'🧖', name:'Massage Relaxant', desc:'Massage corps complet aux huiles essentielles', price:80, type:'std'},
+  {id:1, icon:'ðŸ’†', name:'Soin Ã‰clat DorÃ©', desc:'Nettoyage en profondeur, peeling enzymatique et masque hydratant', price:75, type:'gold'},
+  {id:2, icon:'âœ¨', name:'Peeling Douceur', desc:'Exfoliation douce rÃ©vÃ©latrice d\'Ã©clat', price:55, type:'std'},
+  {id:3, icon:'ðŸ’…', name:'Pose Gel / Semi-permanent', desc:'Manucure complÃ¨te avec pose gel longue durÃ©e', price:45, type:'std'},
+  {id:4, icon:'ðŸŒ¸', name:'Soin Hydratant Intense', desc:'RÃ©hydratation profonde pour peaux sÃ¨ches', price:60, type:'std'},
+  {id:5, icon:'ðŸ’«', name:'Pack Gold Royal', desc:'Soin signature complet : visage + corps + manucure', price:130, type:'gold'},
+  {id:6, icon:'ðŸ§–', name:'Massage Relaxant', desc:'Massage corps complet aux huiles essentielles', price:80, type:'std'},
 ];
 const DEFAULT_CONFIG = { adminCode:'djss2025', wa:'+590 690 07 28 71', adresse:'Guadeloupe, France', email:'', instagram:'', facebook:'', tiktok:'', nom:'DjSs Beauty House', paypalLink:'https://pay.sumup.com/b2c/QPE5QYX8', showDarkBtn:false };
-const DEFAULT_PROMO = { active:false, percent:20, text:'✨ OFFRE FLASH', codes:[] };
-const DEFAULT_ACOMPTE = { pct:30, msg:'Un acompte est demandé pour confirmer votre rendez-vous.' };
+const DEFAULT_PROMO = { active:false, percent:20, text:'âœ¨ OFFRE FLASH', codes:[] };
+const DEFAULT_ACOMPTE = { pct:30, msg:'Un acompte est demandÃ© pour confirmer votre rendez-vous.' };
 const DEFAULT_REWARDS = [
-  {id:'r1',icon:'💆',name:'Soin offert',desc:'Nettoyage de peau gratuit',pts:200},
-  {id:'r2',icon:'💅',name:'Pose ongles offerte',desc:'Vernis semi-permanent gratuit',pts:150},
-  {id:'r3',icon:'🌸',name:'-20% prochain soin',desc:'Réduction valable 1 mois',pts:100},
-  {id:'r4',icon:'👑',name:'Pack Gold offert',desc:'Notre soin signature gratuit',pts:500},
+  {id:'r1',icon:'ðŸ’†',name:'Soin offert',desc:'Nettoyage de peau gratuit',pts:200},
+  {id:'r2',icon:'ðŸ’…',name:'Pose ongles offerte',desc:'Vernis semi-permanent gratuit',pts:150},
+  {id:'r3',icon:'ðŸŒ¸',name:'-20% prochain soin',desc:'RÃ©duction valable 1 mois',pts:100},
+  {id:'r4',icon:'ðŸ‘‘',name:'Pack Gold offert',desc:'Notre soin signature gratuit',pts:500},
 ];
 const DEFAULT_LOYALTY_SETTINGS = { ptsParSeance:50, seuilSilver:200, seuilGold:500 };
 
@@ -1646,7 +1646,7 @@ let qrScanInterval = null;
 let currentQRClient = null;
 
 function saveAll() {
-  // 1. Sauvegarde locale immédiate (cache — comme avant)
+  // 1. Sauvegarde locale immÃ©diate (cache â€” comme avant)
   DB.set(KEYS.config, config);
   DB.set(KEYS.soins, soins);
   DB.set(KEYS.clients, clients);
@@ -1659,12 +1659,12 @@ function saveAll() {
   DB.set(KEYS.acompte, acompteSettings);
   DB.set(KEYS.qrHistory, qrHistory);
   DB.set(KEYS.qrApplied, qrApplied);
-  // 2. Sauvegarde distante (Supabase — asynchrone, ne bloque pas l'UI)
+  // 2. Sauvegarde distante (Supabase â€” asynchrone, ne bloque pas l'UI)
   syncToSupabase();
 }
 
 async function syncToSupabase() {
-  if(SUPABASE_URL.includes('COLLEZ')) return; // Clés non configurées, on passe
+  if(SUPABASE_URL.includes('COLLEZ')) return; // ClÃ©s non configurÃ©es, on passe
   try {
     await SB.upsert('djss_store', {
       id: 'singleton',
@@ -1681,7 +1681,7 @@ async function syncToSupabase() {
       qr_applied: qrApplied,
       updated_at: new Date().toISOString()
     });
-  } catch(e) { console.warn('Sync Supabase échouée (mode local actif):', e); }
+  } catch(e) { console.warn('Sync Supabase Ã©chouÃ©e (mode local actif):', e); }
 }
 
 async function loadFromSupabase() {
@@ -1702,10 +1702,10 @@ async function loadFromSupabase() {
     if(d.qr_history)       { qrHistory = d.qr_history; DB.set(KEYS.qrHistory, qrHistory); }
     if(d.qr_applied)       { qrApplied = d.qr_applied; DB.set(KEYS.qrApplied, qrApplied); }
     return true;
-  } catch(e) { console.warn('Chargement Supabase échoué:', e); return false; }
+  } catch(e) { console.warn('Chargement Supabase Ã©chouÃ©:', e); return false; }
 }
 
-/* ═══ EMAIL DE NOTIFICATION (Resend) ═══ */
+/* â•â•â• EMAIL DE NOTIFICATION (Resend) â•â•â• */
 async function envoyerEmailReservation(rdv) {
   if(RESEND_KEY.includes('COLLEZ')) return;
   try {
@@ -1715,27 +1715,27 @@ async function envoyerEmailReservation(rdv) {
       body: JSON.stringify({
         from: 'DjSs Beauty House <onboarding@resend.dev>',
         to: [EMAIL_ADMIN],
-        subject: `🆕 Nouvelle réservation — ${rdv.nom} (${rdv.soin})`,
+        subject: `ðŸ†• Nouvelle rÃ©servation â€” ${rdv.nom} (${rdv.soin})`,
         html: `
-          <h2 style="color:#c17b5c">Nouvelle réservation reçue !</h2>
+          <h2 style="color:#c17b5c">Nouvelle rÃ©servation reÃ§ue !</h2>
           <table style="border-collapse:collapse;width:100%">
             <tr><td style="padding:8px;border:1px solid #eee"><strong>Nom</strong></td><td style="padding:8px;border:1px solid #eee">${rdv.nom}</td></tr>
-            <tr><td style="padding:8px;border:1px solid #eee"><strong>Téléphone</strong></td><td style="padding:8px;border:1px solid #eee">${rdv.tel}</td></tr>
+            <tr><td style="padding:8px;border:1px solid #eee"><strong>TÃ©lÃ©phone</strong></td><td style="padding:8px;border:1px solid #eee">${rdv.tel}</td></tr>
             <tr><td style="padding:8px;border:1px solid #eee"><strong>Email</strong></td><td style="padding:8px;border:1px solid #eee">${rdv.email}</td></tr>
             <tr><td style="padding:8px;border:1px solid #eee"><strong>Soin</strong></td><td style="padding:8px;border:1px solid #eee">${rdv.soin}</td></tr>
             <tr><td style="padding:8px;border:1px solid #eee"><strong>Date</strong></td><td style="padding:8px;border:1px solid #eee">${new Date(rdv.date).toLocaleString('fr-FR')}</td></tr>
-            <tr><td style="padding:8px;border:1px solid #eee"><strong>Prix total</strong></td><td style="padding:8px;border:1px solid #eee">${rdv.prixTotal} €</td></tr>
-            <tr><td style="padding:8px;border:1px solid #eee"><strong>Acompte</strong></td><td style="padding:8px;border:1px solid #eee">${rdv.acompte} €</td></tr>
+            <tr><td style="padding:8px;border:1px solid #eee"><strong>Prix total</strong></td><td style="padding:8px;border:1px solid #eee">${rdv.prixTotal} â‚¬</td></tr>
+            <tr><td style="padding:8px;border:1px solid #eee"><strong>Acompte</strong></td><td style="padding:8px;border:1px solid #eee">${rdv.acompte} â‚¬</td></tr>
             ${rdv.notes ? `<tr><td style="padding:8px;border:1px solid #eee"><strong>Notes</strong></td><td style="padding:8px;border:1px solid #eee">${rdv.notes}</td></tr>` : ''}
           </table>
-          <p style="color:#9a8678;font-size:12px;margin-top:24px">DjSs Beauty House — Guadeloupe</p>
+          <p style="color:#9a8678;font-size:12px;margin-top:24px">DjSs Beauty House â€” Guadeloupe</p>
         `
       })
     });
-  } catch(e) { console.warn('Email non envoyé:', e); }
+  } catch(e) { console.warn('Email non envoyÃ©:', e); }
 }
 
-/* ═══ UI HELPERS ═══ */
+/* â•â•â• UI HELPERS â•â•â• */
 function showToast(msg, dur=3000) {
   const t=document.getElementById('toast');
   t.textContent=msg; t.classList.add('show');
@@ -1759,7 +1759,7 @@ function ouvrirWhatsApp(msg) {
   window.open(`https://wa.me/${num}?text=${encodeURIComponent(msg)}`, '_blank');
 }
 
-/* ═══ ADMIN ═══ */
+/* â•â•â• ADMIN â•â•â• */
 function ouvrirAdmin() {
   document.getElementById('admin-login-modal').style.display='flex';
   setTimeout(()=>document.getElementById('admin-password-input')?.focus(), 100);
@@ -1803,7 +1803,7 @@ function switchTab(id, btn) {
   if(id==='tab-perso')    { initAdmInputs(); }
 }
 
-/* ═══ SERVICES RENDER ═══ */
+/* â•â•â• SERVICES RENDER â•â•â• */
 function render() {
   const grid = document.getElementById('services-grid');
   if(!grid) return;
@@ -1814,13 +1814,13 @@ function render() {
     const hasDiscount = finalP < origP;
     return `<div class="service-card ${s.type==='gold'?'gold':''}" onclick="allerA('#sec-reservation')">
       ${hasDiscount?`<span class="service-promo">-${promoPercent}%</span>`:''}
-      <span class="service-icon">${s.icon||'✨'}</span>
+      <span class="service-icon">${s.icon||'âœ¨'}</span>
       <div class="service-name">${s.name}</div>
       <div class="service-desc">${s.desc}</div>
-      ${hasDiscount?`<span class="service-old-price">${origP} €</span>`:''}
+      ${hasDiscount?`<span class="service-old-price">${origP} â‚¬</span>`:''}
       <div class="service-footer">
         <div class="service-price">${finalP} <small>EUR</small></div>
-        <div class="service-link">Réserver →</div>
+        <div class="service-link">RÃ©server â†’</div>
       </div>
     </div>`;
   }).join('');
@@ -1831,7 +1831,7 @@ function render() {
 function renderTarifs() {
   const c = document.getElementById('tarifs-container');
   if(!c) return;
-  const cats = {std:'Soins & Traitements', gold:'Prestations Gold ⭐'};
+  const cats = {std:'Soins & Traitements', gold:'Prestations Gold â­'};
   let html = '';
   ['std','gold'].forEach(type => {
     const items = soins.filter(s=>s.type===type);
@@ -1843,9 +1843,9 @@ function renderTarifs() {
     items.forEach(s => {
       const fp = (isPromoActive && promoPercent>0) ? Math.round(s.price*(1-promoPercent/100)) : s.price;
       html += `<tr onclick="allerA('#sec-reservation')">
-        <td>${s.icon||'✨'} ${s.name}</td>
+        <td>${s.icon||'âœ¨'} ${s.name}</td>
         <td>${s.desc}</td>
-        <td>${fp === s.price ? fp+' €' : `<span style="text-decoration:line-through;color:var(--muted);font-size:0.85rem">${s.price} €</span> <strong style="color:var(--terracotta)">${fp} €</strong>`}</td>
+        <td>${fp === s.price ? fp+' â‚¬' : `<span style="text-decoration:line-through;color:var(--muted);font-size:0.85rem">${s.price} â‚¬</span> <strong style="color:var(--terracotta)">${fp} â‚¬</strong>`}</td>
       </tr>`;
     });
     html += '</tbody></table>';
@@ -1856,10 +1856,10 @@ function renderTarifs() {
 function buildServiceSelect() {
   const sel = document.getElementById('s_service');
   if(!sel) return;
-  sel.innerHTML = '<option value="">— Choisir un soin —</option>' +
+  sel.innerHTML = '<option value="">â€” Choisir un soin â€”</option>' +
     soins.map(s => {
       const fp = (isPromoActive && promoPercent>0) ? Math.round(s.price*(1-promoPercent/100)) : s.price;
-      return `<option value="${s.id}" data-price="${fp}">${s.name} — ${fp} €</option>`;
+      return `<option value="${s.id}" data-price="${fp}">${s.name} â€” ${fp} â‚¬</option>`;
     }).join('');
   calculer();
 }
@@ -1869,8 +1869,8 @@ function calculer() {
   const opt = sel?.options[sel.selectedIndex];
   const price = opt ? parseInt(opt.dataset.price||0) : 0;
   const finalP = Math.round(price * (1 - appliedCodeDiscount/100));
-  document.getElementById('selected-soin-name').textContent = opt?.text?.split(' —')[0] || '—';
-  document.getElementById('final-price').textContent = finalP + ' €';
+  document.getElementById('selected-soin-name').textContent = opt?.text?.split(' â€”')[0] || 'â€”';
+  document.getElementById('final-price').textContent = finalP + ' â‚¬';
   const ab = document.getElementById('acompte-block');
   if(finalP > 0 && acompteSettings.pct > 0) {
     ab.style.display='block';
@@ -1888,21 +1888,21 @@ function buildAcompteAuto(price) {
   selectedAcomptePct = pct;
   updateAcompteDisplay(montant);
 }
-function updateAcompteDisplay(val) { document.getElementById('acompte-amount-display').textContent = val+' €'; }
+function updateAcompteDisplay(val) { document.getElementById('acompte-amount-display').textContent = val+' â‚¬'; }
 
 function appliquerCodePromo() {
   const code = document.getElementById('c_promo_code').value.trim().toUpperCase();
   const fb = document.getElementById('code-feedback');
   const found = promoCodes.find(c=>c.code===code && c.active !== false && (!c.maxUsage || c.usages < c.maxUsage));
-  if(!found) { appliedCodeDiscount=0; fb.style.color='#c0392b'; fb.textContent='❌ Code invalide ou expiré.'; calculer(); return; }
+  if(!found) { appliedCodeDiscount=0; fb.style.color='#c0392b'; fb.textContent='âŒ Code invalide ou expirÃ©.'; calculer(); return; }
   appliedCodeDiscount = found.pct;
   found.usages = (found.usages||0)+1;
   saveAll();
-  fb.style.color='#1e8449'; fb.textContent=`✅ Code appliqué — -${found.pct}% sur ce soin !`;
+  fb.style.color='#1e8449'; fb.textContent=`âœ… Code appliquÃ© â€” -${found.pct}% sur ce soin !`;
   document.getElementById('promo-mention').style.display='block';
   document.getElementById('promo-mention').textContent=`Code ${code} : -${found.pct}%`;
   calculer();
-  showToast(`🎉 Code ${code} appliqué ! -${found.pct}%`);
+  showToast(`ðŸŽ‰ Code ${code} appliquÃ© ! -${found.pct}%`);
 }
 
 function soumettreReservation() {
@@ -1911,7 +1911,7 @@ function soumettreReservation() {
   const email=document.getElementById('c_email').value.trim();
   const soinSel=document.getElementById('s_service').value;
   const date=document.getElementById('c_date').value;
-  if(!nom||!tel||!email||!soinSel||!date){showToast('⚠️ Veuillez remplir tous les champs obligatoires.');return;}
+  if(!nom||!tel||!email||!soinSel||!date){showToast('âš ï¸ Veuillez remplir tous les champs obligatoires.');return;}
   const soin=soins.find(s=>s.id==soinSel);
   const prixTotal=parseInt(document.getElementById('final-price').textContent)||0;
   const acompte=parseInt(document.getElementById('acompte-amount-display').textContent)||0;
@@ -1927,27 +1927,27 @@ function soumettreReservation() {
     ts:new Date().toISOString()
   };
   clients.push(rdv); saveAll();
-  envoyerEmailReservation(rdv); // 📧 Notifie l'admin par email
+  envoyerEmailReservation(rdv); // ðŸ“§ Notifie l'admin par email
   majBadgeOnglets();
   document.getElementById('success-name').textContent=nom.split(' ')[0];
   document.getElementById('booking-form-wrap').style.display='none';
   document.getElementById('booking-success').style.display='block';
   // Toujours afficher les options si acompte > 0
   if(acompte>0) {
-    document.getElementById('booking-acompte-info').textContent = acompte+' €';
+    document.getElementById('booking-acompte-info').textContent = acompte+' â‚¬';
     document.getElementById('booking-pay-options').style.display='flex';
   } else {
     document.getElementById('booking-pay-no-acompte').style.display='block';
   }
-  showToast('✅ Réservation enregistrée !');
-  // Stocker l'ID du dernier RDV pour mise à jour du choix paiement
+  showToast('âœ… RÃ©servation enregistrÃ©e !');
+  // Stocker l'ID du dernier RDV pour mise Ã  jour du choix paiement
   window._lastRdvId = rdv.id;
-  // Afficher la politique de retard après un court délai
+  // Afficher la politique de retard aprÃ¨s un court dÃ©lai
   setTimeout(afficherRetardModal, 1200);
 }
 
 function choisirPaiementEnLigne() {
-  // Mettre à jour le choix dans le RDV
+  // Mettre Ã  jour le choix dans le RDV
   const rdv = clients.find(c=>c.id===window._lastRdvId);
   if(rdv) { rdv.paiementChoix='en-ligne'; saveAll(); renderRdv(); }
   window.open('https://pay.sumup.com/b2c/QPE5QYX8','_blank');
@@ -1960,7 +1960,7 @@ function choisirPaiementSurPlace() {
   document.getElementById('booking-pay-place-msg').style.display='block';
 }
 
-/* ═══ DISPO ═══ */
+/* â•â•â• DISPO â•â•â• */
 function getDefaultSlots() { return ['09:00','10:00','11:00','14:00','15:00','16:00','17:00','18:00']; }
 
 function buildDispoGrid() {
@@ -1985,7 +1985,7 @@ function buildDispoGrid() {
     html+=`<div class="${cls}" onclick="${!isClosed&&avail>0?`selectDay('${key}',this)`:''}" data-key="${key}">
       <span class="dispo-day-name">${days[dow]}</span>
       <span class="dispo-date">${d.getDate()}</span>
-      <span class="dispo-slots-count ${avail===0&&!isClosed?'full':''}">${isClosed?'Fermé':avail===0?'Complet':`${avail} dispo`}</span>
+      <span class="dispo-slots-count ${avail===0&&!isClosed?'full':''}">${isClosed?'FermÃ©':avail===0?'Complet':`${avail} dispo`}</span>
     </div>`;
   }
   grid.innerHTML=html;
@@ -1998,7 +1998,7 @@ function selectDay(key, el) {
   const slotsGrid=document.getElementById('slots-grid');
   detail.classList.add('show');
   const d=new Date(key+'T00:00:00');
-  document.getElementById('dispo-selected-day-title').textContent=`Créneaux — ${d.toLocaleDateString('fr-FR',{weekday:'long',day:'numeric',month:'long'})}`;
+  document.getElementById('dispo-selected-day-title').textContent=`CrÃ©neaux â€” ${d.toLocaleDateString('fr-FR',{weekday:'long',day:'numeric',month:'long'})}`;
   const slots=dispoData[key]?.slots||getDefaultSlots();
   const taken=dispoData[key]?.taken||[];
   slotsGrid.innerHTML=slots.map(s=>{
@@ -2013,23 +2013,23 @@ function choisirCreneau(key, slot) {
   const local=new Date(d.getTime()-d.getTimezoneOffset()*60000).toISOString().slice(0,16);
   inputDate.value=local;
   allerA('#sec-reservation');
-  showToast(`✅ Créneau ${slot} sélectionné !`);
+  showToast(`âœ… CrÃ©neau ${slot} sÃ©lectionnÃ© !`);
 }
 
-/* ═══ AVIS ═══ */
+/* â•â•â• AVIS â•â•â• */
 const AVIS = [
-  {i:'SM',n:'Sophie M.',d:'Il y a 2 semaines',s:5,t:"Une expérience absolument magnifique. Mon soin du visage était parfait, j'avais une peau lumineuse pendant une semaine. L'accueil est chaleureux et professionnel."},
-  {i:'AL',n:'Amina L.',d:'Il y a 1 mois',s:5,t:"Mes ongles n'ont jamais été aussi beaux ! La pose gel est parfaite, ça tient vraiment longtemps. Je recommande à toutes mes amies."},
-  {i:'MC',n:'Marie-Claire D.',d:'Il y a 3 semaines',s:5,t:"Le Pack Gold Royal est à tomber. Un soin complet, des produits de qualité et une ambiance tellement relaxante. Je me suis sentie comme une reine !"},
-  {i:'KD',n:'Karolina D.',d:'Il y a 5 jours',s:5,t:"Djamila est une véritable professionnelle. Elle a pris le temps d'analyser ma peau avant de me proposer le soin adapté. Résultat impeccable !"},
-  {i:'NR',n:'Nathalie R.',d:'Il y a 2 mois',s:5,t:"Cadre magnifique, soins exceptionnels. Le peeling douceur a vraiment transformé ma peau. Je reviens chaque mois maintenant !"},
-  {i:'JB',n:'Jessica B.',d:'Il y a 1 semaine',s:5,t:"La meilleure esthéticienne de Guadeloupe, sans aucun doute. Ponctuelle, attentionnée, et ses mains sont magiques !"},
+  {i:'SM',n:'Sophie M.',d:'Il y a 2 semaines',s:5,t:"Une expÃ©rience absolument magnifique. Mon soin du visage Ã©tait parfait, j'avais une peau lumineuse pendant une semaine. L'accueil est chaleureux et professionnel."},
+  {i:'AL',n:'Amina L.',d:'Il y a 1 mois',s:5,t:"Mes ongles n'ont jamais Ã©tÃ© aussi beaux ! La pose gel est parfaite, Ã§a tient vraiment longtemps. Je recommande Ã  toutes mes amies."},
+  {i:'MC',n:'Marie-Claire D.',d:'Il y a 3 semaines',s:5,t:"Le Pack Gold Royal est Ã  tomber. Un soin complet, des produits de qualitÃ© et une ambiance tellement relaxante. Je me suis sentie comme une reine !"},
+  {i:'KD',n:'Karolina D.',d:'Il y a 5 jours',s:5,t:"Djamila est une vÃ©ritable professionnelle. Elle a pris le temps d'analyser ma peau avant de me proposer le soin adaptÃ©. RÃ©sultat impeccable !"},
+  {i:'NR',n:'Nathalie R.',d:'Il y a 2 mois',s:5,t:"Cadre magnifique, soins exceptionnels. Le peeling douceur a vraiment transformÃ© ma peau. Je reviens chaque mois maintenant !"},
+  {i:'JB',n:'Jessica B.',d:'Il y a 1 semaine',s:5,t:"La meilleure esthÃ©ticienne de Guadeloupe, sans aucun doute. Ponctuelle, attentionnÃ©e, et ses mains sont magiques !"},
 ];
 function renderAvis() {
   const g=document.getElementById('avis-grid-container');
   if(!g) return;
   g.innerHTML=AVIS.map(a=>`<div class="avis-card">
-    <div class="avis-stars">${'★'.repeat(a.s)}</div>
+    <div class="avis-stars">${'â˜…'.repeat(a.s)}</div>
     <div class="avis-text">"${a.t}"</div>
     <div class="avis-author">
       <div class="avis-avatar">${a.i}</div>
@@ -2038,12 +2038,12 @@ function renderAvis() {
   </div>`).join('');
 }
 
-/* ═══ GALERIE ═══ */
+/* â•â•â• GALERIE â•â•â• */
 const GALERIE = [
   {url:'https://images.unsplash.com/photo-1604654894610-df63bc536371?auto=format&fit=crop&w=800&q=85',alt:'Soins visage DjSs'},
   {url:'https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=500&q=80',alt:'Soin visage'},
   {url:'https://images.unsplash.com/photo-1552693673-1bf958298935?auto=format&fit=crop&w=500&q=80',alt:'Ambiance'},
-  {url:'https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&w=500&q=80',alt:'Beauté naturelle'},
+  {url:'https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?auto=format&fit=crop&w=500&q=80',alt:'BeautÃ© naturelle'},
   {url:'https://images.unsplash.com/photo-1516975080664-ed2fc6a32937?auto=format&fit=crop&w=500&q=80',alt:'Institut'},
 ];
 function renderGalerie() {
@@ -2051,41 +2051,41 @@ function renderGalerie() {
   if(!g) return;
   g.innerHTML=GALERIE.map(item=>`<div class="galerie-item">
     <img src="${item.url}" alt="${item.alt}" class="galerie-img" loading="lazy">
-    <div class="galerie-overlay"><span class="galerie-zoom">🔍</span></div>
+    <div class="galerie-overlay"><span class="galerie-zoom">ðŸ”</span></div>
   </div>`).join('');
 }
 
-/* ═══ PROMO ═══ */
+/* â•â•â• PROMO â•â•â• */
 function activerPromo() {
-  promoText=document.getElementById('adm-promo-text').value||'✨ OFFRE FLASH';
+  promoText=document.getElementById('adm-promo-text').value||'âœ¨ OFFRE FLASH';
   promoPercent=parseInt(document.getElementById('adm-promo-pct').value)||20;
   isPromoActive=true;
   const banner=document.getElementById('promo-banner');
   banner.style.display='block';
   banner.textContent=promoText;
-  document.getElementById('adm-promo-status').innerHTML='<span style="color:#1e8449">✅ Promotion active</span>';
-  saveAll(); render(); showToast('🎉 Promotion activée !');
+  document.getElementById('adm-promo-status').innerHTML='<span style="color:#1e8449">âœ… Promotion active</span>';
+  saveAll(); render(); showToast('ðŸŽ‰ Promotion activÃ©e !');
 }
 function desactiverPromo() {
   isPromoActive=false;
   document.getElementById('promo-banner').style.display='none';
-  document.getElementById('adm-promo-status').textContent='Promotion désactivée.';
-  saveAll(); render(); showToast('Promotion désactivée.');
+  document.getElementById('adm-promo-status').textContent='Promotion dÃ©sactivÃ©e.';
+  saveAll(); render(); showToast('Promotion dÃ©sactivÃ©e.');
 }
 
-/* ═══ CODES PROMO ═══ */
+/* â•â•â• CODES PROMO â•â•â• */
 function ajouterCode() {
   const code=document.getElementById('new-code').value.trim().toUpperCase();
   const pct=parseInt(document.getElementById('new-code-pct').value);
   const max=parseInt(document.getElementById('new-code-max').value)||null;
-  if(!code||!pct){showToast('⚠️ Remplissez le code et le pourcentage.');return;}
-  if(promoCodes.find(c=>c.code===code)){showToast('⚠️ Ce code existe déjà.');return;}
+  if(!code||!pct){showToast('âš ï¸ Remplissez le code et le pourcentage.');return;}
+  if(promoCodes.find(c=>c.code===code)){showToast('âš ï¸ Ce code existe dÃ©jÃ .');return;}
   promoCodes.push({code,pct,maxUsage:max,usages:0,active:true});
   saveAll(); renderAdmCodes();
   document.getElementById('new-code').value='';
   document.getElementById('new-code-pct').value='';
   document.getElementById('new-code-max').value='';
-  showToast(`✅ Code ${code} ajouté !`);
+  showToast(`âœ… Code ${code} ajoutÃ© !`);
 }
 function supprimerCode(code) {
   promoCodes=promoCodes.filter(c=>c.code!==code);
@@ -2094,29 +2094,29 @@ function supprimerCode(code) {
 function renderAdmCodes() {
   const d=document.getElementById('adm-codes-list');
   if(!d) return;
-  if(!promoCodes.length){d.innerHTML='<p style="font-size:0.82rem;color:var(--muted)">Aucun code créé.</p>';return;}
+  if(!promoCodes.length){d.innerHTML='<p style="font-size:0.82rem;color:var(--muted)">Aucun code crÃ©Ã©.</p>';return;}
   d.innerHTML=promoCodes.map(c=>`<div class="codes-item">
     <span class="code-tag">${c.code}</span>
     <span>-${c.pct}%</span>
-    <span>${c.maxUsage?`${c.usages||0}/${c.maxUsage} usages`:'Illimité'}</span>
+    <span>${c.maxUsage?`${c.usages||0}/${c.maxUsage} usages`:'IllimitÃ©'}</span>
     <button onclick="supprimerCode('${c.code}')" style="background:#dc3545;color:#fff;border:none;padding:5px 12px;border-radius:6px;cursor:pointer;font-size:0.72rem">Suppr.</button>
   </div>`).join('');
 }
 
-/* ═══ SOINS ADMIN ═══ */
+/* â•â•â• SOINS ADMIN â•â•â• */
 function ajouterSoin() {
   const name=document.getElementById('new-soin-name').value.trim();
   const price=parseInt(document.getElementById('new-soin-price').value)||0;
   const desc=document.getElementById('new-soin-desc').value.trim();
   const type=document.getElementById('new-soin-type').value;
-  if(!name||!price){showToast('⚠️ Nom et prix requis.');return;}
-  const icons={std:'✨',gold:'💎'};
+  if(!name||!price){showToast('âš ï¸ Nom et prix requis.');return;}
+  const icons={std:'âœ¨',gold:'ðŸ’Ž'};
   soins.push({id:Date.now(),icon:icons[type],name,desc,price,type});
   saveAll(); render(); renderAdmSoins();
   document.getElementById('new-soin-name').value='';
   document.getElementById('new-soin-price').value='';
   document.getElementById('new-soin-desc').value='';
-  showToast(`✅ ${name} ajouté !`);
+  showToast(`âœ… ${name} ajoutÃ© !`);
 }
 function supprimerSoin(id) {
   if(!confirm('Supprimer cette prestation ?')) return;
@@ -2128,14 +2128,14 @@ function renderAdmSoins() {
   if(!d) return;
   if(!soins.length){d.innerHTML='<p style="font-size:0.82rem;color:var(--muted)">Aucune prestation.</p>';return;}
   d.innerHTML=soins.map(s=>`<div class="soins-item">
-    <div><div style="font-weight:600;font-size:0.88rem">${s.icon} ${s.name}</div><div style="font-size:0.76rem;color:var(--muted)">${s.desc||''} · ${s.price} €</div></div>
+    <div><div style="font-weight:600;font-size:0.88rem">${s.icon} ${s.name}</div><div style="font-size:0.76rem;color:var(--muted)">${s.desc||''} Â· ${s.price} â‚¬</div></div>
     <div class="soins-actions">
       <button class="soins-del-btn" onclick="supprimerSoin(${s.id})">Supprimer</button>
     </div>
   </div>`).join('');
 }
 
-/* ═══ RDV ADMIN ═══ */
+/* â•â•â• RDV ADMIN â•â•â• */
 function renderStats() {
   const total=clients.length;
   const att=clients.filter(c=>c.status==='en-attente').length;
@@ -2145,7 +2145,7 @@ function renderStats() {
   document.getElementById('stats-row').innerHTML=`
     <div class="stat-box"><div class="num">${total}</div><div class="lbl">Total RDV</div></div>
     <div class="stat-box"><div class="num" style="color:var(--terracotta)">${att}</div><div class="lbl">En attente</div></div>
-    <div class="stat-box"><div class="num" style="color:#1e8449">${acc}</div><div class="lbl">Acceptés</div></div>
+    <div class="stat-box"><div class="num" style="color:#1e8449">${acc}</div><div class="lbl">AcceptÃ©s</div></div>
     <div class="stat-box"><div class="num">${todayCount}</div><div class="lbl">Aujourd'hui</div></div>
   `;
 }
@@ -2162,32 +2162,32 @@ function renderRdvQRHistory() {
   let list = [...qrApplied].reverse();
   if(q) list = list.filter(e => e.clientNom.toLowerCase().includes(q) || (e.note||'').toLowerCase().includes(q));
   if(!list.length) {
-    d.innerHTML = '<p style="font-size:0.82rem;color:var(--muted);padding:14px;text-align:center">Aucune réduction QR enregistrée.</p>';
+    d.innerHTML = '<p style="font-size:0.82rem;color:var(--muted);padding:14px;text-align:center">Aucune rÃ©duction QR enregistrÃ©e.</p>';
     return;
   }
   d.innerHTML = `
     <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(min(300px,100%),1fr));gap:12px">
       ${list.map((e,idx) => {
-        const priceInfo = e.prixOriginal ? `${e.prixOriginal} € → <strong style="color:#1e8449">${e.prixFinal} €</strong>` : 'Prix non renseigné';
+        const priceInfo = e.prixOriginal ? `${e.prixOriginal} â‚¬ â†’ <strong style="color:#1e8449">${e.prixFinal} â‚¬</strong>` : 'Prix non renseignÃ©';
         const dateStr = new Date(e.ts).toLocaleDateString('fr-FR',{weekday:'short',day:'2-digit',month:'long',year:'numeric'});
         const timeStr = new Date(e.ts).toLocaleTimeString('fr-FR',{hour:'2-digit',minute:'2-digit'});
         const num = list.length - idx;
         return `<div style="background:linear-gradient(135deg,#fff,#faf5ee);border:1px solid var(--border);border-radius:12px;padding:18px;position:relative;overflow:hidden">
-          <!-- Numéro ticket -->
+          <!-- NumÃ©ro ticket -->
           <div style="position:absolute;top:10px;right:14px;font-size:0.6rem;color:rgba(154,134,120,0.4);letter-spacing:1px;font-weight:300">#${String(num).padStart(3,'0')}</div>
-          <!-- En-tête -->
+          <!-- En-tÃªte -->
           <div style="display:flex;align-items:center;gap:10px;margin-bottom:12px">
-            <div style="width:36px;height:36px;background:linear-gradient(135deg,var(--ink),var(--ink2));border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1rem;flex-shrink:0">🔥</div>
+            <div style="width:36px;height:36px;background:linear-gradient(135deg,var(--ink),var(--ink2));border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:1rem;flex-shrink:0">ðŸ”¥</div>
             <div>
               <div style="font-weight:600;font-size:0.9rem;color:var(--ink)">${e.clientNom}</div>
-              <div style="font-size:0.67rem;color:var(--muted);letter-spacing:1px">${dateStr} · ${timeStr}</div>
+              <div style="font-size:0.67rem;color:var(--muted);letter-spacing:1px">${dateStr} Â· ${timeStr}</div>
             </div>
           </div>
           <!-- Badges -->
           <div style="display:flex;gap:6px;flex-wrap:wrap;margin-bottom:10px">
             <span style="background:rgba(155,35,53,0.1);color:var(--promo);border:1px solid rgba(155,35,53,0.2);border-radius:20px;padding:3px 10px;font-size:0.65rem;font-weight:700">-${e.pct}%</span>
-            <span style="background:rgba(13,9,8,0.07);color:var(--muted);border:1px solid var(--border);border-radius:20px;padding:3px 10px;font-size:0.65rem">QR Brûlé ✓</span>
-            ${e.clientId ? `<span style="background:rgba(201,169,110,0.1);color:var(--gold2);border:1px solid rgba(201,169,110,0.2);border-radius:20px;padding:3px 10px;font-size:0.65rem">Membre fidélité</span>` : ''}
+            <span style="background:rgba(13,9,8,0.07);color:var(--muted);border:1px solid var(--border);border-radius:20px;padding:3px 10px;font-size:0.65rem">QR BrÃ»lÃ© âœ“</span>
+            ${e.clientId ? `<span style="background:rgba(201,169,110,0.1);color:var(--gold2);border:1px solid rgba(201,169,110,0.2);border-radius:20px;padding:3px 10px;font-size:0.65rem">Membre fidÃ©litÃ©</span>` : ''}
           </div>
           <!-- Prix -->
           <div style="background:var(--sand);border-radius:8px;padding:10px 14px;font-size:0.82rem;margin-bottom:${e.note?'10px':'0'}">${priceInfo}</div>
@@ -2196,14 +2196,14 @@ function renderRdvQRHistory() {
       }).join('')}
     </div>
     <div style="margin-top:16px;padding:12px 16px;background:var(--sand2);border-radius:8px;display:flex;justify-content:space-between;align-items:center;font-size:0.8rem">
-      <span style="color:var(--muted);font-weight:300">Total réductions accordées : <strong style="color:var(--ink)">${list.length}</strong></span>
-      <span style="color:var(--muted);font-weight:300">Économie totale clients : <strong style="color:var(--terracotta)">${list.reduce((acc,e)=>acc+(e.prixOriginal&&e.prixFinal?e.prixOriginal-e.prixFinal:0),0).toFixed(2)} €</strong></span>
+      <span style="color:var(--muted);font-weight:300">Total rÃ©ductions accordÃ©es : <strong style="color:var(--ink)">${list.length}</strong></span>
+      <span style="color:var(--muted);font-weight:300">Ã‰conomie totale clients : <strong style="color:var(--terracotta)">${list.reduce((acc,e)=>acc+(e.prixOriginal&&e.prixFinal?e.prixOriginal-e.prixFinal:0),0).toFixed(2)} â‚¬</strong></span>
     </div>`;
 }
 
 function exportQRHistorique() {
-  if(!qrApplied.length) { showToast('⚠️ Aucune réduction à exporter.'); return; }
-  const rows = ['N°,Client,Date,Heure,Réduction (%),Prix original (€),Prix final (€),Économie (€),Note,Membre fidélité'];
+  if(!qrApplied.length) { showToast('âš ï¸ Aucune rÃ©duction Ã  exporter.'); return; }
+  const rows = ['NÂ°,Client,Date,Heure,RÃ©duction (%),Prix original (â‚¬),Prix final (â‚¬),Ã‰conomie (â‚¬),Note,Membre fidÃ©litÃ©'];
   [...qrApplied].reverse().forEach((e,i) => {
     const d = new Date(e.ts);
     const eco = (e.prixOriginal && e.prixFinal) ? (e.prixOriginal - e.prixFinal).toFixed(2) : '';
@@ -2226,7 +2226,7 @@ function exportQRHistorique() {
   const a = document.createElement('a');
   a.href = url; a.download = `DjSs_Historique_QR_${new Date().toISOString().slice(0,10)}.csv`;
   a.click(); URL.revokeObjectURL(url);
-  showToast('✅ Export CSV téléchargé !');
+  showToast('âœ… Export CSV tÃ©lÃ©chargÃ© !');
 }
 
 function majBadgeOnglets() {
@@ -2235,7 +2235,7 @@ function majBadgeOnglets() {
   const tabRdv = document.querySelector('.tab-btn[onclick*="tab-rdv"]');
   if(tabRdv) {
     const badge = attente > 0 ? ` <span style="display:inline-flex;align-items:center;justify-content:center;background:#dc3545;color:#fff;border-radius:50%;width:17px;height:17px;font-size:0.6rem;font-weight:700;margin-left:4px">${attente}</span>` : '';
-    tabRdv.innerHTML = '📋 RDV' + badge;
+    tabRdv.innerHTML = 'ðŸ“‹ RDV' + badge;
   }
   // Badge QR : nombre de scans du jour
   const today = new Date().toISOString().slice(0,10);
@@ -2243,7 +2243,7 @@ function majBadgeOnglets() {
   const tabQr = document.querySelector('.tab-btn[onclick*="tab-qr"]');
   if(tabQr) {
     const badge = scansToday > 0 ? ` <span style="display:inline-flex;align-items:center;justify-content:center;background:var(--gold);color:var(--ink);border-radius:50%;width:17px;height:17px;font-size:0.6rem;font-weight:700;margin-left:4px">${scansToday}</span>` : '';
-    tabQr.innerHTML = '📷 Scanner QR' + badge;
+    tabQr.innerHTML = 'ðŸ“· Scanner QR' + badge;
   }
 }
 
@@ -2254,18 +2254,18 @@ function renderRdv() {
   if(currentRdvFilter!=='tous') list=list.filter(c=>c.status===currentRdvFilter);
   if(!list.length){d.innerHTML='<p style="font-size:0.82rem;color:var(--muted);padding:14px">Aucun rendez-vous.</p>';return;}
   d.innerHTML=list.map(c=>{
-    const dt=c.date?new Date(c.date).toLocaleString('fr-FR',{day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'}):'—';
+    const dt=c.date?new Date(c.date).toLocaleString('fr-FR',{day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'}):'â€”';
     const statusLabel={
       'en-attente':['En attente','pending'],
-      'accepte':['Accepté','accepted'],
-      'refuse':['Refusé','refused']
-    }[c.status]||['—','pending'];
+      'accepte':['AcceptÃ©','accepted'],
+      'refuse':['RefusÃ©','refused']
+    }[c.status]||['â€”','pending'];
     // Badge paiement
     let paiementBadge = '';
-    if(c.paiementChoix==='en-ligne') paiementBadge = `<span style="display:inline-flex;align-items:center;gap:4px;background:rgba(0,166,81,0.12);color:#007a3d;border:1px solid rgba(0,166,81,0.25);border-radius:20px;padding:3px 10px;font-size:0.65rem;font-weight:600;letter-spacing:1px;text-transform:uppercase;margin-left:6px">💳 Paiement en ligne</span>`;
-    else if(c.paiementChoix==='sur-place') paiementBadge = `<span style="display:inline-flex;align-items:center;gap:4px;background:rgba(13,9,8,0.07);color:var(--muted);border:1px solid var(--border);border-radius:20px;padding:3px 10px;font-size:0.65rem;font-weight:600;letter-spacing:1px;text-transform:uppercase;margin-left:6px">🏠 Sur place</span>`;
-    else if(c.acompte > 0) paiementBadge = `<span style="display:inline-flex;align-items:center;gap:4px;background:rgba(193,123,92,0.1);color:var(--terracotta);border:1px solid rgba(193,123,92,0.25);border-radius:20px;padding:3px 10px;font-size:0.65rem;font-weight:600;letter-spacing:1px;text-transform:uppercase;margin-left:6px">⏳ En attente</span>`;
-    // Infos financières — affichage enrichi
+    if(c.paiementChoix==='en-ligne') paiementBadge = `<span style="display:inline-flex;align-items:center;gap:4px;background:rgba(0,166,81,0.12);color:#007a3d;border:1px solid rgba(0,166,81,0.25);border-radius:20px;padding:3px 10px;font-size:0.65rem;font-weight:600;letter-spacing:1px;text-transform:uppercase;margin-left:6px">ðŸ’³ Paiement en ligne</span>`;
+    else if(c.paiementChoix==='sur-place') paiementBadge = `<span style="display:inline-flex;align-items:center;gap:4px;background:rgba(13,9,8,0.07);color:var(--muted);border:1px solid var(--border);border-radius:20px;padding:3px 10px;font-size:0.65rem;font-weight:600;letter-spacing:1px;text-transform:uppercase;margin-left:6px">ðŸ  Sur place</span>`;
+    else if(c.acompte > 0) paiementBadge = `<span style="display:inline-flex;align-items:center;gap:4px;background:rgba(193,123,92,0.1);color:var(--terracotta);border:1px solid rgba(193,123,92,0.25);border-radius:20px;padding:3px 10px;font-size:0.65rem;font-weight:600;letter-spacing:1px;text-transform:uppercase;margin-left:6px">â³ En attente</span>`;
+    // Infos financiÃ¨res â€” affichage enrichi
     const prixTotal = c.prixTotal || 0;
     const acompte = c.acompte || 0;
     const resteAPayer = prixTotal > 0 && acompte > 0 ? prixTotal - acompte : 0;
@@ -2273,35 +2273,35 @@ function renderRdv() {
       <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:8px;align-items:center">
         <div style="background:linear-gradient(135deg,rgba(193,123,92,0.12),rgba(201,169,110,0.06));border:1px solid rgba(193,123,92,0.25);border-radius:8px;padding:6px 14px;display:flex;align-items:center;gap:6px">
           <span style="font-size:0.62rem;color:var(--muted);letter-spacing:1px;text-transform:uppercase">Total</span>
-          <span style="font-family:var(--ff-serif);font-size:1.15rem;color:var(--ink);font-weight:400">${prixTotal} €</span>
+          <span style="font-family:var(--ff-serif);font-size:1.15rem;color:var(--ink);font-weight:400">${prixTotal} â‚¬</span>
         </div>
         ${acompte > 0 ? `<div style="background:rgba(0,122,61,0.08);border:1px solid rgba(0,122,61,0.2);border-radius:8px;padding:6px 14px;display:flex;align-items:center;gap:6px">
           <span style="font-size:0.62rem;color:var(--muted);letter-spacing:1px;text-transform:uppercase">Acompte</span>
-          <span style="font-family:var(--ff-serif);font-size:1.15rem;color:#007a3d;font-weight:400">${acompte} €</span>
+          <span style="font-family:var(--ff-serif);font-size:1.15rem;color:#007a3d;font-weight:400">${acompte} â‚¬</span>
         </div>
         <div style="background:rgba(13,9,8,0.05);border:1px solid var(--border);border-radius:8px;padding:6px 14px;display:flex;align-items:center;gap:6px">
           <span style="font-size:0.62rem;color:var(--muted);letter-spacing:1px;text-transform:uppercase">Reste</span>
-          <span style="font-family:var(--ff-serif);font-size:1.15rem;color:var(--terracotta);font-weight:400">${resteAPayer} €</span>
+          <span style="font-family:var(--ff-serif);font-size:1.15rem;color:var(--terracotta);font-weight:400">${resteAPayer} â‚¬</span>
         </div>` : ''}
       </div>` : '';
     return `<div class="rdv-item">
       <div class="rdv-info">
         <div class="rdv-name">${c.nom} <span class="rdv-status ${statusLabel[1]}">${statusLabel[0]}</span>${paiementBadge}</div>
-        <div class="rdv-detail">🗓 ${dt} · 💆 ${c.soin} · 📞 ${c.tel}</div>
+        <div class="rdv-detail">ðŸ—“ ${dt} Â· ðŸ’† ${c.soin} Â· ðŸ“ž ${c.tel}</div>
         ${prixBlock}
         ${c.notes?`<div class="rdv-detail" style="margin-top:6px;font-style:italic;color:var(--muted);font-size:0.8rem">"${c.notes}"</div>`:''}
       </div>
       <div class="rdv-actions">
-        ${c.status==='en-attente'?`<button class="rdv-btn accept" onclick="updateRdvStatus(${c.id},'accepte')">✅ Accepter</button><button class="rdv-btn refuse" onclick="updateRdvStatus(${c.id},'refuse')">❌ Refuser</button>`:''}
-        <button class="rdv-btn qr-scan-btn" onclick="ouvrirScannerDepuisRdv('${c.nom}','${c.email||''}','${c.soin||''}',${c.prixTotal||0})">📷 Scanner QR</button>
-        <button class="rdv-btn delete" onclick="supprimerRdv(${c.id})">🗑</button>
+        ${c.status==='en-attente'?`<button class="rdv-btn accept" onclick="updateRdvStatus(${c.id},'accepte')">âœ… Accepter</button><button class="rdv-btn refuse" onclick="updateRdvStatus(${c.id},'refuse')">âŒ Refuser</button>`:''}
+        <button class="rdv-btn qr-scan-btn" onclick="ouvrirScannerDepuisRdv('${c.nom}','${c.email||''}','${c.soin||''}',${c.prixTotal||0})">ðŸ“· Scanner QR</button>
+        <button class="rdv-btn delete" onclick="supprimerRdv(${c.id})">ðŸ—‘</button>
       </div>
     </div>`;
   }).join('');
 }
 function updateRdvStatus(id, status) {
   const c=clients.find(c=>c.id===id);
-  if(c) { c.status=status; saveAll(); renderRdv(); renderStats(); majBadgeOnglets(); showToast(status==='accepte'?'✅ RDV accepté':'❌ RDV refusé'); }
+  if(c) { c.status=status; saveAll(); renderRdv(); renderStats(); majBadgeOnglets(); showToast(status==='accepte'?'âœ… RDV acceptÃ©':'âŒ RDV refusÃ©'); }
 }
 function supprimerRdv(id) {
   if(!confirm('Supprimer ce rendez-vous ?')) return;
@@ -2312,18 +2312,18 @@ function ouvrirScannerDepuisRdv(nom, email, soin, prix) {
   const tabBtn = document.querySelector('.tab-btn[onclick*="tab-qr"]');
   if(tabBtn) switchTab('tab-qr', tabBtn);
   setTimeout(() => {
-    // Pré-remplir le nom depuis le RDV
+    // PrÃ©-remplir le nom depuis le RDV
     const parts = nom ? nom.trim().split(' ') : [];
     const prenomInp = document.getElementById('manual-qr-prenom');
     const nomInp    = document.getElementById('manual-qr-nom');
     if(prenomInp) prenomInp.value = parts[0] || '';
     if(nomInp)    nomInp.value    = parts.slice(1).join(' ') || '';
-    // Pré-remplir le prix du soin
+    // PrÃ©-remplir le prix du soin
     if(prix > 0) {
       const priceInput = document.getElementById('qr-soin-price');
       if(priceInput) priceInput.value = prix;
     }
-    // Lancer la recherche automatiquement — plus besoin de cliquer
+    // Lancer la recherche automatiquement â€” plus besoin de cliquer
     if(email) {
       traiterQRCode(email.toUpperCase());
     }
@@ -2336,7 +2336,7 @@ function autoCleanRdv() {
   if(old>0){clients=clients.filter(c=>!(c.status!=='en-attente'&&new Date(c.ts)<cutoff));saveAll();}
 }
 
-/* ═══ DISPO ADMIN ═══ */
+/* â•â•â• DISPO ADMIN â•â•â• */
 function buildAdmDispo() {
   const d=document.getElementById('adm-dispo-list');
   if(!d) return;
@@ -2352,7 +2352,7 @@ function buildAdmDispo() {
       <div class="dispo-adm-label">
         <input type="checkbox" ${!data.closed?'checked':''} onchange="toggleClosedDay('${key}',this.checked)">
         <strong>${days[dow]} ${dt.toLocaleDateString('fr-FR',{day:'2-digit',month:'short'})}</strong>
-        <span style="color:var(--muted);font-size:0.72rem;font-weight:300">${data.closed?'Fermé':data.slots.length-data.taken.length+' créneaux dispo'}</span>
+        <span style="color:var(--muted);font-size:0.72rem;font-weight:300">${data.closed?'FermÃ©':data.slots.length-data.taken.length+' crÃ©neaux dispo'}</span>
       </div>
       <div class="dispo-slots-wrap">
         ${data.slots.map(s=>`<button class="dispo-slot-btn ${data.taken.includes(s)?'taken':''}" onclick="toggleSlot('${key}','${s}',this)">${s}</button>`).join('')}
@@ -2375,13 +2375,13 @@ function toggleSlot(key, slot, btn) {
   saveAll(); buildDispoGrid();
 }
 
-/* ═══ ACOMPTE ═══ */
+/* â•â•â• ACOMPTE â•â•â• */
 function sauvegarderAcompte() {
   acompteSettings.pct=parseInt(document.getElementById('adm-acompte-pct').value)||0;
   acompteSettings.msg=document.getElementById('adm-acompte-msg').value||DEFAULT_ACOMPTE.msg;
   saveAll();
   updateAcomptePreview();
-  showToast('✅ Paramètres acompte sauvegardés !');
+  showToast('âœ… ParamÃ¨tres acompte sauvegardÃ©s !');
 }
 function updateAcomptePreview() {
   const pct = parseInt(document.getElementById('adm-acompte-pct')?.value)||0;
@@ -2389,17 +2389,17 @@ function updateAcomptePreview() {
   const v = document.getElementById('acompte-preview-val');
   const line = document.getElementById('acompte-preview-line');
   if(v && line) {
-    if(pct===0) { line.innerHTML='<strong style="color:var(--muted)">Aucun acompte demandé aux clientes.</strong>'; return; }
+    if(pct===0) { line.innerHTML='<strong style="color:var(--muted)">Aucun acompte demandÃ© aux clientes.</strong>'; return; }
     const montant = Math.round(ex*pct/100);
-    line.innerHTML=`Soin à ${ex} € → acompte de <strong id="acompte-preview-val" style="color:var(--terracotta)">${montant} €</strong> (${pct}%)`;
+    line.innerHTML=`Soin Ã  ${ex} â‚¬ â†’ acompte de <strong id="acompte-preview-val" style="color:var(--terracotta)">${montant} â‚¬</strong> (${pct}%)`;
   }
 }
 
-/* ═══ FIDÉLITÉ ═══ */
+/* â•â•â• FIDÃ‰LITÃ‰ â•â•â• */
 function getTier(pts) {
-  if(pts>=loyaltySettings.seuilGold) return {name:'Gold',icon:'👑'};
-  if(pts>=loyaltySettings.seuilSilver) return {name:'Silver',icon:'🥈'};
-  return {name:'Bronze',icon:'🥉'};
+  if(pts>=loyaltySettings.seuilGold) return {name:'Gold',icon:'ðŸ‘‘'};
+  if(pts>=loyaltySettings.seuilSilver) return {name:'Silver',icon:'ðŸ¥ˆ'};
+  return {name:'Bronze',icon:'ðŸ¥‰'};
 }
 function genId() { return 'DJL-'+Date.now().toString(36).toUpperCase(); }
 function ouvrirLoyaltyModal() { document.getElementById('loyalty-modal').style.display='flex'; document.getElementById('loyalty-member-view').style.display='none'; document.getElementById('loyalty-modal-content').style.display='block'; }
@@ -2408,18 +2408,18 @@ function inscrireFidelite() {
   const nom=document.getElementById('reg-nom').value.trim();
   const email=document.getElementById('reg-email').value.trim();
   const tel=document.getElementById('reg-tel').value.trim();
-  if(!nom||!email){showToast('⚠️ Nom et email requis.');return;}
-  if(loyaltyMembers.find(m=>m.email===email)){showToast('⚠️ Ce compte existe déjà.');return;}
+  if(!nom||!email){showToast('âš ï¸ Nom et email requis.');return;}
+  if(loyaltyMembers.find(m=>m.email===email)){showToast('âš ï¸ Ce compte existe dÃ©jÃ .');return;}
   const member={id:genId(),nom,email,tel,pts:0,seances:0,tier:'Bronze',joinDate:new Date().toISOString(),rewardClaims:[]};
   loyaltyMembers.push(member); saveAll();
   fermerModal('loyalty-register-modal');
-  showToast(`✅ Bienvenue ${nom.split(' ')[0]} ! Votre carte fidélité a été créée. ID : ${member.id}`);
+  showToast(`âœ… Bienvenue ${nom.split(' ')[0]} ! Votre carte fidÃ©litÃ© a Ã©tÃ© crÃ©Ã©e. ID : ${member.id}`);
   document.getElementById('reg-nom').value=''; document.getElementById('reg-email').value=''; document.getElementById('reg-tel').value='';
 }
 function rechercherMembre() {
   const query=document.getElementById('loyalty-search-input').value.trim().toLowerCase();
   const member=loyaltyMembers.find(m=>m.id.toLowerCase()===query||m.email.toLowerCase()===query);
-  if(!member){showToast('❌ Membre non trouvé.');return;}
+  if(!member){showToast('âŒ Membre non trouvÃ©.');return;}
   currentLoyaltyUser=member;
   afficherMembreModal(member);
 }
@@ -2431,19 +2431,19 @@ function afficherMembreModal(member) {
     <div class="reward-icon">${r.icon}</div>
     <div class="reward-info"><div class="reward-name">${r.name}</div><div class="reward-desc">${r.desc}</div></div>
     <span class="reward-pts">${r.pts} pts</span>
-    <button class="reward-btn" ${member.pts>=r.pts?'':'disabled'} onclick="demanderRecompense('${member.id}','${r.id}')">${member.pts>=r.pts?'Échanger':'Insuffisant'}</button>
+    <button class="reward-btn" ${member.pts>=r.pts?'':'disabled'} onclick="demanderRecompense('${member.id}','${r.id}')">${member.pts>=r.pts?'Ã‰changer':'Insuffisant'}</button>
   </div>`).join('');
   document.getElementById('loyalty-member-view').innerHTML=`
     <div class="loyalty-card-display">
       <div class="loyalty-card-tier">${tier.icon} ${tier.name}</div>
       <div class="loyalty-card-name">${member.nom}</div>
       <div class="loyalty-card-id">${member.id}</div>
-      <div class="loyalty-card-pts">${member.pts} <small>points accumulés</small></div>
+      <div class="loyalty-card-pts">${member.pts} <small>points accumulÃ©s</small></div>
       ${nextTier?`<div class="loyalty-progress"><div class="loyalty-progress-bar" style="width:${prog}%"></div></div>
       <div class="loyalty-progress-label"><span>Niveau actuel : ${tier.name}</span><span>${member.pts} / ${nextTier} pts pour ${member.pts<loyaltySettings.seuilSilver?'Silver':'Gold'}</span></div>`:''}
     </div>
     <div style="margin-bottom:16px">
-      <div style="font-size:0.66rem;letter-spacing:3px;text-transform:uppercase;color:var(--muted);margin-bottom:12px">Récompenses disponibles</div>
+      <div style="font-size:0.66rem;letter-spacing:3px;text-transform:uppercase;color:var(--muted);margin-bottom:12px">RÃ©compenses disponibles</div>
       <div class="loyalty-rewards-list">${rewards}</div>
     </div>`;
   document.getElementById('loyalty-modal-content').style.display='none';
@@ -2452,15 +2452,15 @@ function afficherMembreModal(member) {
 function demanderRecompense(memberId, rewardId) {
   const member=loyaltyMembers.find(m=>m.id===memberId);
   const reward=loyaltyRewards.find(r=>r.id===rewardId);
-  if(!member||!reward||member.pts<reward.pts){showToast('⚠️ Points insuffisants.');return;}
+  if(!member||!reward||member.pts<reward.pts){showToast('âš ï¸ Points insuffisants.');return;}
   if(!member.rewardClaims) member.rewardClaims=[];
   member.rewardClaims.push({rewardId,rewardName:reward.name,pts:reward.pts,status:'pending',ts:new Date().toISOString()});
   member.pts-=reward.pts;
   saveAll(); afficherMembreModal(member);
-  showToast(`✅ Demande de "${reward.name}" envoyée ! Votre gérant va valider.`);
+  showToast(`âœ… Demande de "${reward.name}" envoyÃ©e ! Votre gÃ©rant va valider.`);
 }
 
-/* ═══ LOYALTY ADMIN ═══ */
+/* â•â•â• LOYALTY ADMIN â•â•â• */
 function renderAdmMembers() {
   const d=document.getElementById('adm-loyalty-members');
   if(!d) return;
@@ -2470,12 +2470,12 @@ function renderAdmMembers() {
   d.innerHTML=list.map(m=>{
     const tier=getTier(m.pts);
     return `<div class="loyalty-member-row">
-      <div><div class="member-name">${m.nom}</div><div class="member-tier">${tier.icon} ${tier.name} · ${m.email}</div><div style="font-size:0.72rem;color:var(--muted)">ID: ${m.id}</div></div>
-      <div style="text-align:center"><div class="member-pts">${m.pts} pts</div><div class="member-tier">${m.seances||0} séances</div></div>
+      <div><div class="member-name">${m.nom}</div><div class="member-tier">${tier.icon} ${tier.name} Â· ${m.email}</div><div style="font-size:0.72rem;color:var(--muted)">ID: ${m.id}</div></div>
+      <div style="text-align:center"><div class="member-pts">${m.pts} pts</div><div class="member-tier">${m.seances||0} sÃ©ances</div></div>
       <div class="member-actions">
         <input type="number" id="pts-inp-${m.id}" placeholder="+pts" min="1" style="width:70px;padding:6px 8px;border:1px solid var(--border);border-radius:6px;font-family:var(--ff-sans);font-size:0.8rem">
         <button onclick="ajouterPtsToMember('${m.id}')" class="adm-btn" style="margin-top:0;padding:7px 12px">+</button>
-        <button onclick="supprimerMembre('${m.id}')" style="background:#dc3545;color:#fff;border:none;padding:7px 12px;border-radius:6px;cursor:pointer;font-size:0.8rem">🗑</button>
+        <button onclick="supprimerMembre('${m.id}')" style="background:#dc3545;color:#fff;border:none;padding:7px 12px;border-radius:6px;cursor:pointer;font-size:0.8rem">ðŸ—‘</button>
       </div>
     </div>`;
   }).join('');
@@ -2484,10 +2484,10 @@ function ajouterPtsToMember(id) {
   const inp=document.getElementById('pts-inp-'+id);
   const pts=parseInt(inp.value)||0;
   const m=loyaltyMembers.find(m=>m.id===id);
-  if(!m||pts<=0){showToast('⚠️ Saisir un nombre de points valide.');return;}
+  if(!m||pts<=0){showToast('âš ï¸ Saisir un nombre de points valide.');return;}
   m.pts+=pts; m.seances=(m.seances||0)+1;
   m.tier=getTier(m.pts).name;
-  saveAll(); renderAdmMembers(); showToast(`✅ +${pts} points à ${m.nom}`);
+  saveAll(); renderAdmMembers(); showToast(`âœ… +${pts} points Ã  ${m.nom}`);
 }
 function supprimerMembre(id) {
   if(!confirm('Supprimer ce membre ?')) return;
@@ -2499,7 +2499,7 @@ function renderAdmRewards() {
   const d=document.getElementById('adm-loyalty-rewards');
   if(!d) return;
   d.innerHTML=loyaltyRewards.map(r=>`<div class="soins-item">
-    <div><div style="font-weight:600;font-size:0.88rem">${r.icon} ${r.name}</div><div style="font-size:0.76rem;color:var(--muted)">${r.desc} · ${r.pts} pts</div></div>
+    <div><div style="font-weight:600;font-size:0.88rem">${r.icon} ${r.name}</div><div style="font-size:0.76rem;color:var(--muted)">${r.desc} Â· ${r.pts} pts</div></div>
     <div class="soins-actions"><button class="soins-del-btn" onclick="supprimerRecompense('${r.id}')">Supprimer</button></div>
   </div>`).join('');
 }
@@ -2508,24 +2508,24 @@ function ajouterRecompense() {
   const name=document.getElementById('new-reward-name').value.trim();
   const desc=document.getElementById('new-reward-desc').value.trim();
   const pts=parseInt(document.getElementById('new-reward-pts').value)||0;
-  if(!name||!pts){showToast('⚠️ Nom et points requis.');return;}
-  loyaltyRewards.push({id:'r'+Date.now(),icon:'🎁',name,desc,pts});
+  if(!name||!pts){showToast('âš ï¸ Nom et points requis.');return;}
+  loyaltyRewards.push({id:'r'+Date.now(),icon:'ðŸŽ',name,desc,pts});
   saveAll(); renderAdmRewards();
   document.getElementById('new-reward-name').value=''; document.getElementById('new-reward-desc').value=''; document.getElementById('new-reward-pts').value='';
-  showToast('✅ Récompense ajoutée !');
+  showToast('âœ… RÃ©compense ajoutÃ©e !');
 }
 function renderAdmClaims() {
   const d=document.getElementById('adm-reward-claims');
   if(!d) return;
   const pending=loyaltyMembers.flatMap(m=>(m.rewardClaims||[]).filter(c=>c.status==='pending').map(c=>({...c,memberNom:m.nom,memberId:m.id})));
-  if(!pending.length){d.innerHTML='<p style="font-size:0.82rem;color:var(--muted)">Aucune demande en attente. ✅</p>';return;}
+  if(!pending.length){d.innerHTML='<p style="font-size:0.82rem;color:var(--muted)">Aucune demande en attente. âœ…</p>';return;}
   d.innerHTML=pending.map(c=>`<div class="adm-reward-claim">
     <div style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">
       <div><div style="font-weight:600;font-size:0.88rem;margin-bottom:3px">${c.memberNom}</div>
-      <div style="font-size:0.8rem;color:var(--muted)">Demande : ${c.rewardName} · ${c.pts} pts · ${new Date(c.ts).toLocaleDateString('fr-FR')}</div></div>
+      <div style="font-size:0.8rem;color:var(--muted)">Demande : ${c.rewardName} Â· ${c.pts} pts Â· ${new Date(c.ts).toLocaleDateString('fr-FR')}</div></div>
       <div style="display:flex;gap:8px">
-        <button onclick="validerClaim('${c.memberId}','${c.ts}')" class="rdv-btn accept">✅ Valider</button>
-        <button onclick="refuserClaim('${c.memberId}','${c.ts}')" class="rdv-btn refuse">❌ Refuser</button>
+        <button onclick="validerClaim('${c.memberId}','${c.ts}')" class="rdv-btn accept">âœ… Valider</button>
+        <button onclick="refuserClaim('${c.memberId}','${c.ts}')" class="rdv-btn refuse">âŒ Refuser</button>
       </div>
     </div>
   </div>`).join('');
@@ -2535,27 +2535,27 @@ function validerClaim(memberId, ts) {
   if(!m) return;
   const c=m.rewardClaims?.find(c=>c.ts===ts);
   if(c) c.status='approved';
-  saveAll(); renderAdmClaims(); showToast('✅ Récompense validée !');
+  saveAll(); renderAdmClaims(); showToast('âœ… RÃ©compense validÃ©e !');
 }
 function refuserClaim(memberId, ts) {
   const m=loyaltyMembers.find(m=>m.id===memberId);
   if(!m) return;
   const c=m.rewardClaims?.find(c=>c.ts===ts);
   if(c) { c.status='refused'; m.pts+=c.pts; }
-  saveAll(); renderAdmClaims(); showToast('❌ Récompense refusée, points remboursés.');
+  saveAll(); renderAdmClaims(); showToast('âŒ RÃ©compense refusÃ©e, points remboursÃ©s.');
 }
 function sauvegarderLoyaltySettings() {
   loyaltySettings.ptsParSeance=parseInt(document.getElementById('adm-pts-seance').value)||50;
   loyaltySettings.seuilSilver=parseInt(document.getElementById('adm-seuil-silver').value)||200;
   loyaltySettings.seuilGold=parseInt(document.getElementById('adm-seuil-gold').value)||500;
-  saveAll(); showToast('✅ Paramètres fidélité sauvegardés !');
+  saveAll(); showToast('âœ… ParamÃ¨tres fidÃ©litÃ© sauvegardÃ©s !');
 }
 
-/* ═══════════════════════════════════════
-   📷 QR CODE SCANNER SYSTEM — INTELLIGENT
-═══════════════════════════════════════ */
+/* â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+   ðŸ“· QR CODE SCANNER SYSTEM â€” INTELLIGENT
+â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â• */
 
-// Réductions automatiques par niveau (peut être ajusté)
+// RÃ©ductions automatiques par niveau (peut Ãªtre ajustÃ©)
 const QR_REDUCTIONS = { Bronze: 10, Silver: 15, Gold: 20 };
 
 function afficherInfoQR() {
@@ -2611,12 +2611,12 @@ function scanQRFrame() {
   } catch(e) {}
 }
 
-function toggleManualInput() { /* plus utilisé */ }
+function toggleManualInput() { /* plus utilisÃ© */ }
 
 function traiterQRManuel() {
   const prenom = (document.getElementById('manual-qr-prenom')?.value||'').trim();
   const nom    = (document.getElementById('manual-qr-nom')?.value||'').trim();
-  if(!prenom && !nom) { showToast('⚠️ Saisissez le prénom et/ou le nom.'); return; }
+  if(!prenom && !nom) { showToast('âš ï¸ Saisissez le prÃ©nom et/ou le nom.'); return; }
   const member = loyaltyMembers.find(m => {
     const mn = m.nom.toLowerCase();
     const p  = prenom.toLowerCase();
@@ -2646,7 +2646,7 @@ function traiterQRCode(code) {
 
   addToQRHistory(member ? member.nom : `Code: ${code}`, code);
 
-  // Vérifier si QR déjà utilisé — par ID, email ou nom (insensible à la casse) — AVANT tout traitement
+  // VÃ©rifier si QR dÃ©jÃ  utilisÃ© â€” par ID, email ou nom (insensible Ã  la casse) â€” AVANT tout traitement
   const normNom = s => (s||'').toLowerCase().replace(/\s+/g,' ').trim();
   const nomRecherche = member ? member.nom : code;
   const dejaUtilise = qrApplied.find(e =>
@@ -2659,15 +2659,15 @@ function traiterQRCode(code) {
     document.getElementById('qr-valid-content').style.display = 'none';
     document.getElementById('qr-blocked-name').textContent = member ? member.nom : dejaUtilise.clientNom;
     const dateUtilise = new Date(dejaUtilise.ts).toLocaleDateString('fr-FR', {day:'2-digit',month:'long',year:'numeric'});
-    document.getElementById('qr-blocked-date').textContent = `Utilisé le ${dateUtilise} — réduction de -${dejaUtilise.pct}% déjà accordée`;
+    document.getElementById('qr-blocked-date').textContent = `UtilisÃ© le ${dateUtilise} â€” rÃ©duction de -${dejaUtilise.pct}% dÃ©jÃ  accordÃ©e`;
     resultBox.className = 'qr-result-box error';
     currentQRClient = null;
-    showToast(`🚫 Réduction déjà accordée à ${member ? member.nom : dejaUtilise.clientNom}`);
+    showToast(`ðŸš« RÃ©duction dÃ©jÃ  accordÃ©e Ã  ${member ? member.nom : dejaUtilise.clientNom}`);
     return;
   }
 
   if(!member) {
-    // Code non reconnu → client non membre, on peut quand même appliquer
+    // Code non reconnu â†’ client non membre, on peut quand mÃªme appliquer
     currentQRClient = { nom: `Code QR: ${code}`, id: null, external: true, tier: 'Bronze' };
     document.getElementById('qr-blocked-msg').style.display = 'none';
     document.getElementById('qr-valid-content').style.display = 'block';
@@ -2676,11 +2676,11 @@ function traiterQRCode(code) {
     chargerSoinsSelectQR();
     afficherBoutonsReduction('Bronze');
     recalcQR();
-    showToast('ℹ️ Code non reconnu — réduction manuelle possible.');
+    showToast('â„¹ï¸ Code non reconnu â€” rÃ©duction manuelle possible.');
     return;
   }
 
-  // Client valide et QR disponible ✅
+  // Client valide et QR disponible âœ…
   currentQRClient = member;
   const tier = getTier(member.pts);
   resultBox.className = 'qr-result-box success';
@@ -2694,14 +2694,14 @@ function traiterQRCode(code) {
   chargerSoinsSelectQR();
   afficherBoutonsReduction(tier.name);
   recalcQR();
-  showToast(`✅ ${member.nom} identifié · Niveau ${tier.name}`);
+  showToast(`âœ… ${member.nom} identifiÃ© Â· Niveau ${tier.name}`);
 }
 
 function chargerSoinsSelectQR() {
   const sel = document.getElementById('qr-soin-select');
   if(!sel) return;
-  sel.innerHTML = '<option value="">— Soin du site —</option>' +
-    soins.map(s => `<option value="${s.price}">${s.icon||'✨'} ${s.name} — ${s.price} €</option>`).join('');
+  sel.innerHTML = '<option value="">â€” Soin du site â€”</option>' +
+    soins.map(s => `<option value="${s.price}">${s.icon||'âœ¨'} ${s.name} â€” ${s.price} â‚¬</option>`).join('');
 }
 
 function qrSoinSelectChange() {
@@ -2711,7 +2711,7 @@ function qrSoinSelectChange() {
   recalcQR();
 }
 
-// Affiche les boutons % selon le niveau, avec le % recommandé pré-sélectionné
+// Affiche les boutons % selon le niveau, avec le % recommandÃ© prÃ©-sÃ©lectionnÃ©
 function afficherBoutonsReduction(tierName) {
   const recommended = QR_REDUCTIONS[tierName] || 10;
   const options = [5, 10, 15, 20, 25, 30, 50];
@@ -2724,10 +2724,10 @@ function afficherBoutonsReduction(tierName) {
       background:${isReco?'rgba(201,169,110,0.2)':'rgba(255,255,255,0.05)'};
       color:${isReco?'var(--gold)':'rgba(255,255,255,0.5)'};
       font-family:var(--ff-sans);font-size:0.78rem;font-weight:${isReco?'600':'400'};cursor:pointer;transition:0.2s;white-space:nowrap">
-      ${isReco?'⭐ ':''}-${pct}%${isReco?' (recommandé)':''}
+      ${isReco?'â­ ':''}-${pct}%${isReco?' (recommandÃ©)':''}
     </button>`;
   }).join('');
-  // Pré-remplir le champ custom avec la valeur recommandée
+  // PrÃ©-remplir le champ custom avec la valeur recommandÃ©e
   const customInp = document.getElementById('qr-custom-pct');
   if(customInp && !customInp.value) customInp.value = recommended;
   recalcQR();
@@ -2757,9 +2757,9 @@ function recalcQR() {
     recap.style.display = 'block';
     const saving = Math.round(price * pct / 100 * 100) / 100;
     const final = Math.round((price - saving) * 100) / 100;
-    document.getElementById('qr-price-original').textContent = price.toFixed(2) + ' €';
-    document.getElementById('qr-price-final').textContent = final.toFixed(2) + ' €';
-    document.getElementById('qr-price-saving').textContent = '-' + saving.toFixed(2) + ' €';
+    document.getElementById('qr-price-original').textContent = price.toFixed(2) + ' â‚¬';
+    document.getElementById('qr-price-final').textContent = final.toFixed(2) + ' â‚¬';
+    document.getElementById('qr-price-saving').textContent = '-' + saving.toFixed(2) + ' â‚¬';
   } else {
     recap.style.display = 'none';
   }
@@ -2784,10 +2784,10 @@ function resetQRClient() {
 }
 
 function appliquerReductionQR() {
-  if(!currentQRClient) { showToast('⚠️ Scannez d\'abord un QR code.'); return; }
+  if(!currentQRClient) { showToast('âš ï¸ Scannez d\'abord un QR code.'); return; }
   const pct = parseFloat(document.getElementById('qr-custom-pct')?.value) || 0;
   const price = parseFloat(document.getElementById('qr-soin-price')?.value) || 0;
-  if(pct <= 0) { showToast('⚠️ Choisissez un pourcentage de réduction.'); return; }
+  if(pct <= 0) { showToast('âš ï¸ Choisissez un pourcentage de rÃ©duction.'); return; }
   const note = document.getElementById('qr-discount-note')?.value.trim() || '';
   const final = price > 0 ? Math.round((price - price * pct / 100) * 100) / 100 : null;
 
@@ -2801,7 +2801,7 @@ function appliquerReductionQR() {
     prixFinal: final,
     note,
     ts: new Date().toISOString(),
-    appliedBy: 'Gérant'
+    appliedBy: 'GÃ©rant'
   };
   qrApplied.push(entry);
   saveAll();
@@ -2809,11 +2809,11 @@ function appliquerReductionQR() {
   renderQRHistory();
   renderRdvQRHistory();
   renderStats();
-  // Mettre à jour le badge sur l'onglet RDV
+  // Mettre Ã  jour le badge sur l'onglet RDV
   majBadgeOnglets();
 
-  const priceMsg = price > 0 ? ` · Prix : ${price} € → ${final} €` : '';
-  showToast(`✅ -${pct}% appliqué pour ${currentQRClient.nom}${priceMsg}. QR brûlé 🔥`);
+  const priceMsg = price > 0 ? ` Â· Prix : ${price} â‚¬ â†’ ${final} â‚¬` : '';
+  showToast(`âœ… -${pct}% appliquÃ© pour ${currentQRClient.nom}${priceMsg}. QR brÃ»lÃ© ðŸ”¥`);
   resetQRClient();
 }
 
@@ -2828,14 +2828,14 @@ function renderQRHistory() {
   const d = document.getElementById('qr-history-list');
   if(!d) return;
   if(!qrHistory.length) {
-    d.innerHTML = '<div style="font-size:0.78rem;color:rgba(255,255,255,0.25);text-align:center;padding:12px">Aucun scan récent</div>';
+    d.innerHTML = '<div style="font-size:0.78rem;color:rgba(255,255,255,0.25);text-align:center;padding:12px">Aucun scan rÃ©cent</div>';
     return;
   }
   d.innerHTML = qrHistory.slice(0,5).map(h => {
     const used = qrApplied.find(e => e.clientNom === h.name || (h.code && e.clientId && h.code.includes(e.clientId)));
     return `<div class="qr-history-item">
       <span class="qr-history-name">${h.name}</span>
-      <span style="font-size:0.65rem;padding:2px 8px;border-radius:10px;${used?'background:rgba(220,53,69,0.15);color:#ff6b6b':'background:rgba(76,175,80,0.12);color:#81c784'}">${used?'🔥 Utilisé':'✅ Dispo'}</span>
+      <span style="font-size:0.65rem;padding:2px 8px;border-radius:10px;${used?'background:rgba(220,53,69,0.15);color:#ff6b6b':'background:rgba(76,175,80,0.12);color:#81c784'}">${used?'ðŸ”¥ UtilisÃ©':'âœ… Dispo'}</span>
       <span class="qr-history-date">${new Date(h.ts).toLocaleTimeString('fr-FR',{hour:'2-digit',minute:'2-digit'})}</span>
     </div>`;
   }).join('');
@@ -2845,16 +2845,16 @@ function renderQRApplied() {
   const d = document.getElementById('qr-applied-list');
   if(!d) return;
   const list = [...qrApplied].reverse();
-  if(!list.length) { d.innerHTML = '<p style="font-size:0.82rem;color:var(--muted)">Aucune réduction appliquée via QR code.</p>'; return; }
+  if(!list.length) { d.innerHTML = '<p style="font-size:0.82rem;color:var(--muted)">Aucune rÃ©duction appliquÃ©e via QR code.</p>'; return; }
   d.innerHTML = list.map(e => {
-    const priceInfo = e.prixOriginal ? `<span style="color:var(--terracotta);font-weight:500">${e.prixOriginal} € → ${e.prixFinal} €</span>` : '';
+    const priceInfo = e.prixOriginal ? `<span style="color:var(--terracotta);font-weight:500">${e.prixOriginal} â‚¬ â†’ ${e.prixFinal} â‚¬</span>` : '';
     return `<div style="background:var(--sand);border-radius:10px;padding:16px 20px;margin-bottom:10px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">
       <div>
         <div style="font-weight:600;font-size:0.88rem;color:var(--ink);display:flex;align-items:center;gap:8px">
-          🔥 ${e.clientNom}
-          <span style="background:rgba(220,53,69,0.1);color:#c0392b;border-radius:10px;padding:2px 9px;font-size:0.65rem;font-weight:600;border:1px solid rgba(220,53,69,0.2)">QR Brûlé</span>
+          ðŸ”¥ ${e.clientNom}
+          <span style="background:rgba(220,53,69,0.1);color:#c0392b;border-radius:10px;padding:2px 9px;font-size:0.65rem;font-weight:600;border:1px solid rgba(220,53,69,0.2)">QR BrÃ»lÃ©</span>
         </div>
-        <div style="font-size:0.76rem;color:var(--muted);margin-top:3px">${new Date(e.ts).toLocaleDateString('fr-FR',{day:'2-digit',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit'})}${e.note?` · ${e.note}`:''}</div>
+        <div style="font-size:0.76rem;color:var(--muted);margin-top:3px">${new Date(e.ts).toLocaleDateString('fr-FR',{day:'2-digit',month:'short',year:'numeric',hour:'2-digit',minute:'2-digit'})}${e.note?` Â· ${e.note}`:''}</div>
         ${priceInfo ? `<div style="font-size:0.82rem;margin-top:4px">${priceInfo}</div>` : ''}
       </div>
       <div style="font-family:var(--ff-serif);font-size:1.6rem;color:var(--terracotta);font-weight:400">-${e.pct}%</div>
@@ -2862,18 +2862,18 @@ function renderQRApplied() {
   }).join('');
 }
 
-/* ═══ MESSAGES ═══ */
+/* â•â•â• MESSAGES â•â•â• */
 function ouvrirMessageDirectClient() { document.getElementById('direct-msg-panel').classList.add('open'); }
 function toggleDMPanel() {
   const body=document.getElementById('dm-body');
   const icon=document.getElementById('dm-toggle-icon');
   body.style.display=body.style.display==='none'?'flex':'none';
-  icon.textContent=body.style.display==='none'?'▲':'▼';
+  icon.textContent=body.style.display==='none'?'â–²':'â–¼';
 }
 function connecterClientDM() {
   const nom=document.getElementById('dm-client-name').value.trim();
   const email=document.getElementById('dm-client-email').value.trim();
-  if(!nom||!email){showToast('⚠️ Nom et email requis.');return;}
+  if(!nom||!email){showToast('âš ï¸ Nom et email requis.');return;}
   dmClientUser={nom,email};
   currentClientConvId=email;
   if(!conversations[email]) conversations[email]={nom,email,msgs:[]};
@@ -2946,7 +2946,7 @@ function envoyerMsgAdmin() {
   saveAll(); renderAdmConvMsgs(); renderAdmConvList(); inp.value='';
 }
 
-/* ═══ PARAMÈTRES ═══ */
+/* â•â•â• PARAMÃˆTRES â•â•â• */
 function initAdmInputs() {
   const d=document.getElementById('adm-acompte-pct');
   if(d) d.value=acompteSettings.pct;
@@ -2978,8 +2978,8 @@ function sauvegarderPerso() {
   const oldCode=document.getElementById('p-old-code').value;
   const newCode=document.getElementById('p-new-code').value;
   if(oldCode||newCode) {
-    if(oldCode!==config.adminCode){showToast('❌ Mot de passe actuel incorrect.');return;}
-    if(!newCode||newCode.length<4){showToast('⚠️ Nouveau mot de passe trop court.');return;}
+    if(oldCode!==config.adminCode){showToast('âŒ Mot de passe actuel incorrect.');return;}
+    if(!newCode||newCode.length<4){showToast('âš ï¸ Nouveau mot de passe trop court.');return;}
     config.adminCode=newCode;
     document.getElementById('p-old-code').value='';
     document.getElementById('p-new-code').value='';
@@ -2991,16 +2991,16 @@ function sauvegarderPerso() {
   config.facebook=document.getElementById('p-facebook')?.value||'';
   config.tiktok=document.getElementById('p-tiktok')?.value||'';
   config.showDarkBtn=document.getElementById('p-dark-btn')?.checked||false;
-  saveAll(); appliquerPerso(); showToast('✅ Paramètres sauvegardés !');
+  saveAll(); appliquerPerso(); showToast('âœ… ParamÃ¨tres sauvegardÃ©s !');
 }
 function appliquerPerso() {
   if(config.adresse){
     document.getElementById('footer-adresse-text').textContent=config.adresse;
-    document.getElementById('footer-adresse').textContent='📍 '+config.adresse;
+    document.getElementById('footer-adresse').textContent='ðŸ“ '+config.adresse;
   }
-  if(config.email) document.getElementById('footer-email-display').textContent='✉️ '+config.email;
+  if(config.email) document.getElementById('footer-email-display').textContent='âœ‰ï¸ '+config.email;
   const waNum = config.wa || '+590 690 07 28 71';
-  document.getElementById('footer-wa-display').textContent='📲 '+waNum;
+  document.getElementById('footer-wa-display').textContent='ðŸ“² '+waNum;
   if(config.instagram){const l=document.getElementById('footer-insta-link');if(l)l.href=config.instagram;}
   if(config.facebook){const l=document.getElementById('footer-fb-link');if(l)l.href=config.facebook;}
   if(config.tiktok){const l=document.getElementById('footer-tiktok-link');if(l)l.href=config.tiktok;}
@@ -3012,14 +3012,14 @@ function toggleDarkModeBtn(show) {
   if(btn) btn.style.display=show?'flex':'none';
 }
 
-/* ═══ DARK MODE ═══ */
+/* â•â•â• DARK MODE â•â•â• */
 function toggleDarkMode() {
   document.body.classList.toggle('dark');
   const btn=document.getElementById('dark-mode-toggle-btn');
-  if(btn) btn.textContent=document.body.classList.contains('dark')?'☀️':'🌙';
+  if(btn) btn.textContent=document.body.classList.contains('dark')?'â˜€ï¸':'ðŸŒ™';
 }
 
-/* ═══ SCROLL REVEAL ═══ */
+/* â•â•â• SCROLL REVEAL â•â•â• */
 function initReveal() {
   const obs=new IntersectionObserver(entries=>{
     entries.forEach(e=>{if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target);}});
@@ -3027,7 +3027,7 @@ function initReveal() {
   document.querySelectorAll('.reveal,.reveal-left,.reveal-right').forEach(el=>obs.observe(el));
 }
 
-/* ═══ PROMO BANNER ═══ */
+/* â•â•â• PROMO BANNER â•â•â• */
 function initPromoBanner() {
   if(isPromoActive) {
     const b=document.getElementById('promo-banner');
@@ -3036,11 +3036,11 @@ function initPromoBanner() {
   }
 }
 
-/* ═══ INIT DATE ═══ */
+/* â•â•â• INIT DATE â•â•â• */
 const dI=document.getElementById('c_date');
 if(dI){const n=new Date();n.setMinutes(n.getMinutes()-n.getTimezoneOffset());dI.min=n.toISOString().slice(0,16);}
 
-/* ═══ LIVE REFRESH ═══ */
+/* â•â•â• LIVE REFRESH â•â•â• */
 setInterval(()=>{
   if(dmClientUser&&currentClientConvId&&document.getElementById('direct-msg-panel').classList.contains('open')) renderMsgsClient();
   if(currentAdminConvId&&document.getElementById('adm-conv-detail').style.display!=='none') renderAdmConvMsgs();
@@ -3049,14 +3049,14 @@ setInterval(()=>{
 
 setInterval(autoCleanRdv, 60*60*1000);
 
-/* ═══ BOOT ═══ */
+/* â•â•â• BOOT â•â•â• */
 async function boot() {
-  // 1. Charger depuis Supabase (si configuré), sinon utiliser le cache local
+  // 1. Charger depuis Supabase (si configurÃ©), sinon utiliser le cache local
   const fromCloud = await loadFromSupabase();
-  if(fromCloud) console.log('✅ Données chargées depuis Supabase');
-  else console.log('📦 Mode local (cache navigateur)');
+  if(fromCloud) console.log('âœ… DonnÃ©es chargÃ©es depuis Supabase');
+  else console.log('ðŸ“¦ Mode local (cache navigateur)');
 
-  // 2. Démarrer l'application
+  // 2. DÃ©marrer l'application
   autoCleanRdv();
   renderAvis();
   renderGalerie();
@@ -3071,3 +3071,4 @@ boot();
 </script>
 </body>
 </html>
+
